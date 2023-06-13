@@ -20,13 +20,13 @@ const HeroSection = () => {
               <a
                 href="#_"
                 // bg-[url('https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60')
-                className="px-8 py-2 text-xs md:text-md font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-black bg-black rounded shadow  active:bg-teal-600 hover:shadow-md ease"
+                className="px-8 py-2 text-xs md:text-base font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-black bg-black rounded shadow  active:bg-teal-600 hover:shadow-md ease"
               >
                 Check My Work
               </a>
               <a
                 href="#_"
-                className="px-8 py-2 text-xs md:text-md font-bold text-black uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
+                className="px-8 py-2 text-xs md:text-base font-bold text-black uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
               >
                 Resume
               </a>

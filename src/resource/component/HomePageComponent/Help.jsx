@@ -10,6 +10,7 @@ const Help = () => {
           <div className="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
             <img
               src="https://cdn.devdojo.com/images/december2020/productivity.png"
+              alt="productivity"
               className="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 "
             ></img>
           </div>
@@ -25,19 +26,19 @@ const Help = () => {
             </p>
             <ul className="p-0 m-0 leading-6 border-0 border-gray-300">
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
                   <span className="text-sm font-bold">✓</span>
                 </span>{" "}
                 Maximize productivity and growth
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
                   <span className="text-sm font-bold">✓</span>
                 </span>{" "}
                 Speed past your competition
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F]-300 rounded-full">
                   <span className="text-sm font-bold">✓</span>
                 </span>{" "}
                 Learn the top techniques
@@ -58,19 +59,19 @@ const Help = () => {
             </p>
             <ul className="p-0 m-0 leading-6 border-0 border-gray-300">
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
                   <span className="text-sm font-bold">✓</span>
                 </span>{" "}
                 Automated task management workflow
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
                   <span className="text-sm font-bold">✓</span>
                 </span>{" "}
                 Detailed analytics for your data
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
                   <span className="text-sm font-bold">✓</span>
                 </span>{" "}
                 Some awesome integrations
@@ -84,6 +85,7 @@ const Help = () => {
             <img
               src="https://cdn.devdojo.com/images/december2020/settings.png"
               className="pl-4 sm:pr-10 xl:pl-10 lg:pr-32"
+              alt="settings"
             ></img>
           </div>
         </div>
