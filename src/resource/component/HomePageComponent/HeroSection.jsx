@@ -4,13 +4,13 @@ const HeroSection = () => {
       <section className="text-black body-font justify-center scroll-smooth">
         <div className="container mx-auto flex px-5 pt-28 pb-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <p className="mb-4 leading-relaxed text-xl text-[#E57FE5]">
+            <p className="mb-4 leading-relaxed text-sm md:text-xl text-[#E57FE5]">
               Hello There I am,{" "}
             </p>
-            <h1 className="title-font tracking-wide sm:text-3xl md:text-6xl xl:text-7xl mb-4 font-bold">
+            <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-7xl mb-4 font-bold">
               Product <spam className="text-[#ACE57F]">Designer</spam>
             </h1>
-            <p className="mb-8 leading-relaxed opacity-50 font-medium">
+            <p className="mb-8 leading-relaxed opacity-50 test-sm md:text-md">
               I am a<em>UI/UX Designer</em> and <em>Full-Stack Web developer</em>. My goal is to
               create a user experience that is both aesthetically pleasing and
               functionally efficient. I have an eye for detail and always strive
@@ -20,13 +20,13 @@ const HeroSection = () => {
               <a
                 href="#_"
                 // bg-[url('https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60')
-                className="px-8 py-2 text-md font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-black bg-black rounded shadow  active:bg-teal-600 hover:shadow-md ease"
+                className="px-8 py-2 text-xs md:text-md font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-black bg-black rounded shadow  active:bg-teal-600 hover:shadow-md ease"
               >
                 Check My Work
               </a>
               <a
                 href="#_"
-                className="px-8 py-2 text-md font-bold text-black uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
+                className="px-8 py-2 text-xs md:text-md font-bold text-black uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
               >
                 Resume
               </a>
