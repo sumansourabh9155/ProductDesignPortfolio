@@ -6,7 +6,7 @@ import Footer from '../component/Footer'
 import Help from '../component/HomePageComponent/Help'
 import WorkProcess from '../component/HomePageComponent/WorkProcess'
 import Testimonial from '../component/HomePageComponent/Testimonial'
-import Ribbon from '../component/Ribbon'
+// import Ribbon from '../component/Ribbon'
 
 const LandingPage = () => {
   return (
@@ -19,7 +19,7 @@ const LandingPage = () => {
     <WorkProcess/>
     <Testimonial/>
     <Footer/>
-    <Ribbon/>
+    {/* <Ribbon/> */}
     </div>
     
   )
