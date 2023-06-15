@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
-    <div>
-      <section className="text-black body-font justify-center scroll-smooth">
+    <div className="pattern-checks-sm">
+      <section className="text-black body-font justify-center scroll-smooth" >
         <div className="container mx-auto flex px-5 pt-28 pb-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <p className="mb-4 leading-relaxed text-sm md:text-xl text-[#E57FE5]">

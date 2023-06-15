@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import Contact from "../page/Contact";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(true);
@@ -82,6 +84,7 @@ const Navbar = () => {
             <a href="#_" className="font-medium hover:text-gray-900">
               About Me
             </a>
+            
           </nav>
           
            {/* <!-- Mobile menu, show/hide based on menu state. --> */}
@@ -114,12 +117,11 @@ const Navbar = () => {
             </div>
           </div>
           <div className="items-center hidden md:flex h-full">
-            <a
-              href="#_"
+            <Link to="/contact"
               className="px-4 py-2 text-xs font-bold text-white uppercase bg-black rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."
             >
-              Sign Up
-            </a>
+              Contact
+            </Link>
           </div>
         </div>
       </header>

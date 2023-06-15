@@ -10,7 +10,7 @@ import Testimonial from '../component/HomePageComponent/Testimonial'
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className='pattern-checks-sm'>
     <Navbar />
     <HeroSection />
     <Tech />

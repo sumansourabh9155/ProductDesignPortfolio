@@ -5,13 +5,15 @@ import App from "./App";
 import LandingPage from "./resource/page/LandingPage";
 import Contact from "./resource/page/Contact";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Router>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/home" element={<LandingPage />} />
+      <Route path="/contactme" element={<Navigate replace to="/contact"/>} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
   </Router>
