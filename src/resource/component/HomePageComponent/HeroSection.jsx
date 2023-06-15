@@ -16,6 +16,10 @@ const HeroSection = () => {
               functionally efficient. I have an eye for detail and always strive
               to implement the latest design trends.
             </p>
+            {/* <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-5xl mb-4 font-bold font-['Cardo']">
+              Crafting Captivating Digital Experiences: Unlocking the Perfect
+              Blend of Beauty and Functionality
+            </h1> */}
             <div className="flex justify-center gap-6">
               <a
                 href="#_"
