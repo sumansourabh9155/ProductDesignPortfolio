@@ -13,9 +13,8 @@ const firebaseConfig = {
   storageBucket: "sumansourabh-c2d6a.appspot.com",
   messagingSenderId: "199578535552",
   appId: "1:199578535552:web:79d6b232a8dced3e6fc865",
-  measurementId: "G-9RLEFPMZE5"
+  measurementId: "G-9RLEFPMZE5",
 };
-
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
@@ -25,6 +24,7 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [newsletter, setNewsletter] = useState(false);
+  const [selectedOption, setSelectedOption] = useState("UI/UX");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -37,6 +37,7 @@ const Contact = () => {
         email,
         message,
         newsletter,
+        selectedOption,
       });
       console.log("Document written with ID: ", docRef.id);
 
@@ -46,6 +47,7 @@ const Contact = () => {
       setEmail("");
       setMessage("");
       setNewsletter(false);
+      setSelectedOption("UI/UX");
     } catch (error) {
       console.error("Error adding document: ", error);
     }
@@ -108,7 +110,7 @@ const Contact = () => {
                 className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 htmlFor="grid-email"
               >
-                Email Address
+                *Email Address
               </label>
               <input
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
@@ -120,6 +122,28 @@ const Contact = () => {
               />
             </div>
           </div>
+          <div className="col-span-6 sm:col-span-3">
+            <label
+              htmlFor="country"
+              className="block text-sm font-medium text-gray-700"
+            >
+              *Domain
+            </label>
+            <select
+              id="country"
+              name="country"
+              autoComplete="country"
+              className="block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              value={selectedOption}
+              onChange={(e) => setSelectedOption(e.target.value)}
+            >
+              <option value="UI/UX">UI/UX</option>
+              <option value="Website Design">Website Design</option>
+              <option value="Website Development">Website Development</option>
+              <option value="Graphic Design">Graphic Design</option>
+              <option value="Events">Events</option>
+            </select>
+          </div>
 
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
@@ -127,7 +151,7 @@ const Contact = () => {
                 className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 htmlFor="grid-message"
               >
-                Your Message
+                *Your Message
               </label>
               <textarea
                 rows="10"
@@ -166,4 +190,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
