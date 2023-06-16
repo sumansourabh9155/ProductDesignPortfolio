@@ -7,8 +7,8 @@ const HeroSection = () => {
             <p className="mb-4 leading-relaxed text-sm md:text-xl text-[#E57FE5]">
               Hello There I am,{" "}
             </p>
-            <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-7xl mb-4 font-bold">
-              Product <spam className="text-[#ACE57F]">Designer</spam>
+            <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-7xl mb-4 font-bold font suman" >
+              Product <spam className="text-[#ACE57F] suman">Designer</spam>
             </h1>
             <p className="mb-8 leading-relaxed opacity-50 test-sm md:text-md">
               I am a<em>UI/UX Designer</em> and <em>Full-Stack Web developer</em>. My goal is to
