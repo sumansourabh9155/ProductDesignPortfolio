@@ -1,9 +1,9 @@
 const HeroSection = () => {
   return (
-    <div className="pattern-checks-sm">
-      <section className="text-black body-font justify-center scroll-smooth" >
+    <div className="">
+      <section className="texpattern-vertical-lines-xlt-black body-font justify-center scroll-smooth" >
         <div className="container mx-auto flex px-5 pt-28 pb-10 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="lg:flex-grow flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center bg-none">
             <p className="mb-4 leading-relaxed text-sm md:text-xl text-[#E57FE5]">
               Hello There I am,{" "}
             </p>

@@ -4,6 +4,8 @@ import html from "../../.././assets/icon/html.png"
 import css from "../../.././assets/icon/css.png"
 import js from "../../.././assets/icon/js.png"
 import react from "../../.././assets/icon/react.png"
+import xd from "../../.././assets/icon/xd.png"
+import photoshop from "../../.././assets/icon/photoshop.png"
 
 
 
@@ -24,12 +26,12 @@ const Tech = () => {
             <p className="ml-2">Sketch</p>
           </div>
           <div className="flex items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
-            <img className="w-12" src={sketch} alt="Sketch" />
-            <p className="ml-2">Sketch</p>
+            <img className="w-12" src={xd} alt="Sketch" />
+            <p className="ml-2">Adobe Xd</p>
           </div>
           <div className="flex items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
-            <img className="w-12" src={sketch} alt="Sketch" />
-            <p className="ml-2">Sketch</p>
+            <img className="w-12" src={photoshop} alt="Sketch" />
+            <p className="ml-2">Adobe Photoshop</p>
           </div>
           <div className="flex items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
             <img className="w-12" src={html} alt="HTML" />
