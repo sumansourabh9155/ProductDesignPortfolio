@@ -30,29 +30,22 @@ export const AboutMe = () => {
               implementation.
               <ul >
                 <li>
-                  Research: Conduct thorough research to understand the event,
-                  target audience, and specific requirements.
+                  Research
                 </li>{" "}
                 <li>
-                  Design Trends: Stay updated on the latest design trends to
-                  ensure a modern and appealing aesthetic.
+                  Design Trends
                 </li>{" "}
                 <li>
-                  Attention to Detail: Pay close attention to colors,
-                  typography, layouts, and visual elements for a cohesive
-                  design.
+                  Attention to Detail
                 </li>
                 <li>
-                  Collaboration: Work closely with event organizers to align
-                  with their vision and gather feedback.
+                  Collaboration
                 </li>
                 <li>
-                  Functionality: Prioritize usability, intuitive interfaces, and
-                  efficient organization of information.
+                  Functionality
                 </li>
                 <li>
-                  Continued Improvement: Gather user feedback, conduct testing,
-                  and iterate on the design for ongoing enhancement.
+                  Continued Improvement
                 </li>
               </ul>
             </p>
