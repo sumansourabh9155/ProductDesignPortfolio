@@ -1,30 +1,29 @@
 import React from "react";
+import About from "../../../assets/Project/About.png";
+import Glamor from "../../../assets/Project/Glamor.png";
+import Beauty from "../../../assets/Project/Beauty.png";
+import Shoe from "../../../assets/Project/Shoe.png";
+import Hoodie from "../../../assets/Project/Hoodie.png";
+import Food from "../../../assets/Project/Food.png";
 const Project = () => {
   return (
     <div>
       <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center">
         My Projects
       </h1>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 h-100">
         <div class="grid gap-4">
           <div>
             <img
               class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
+              src={Beauty}
               alt=""
             ></img>
           </div>
           <div>
             <img
               class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-              alt=""
-            ></img>
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
+              src={Food}
               alt=""
             ></img>
           </div>
@@ -33,44 +32,30 @@ const Project = () => {
           <div>
             <img
               class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
+              src={About}
               alt=""
             ></img>
           </div>
           <div>
             <img
               class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-              alt=""
-            ></img>
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
+              src={Glamor}
               alt=""
             ></img>
           </div>
         </div>
-        <div class="grid gap-4 hidden md:block">
+        <div class="grid gap-4">
           <div>
             <img
               class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
+              src={Shoe}
               alt=""
             ></img>
           </div>
           <div>
             <img
               class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-              alt=""
-            ></img>
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
+              src={Hoodie}
               alt=""
             ></img>
           </div>
