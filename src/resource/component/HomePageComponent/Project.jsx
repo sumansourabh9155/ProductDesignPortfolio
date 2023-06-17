@@ -1,53 +1,78 @@
 import React from "react";
 const Project = () => {
   return (
-    <div className="px-10 ">
-
-      <div class="flex justify-between flex-row ... ">
-        <div>
-          <div class="flex flex-col ...">
-            <div><img
-              className="object-cover "
-              src="https://images.unsplash.com/photo-1665689285334-b0044b6d2dc7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY0NjAxMTY&ixlib=rb-4.0.3&q=80"
-              alt="Image 1"
-            /></div>
-            <div>
-              <div class="flex flex-row ...">
-                <div><img
-              className="object-cover"
-              src="https://images.unsplash.com/photo-1665689285334-b0044b6d2dc7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY0NjAxMTY&ixlib=rb-4.0.3&q=80"
-              alt="Image 1"
-            /></div>
-                <div><img
-              className="object-cover ]"
-              src="https://images.unsplash.com/photo-1665689285334-b0044b6d2dc7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY0NjAxMTY&ixlib=rb-4.0.3&q=80"
-              alt="Image 1"
-            /></div>
-              </div>
-            </div>
+    <div>
+      <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center">
+        My Projects
+      </h1>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="grid gap-4">
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
+              alt=""
+            ></img>
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
+              alt=""
+            ></img>
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
+              alt=""
+            ></img>
           </div>
         </div>
-        <div>
-          <div class="flex flex-col ...">
-            <div>
-              <div class="flex flex-row ...">
-                <div><img
-              className="object-cover "
-              src="https://images.unsplash.com/photo-1665689285334-b0044b6d2dc7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY0NjAxMTY&ixlib=rb-4.0.3&q=80"
-              alt="Image 1"
-            /></div>
-                <div><img
-              className="object-cover "
-              src="https://images.unsplash.com/photo-1665689285334-b0044b6d2dc7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY0NjAxMTY&ixlib=rb-4.0.3&q=80"
-              alt="Image 1"
-            /></div>
-              </div>
-            </div>
-            <div><img
-              className="object-cover "
-              src="https://images.unsplash.com/photo-1665689285334-b0044b6d2dc7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY0NjAxMTY&ixlib=rb-4.0.3&q=80"
-              alt="Image 1"
-            /></div>
+        <div class="grid gap-4">
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
+              alt=""
+            ></img>
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
+              alt=""
+            ></img>
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
+              alt=""
+            ></img>
+          </div>
+        </div>
+        <div class="grid gap-4 hidden md:block">
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
+              alt=""
+            ></img>
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
+              alt=""
+            ></img>
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
+              alt=""
+            ></img>
           </div>
         </div>
       </div>
