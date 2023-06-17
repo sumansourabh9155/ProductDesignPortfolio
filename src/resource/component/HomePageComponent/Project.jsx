@@ -15,14 +15,14 @@ const Project = () => {
         <div class="grid gap-4">
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
+              class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Beauty}
               alt=""
             ></img>
           </div>
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
+              class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Food}
               alt=""
             ></img>
@@ -31,14 +31,14 @@ const Project = () => {
         <div class="grid gap-4">
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
+              class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={About}
               alt=""
             ></img>
           </div>
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
+              class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Glamor}
               alt=""
             ></img>
@@ -47,14 +47,14 @@ const Project = () => {
         <div class="grid gap-4">
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
+              class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Shoe}
               alt=""
             ></img>
           </div>
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
+              class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Hoodie}
               alt=""
             ></img>

@@ -28,11 +28,11 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed w-full transition-transform duration-300 ${
+      className={`fixed w-full transition-transform duration-300  ${
         isScrolled ? "translate-y-0" : "-translate-y-20"
       }`}
     >
-      <header className="lg:pr-28 w-full text-gray-700 shadow-sm body-font fixed item-center bg-white justify-between">
+      <header className="lg:pr-28 w-full text-gray-700 shadow-sm body-font fixed item-center justify-between bg-white">
         <div className="container flex flex-col p-6 mx-auto md:flex-row justify-between">
           <div className="flex gap-40">
             <Link
