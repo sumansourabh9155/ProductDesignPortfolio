@@ -38,7 +38,7 @@ const Help = () => {
                 Speed past your competition
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F]-300 rounded-full">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
                   <span className="text-sm font-bold">✓</span>
                 </span>{" "}
                 Learn the top techniques
