@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Contact from "../page/Contact";
 import { Link } from "react-router-dom";
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-R2Q7XQ6WBW');
@@ -77,9 +76,9 @@ const Navbar = () => {
             <a href="#_" className="mr-5 font-medium hover:text-gray-900">
               Blog
             </a>
-            <a href="#_" className="font-medium hover:text-gray-900">
+            <Link to="/About" className="font-medium hover:text-gray-900">
               About Me
-            </a>
+            </Link>
           </nav>
 
           {/* <!-- Mobile menu, show/hide based on menu state. --> */}

@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
-import firebase from "firebase/app";
 
 const Admin = () => {
   return (
@@ -137,12 +136,12 @@ const Admin = () => {
                           </span>
                         </td>
                         <td className="px-6 py-4 text-sm font-medium text-right whitespace-nowrap">
-                          <a
+                          <button
                             href="#"
                             className="text-indigo-600 hover:text-indigo-900"
                           >
                             Delete
-                          </a>
+                          </button>
                         </td>
                       </tr>
                     ))}

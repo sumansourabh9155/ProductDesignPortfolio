@@ -9,6 +9,7 @@ import Contact from "./resource/page/Contact";
 import Projects from "./resource/page/Projects";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+  
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-R2Q7XQ6WBW');
 ReactGA.pageview(window.location.pathname + window.location.search);
