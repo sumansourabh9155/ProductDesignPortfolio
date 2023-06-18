@@ -14,7 +14,7 @@ export const AboutMe = () => {
             src={suman}
             className="rounded-tl-lg rounded-br-full"
             data-aos="fade-in"
-            alt="Image description"
+            alt="description"
           />
         </div>
         <div className="max-w-3xl flex flex-col justify-center p-4 md:p-12">
