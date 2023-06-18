@@ -6,6 +6,7 @@ import LandingPage from "./resource/page/LandingPage";
 import Admin from "./resource/page/Admin";
 import About from "./resource/page/About";
 import Contact from "./resource/page/Contact";
+import Projects from "./resource/page/Projects";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
@@ -19,6 +20,7 @@ root.render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/Admin" element={<Admin />} />
       <Route path="/About" element={<About />} />
+      <Route path="/Projects" element={<Projects />} />
 
     </Routes>
   </Router>

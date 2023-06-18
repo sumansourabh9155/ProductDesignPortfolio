@@ -7,6 +7,10 @@ import Help from "../component/HomePageComponent/Help";
 import WorkProcess from "../component/HomePageComponent/WorkProcess";
 import Testimonial from "../component/HomePageComponent/Testimonial";
 import Project from "../component/HomePageComponent/Project";
+
+import TagManager from 'react-gtm-module';
+const tagManagerArgs = { // Add GTM container ID gtmId: 'GTM-xxxxxxx' }
+TagManager.initialize(tagManagerArgs)
 // import Ribbon from '../component/Ribbon'
 
 const LandingPage = () => {
