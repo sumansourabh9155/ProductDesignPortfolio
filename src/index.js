@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import LandingPage from "./resource/page/LandingPage";
 import Admin from "./resource/page/Admin";
-import AboutUs from "./resource/page/AboutUs";
+import About from "./resource/page/About";
 import Contact from "./resource/page/Contact";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
@@ -18,7 +18,7 @@ root.render(
       <Route path="/contactme" element={<Navigate replace to="/contact"/>} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/Admin" element={<Admin />} />
-      <Route path="/About" element={<AboutUs />} />
+      <Route path="/About" element={<About />} />
 
     </Routes>
   </Router>
