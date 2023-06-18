@@ -98,16 +98,16 @@ const Navbar = () => {
               </a>
               <a
                 href="#_"
-                className="px-4 py-2 text-xs font-bold text-white uppercase bg-black rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."
+                className="px-4 py-2 text-xs font-bold text-white uppercase bg-[#033d35] rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."
               >
-                Sign Up
+                Contact
               </a>
             </div>
           </div>
           <div className="items-center hidden md:flex h-full">
             <Link
               to="/contact"
-              className="px-4 py-2 text-xs font-bold text-white uppercase bg-black rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."
+              className="px-4 py-2 text-xs font-bold text-white uppercase bg-[#033d35] rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."
             >
               Contact
             </Link>

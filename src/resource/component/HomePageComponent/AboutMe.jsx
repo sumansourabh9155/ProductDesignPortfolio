@@ -27,13 +27,13 @@ export const AboutMe = () => {
             }}
           ></div>
           {/* Blockquote */}
-          <p className="mb-4 leading-relaxed text-xl text-[#E57FE5]">
+          <p className="mb-4 leading-relaxed text-xl text-[#f4a462]">
             About Me{" "}
           </p>
           <h1 className="title-font tracking-wide sm:text-2xl md:text-4xl xl:text-6xl mb-4 font-bold">
-            Suman <spam className="text-[#ACE57F]">Sourabh</spam>
+            Suman <spam className="text-[#e76e50]">Sourabh</spam>
           </h1>
-          <p className="mb-4 leading-relaxed text-xl text-[#ACE57F]">
+          <p className="mb-4 leading-relaxed text-xl text-[#2a9d90]">
             Currently student of Graduation{" "}
           </p>
           <blockquote className="font-serif">
@@ -66,7 +66,7 @@ export const AboutMe = () => {
             <div className="pt-5">
               <a
                 href="#_"
-                className="px-8 py-2 text-md font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-black bg-black rounded shadow  active:bg-teal-600 hover:shadow-md ease"
+                className="px-8 py-2 text-md font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-[#033d35] bg-[#033d35] rounded shadow  active:bg-teal-600 hover:shadow-md ease"
               >
                 Check My Work
               </a>
