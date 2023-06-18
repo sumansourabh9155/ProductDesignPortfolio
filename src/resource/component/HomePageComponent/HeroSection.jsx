@@ -1,23 +1,25 @@
-import ReactGA from 'react-ga';
-ReactGA.initialize('G-R2Q7XQ6WBW');
+import ReactGA from "react-ga";
+import play from "../../../assets/buttons/play.png"
+ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 const HeroSection = () => {
   return (
     <div className="">
-      <section className="texpattern-vertical-lines-xlt-black body-font justify-center scroll-smooth" >
+      <section className="texpattern-vertical-lines-xlt-black body-font justify-center scroll-smooth">
         <div className="container mx-auto flex px-5 pt-28 pb-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow flex flex-col text-[#033d35] md:items-start md:text-left mb-16 md:mb-0 items-center text-center bg-none">
             <p className="mb-4 leading-relaxed text-sm md:text-xl text-[#f4a462]">
               Hello There I am,{" "}
             </p>
-            <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-7xl mb-4 font-bold font suman" >
+            <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-7xl mb-4 font-bold font suman">
               Product <spam className="text-[#e76e50] suman">Designer</spam>
             </h1>
             <p className="mb-8 leading-relaxed opacity-70 test-sm md:text-md">
-              I am a<em>UI/UX Designer</em> and <em>Full-Stack Web developer</em>. My goal is to
-              create a user experience that is both aesthetically pleasing and
-              functionally efficient. I have an eye for detail and always strive
-              to implement the latest design trends.
+              I am a<em>UI/UX Designer</em> and{" "}
+              <em>Full-Stack Web developer</em>. My goal is to create a user
+              experience that is both aesthetically pleasing and functionally
+              efficient. I have an eye for detail and always strive to implement
+              the latest design trends.
             </p>
             {/* <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-5xl mb-4 font-bold font-['Cardo']">
               Crafting Captivating Digital Experiences: Unlocking the Perfect
@@ -44,40 +46,30 @@ const HeroSection = () => {
             className="w-full sm:w-40 lg:max-w-xl lg:w-full md:w-32 xl:w-5/6 bg-contain bg-no-repeat md:ml-40 xl:mr-16"
           >
             <div className="w-full justify-center">
-              <div className="relative">
+              <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
                 <img
-                  className="object-cover object-center rounded-xl h-40 w-full my-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ..."
+                  className="object-cover object-center rounded-xl brightness-95 hover:brightness-100 h-40 w-full my-4 "
                   alt="hero"
                   src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 />
-                {/* <div className="bg-white rounded-full absolute">
-                  <svg
-                    width="32"
-                    height="28"
-                    viewBox="0 0 16 14"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.9864 2.6644C16.0772 2.11963 15.7092 1.6044 15.1644 1.51361L6.28685 0.0340151C5.74208 -0.0567802 5.22686 0.31124 5.13606 0.85601C5.04527 1.40078 5.41329 1.91601 5.95806 2.0068L13.8492 3.32199L12.534 11.2131C12.4432 11.7579 12.8112 12.2731 13.356 12.3639C13.9008 12.4547 14.416 12.0867 14.5068 11.5419L15.9864 2.6644ZM1.58124 13.3137L15.5812 3.31373L14.4188 1.68627L0.418762 11.6863L1.58124 13.3137Z"
-                      fill="black"
-                    />
-                  </svg>
-                </div> */}
+                <button class="absolute bottom-0 left-5 bg-white text-white  rounded-full hover:bg-white m-2"><img className="h-12 pl-3 p-3" src={play} alt="" /></button>
+                
               </div>
-              <div>
+              <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
                 <img
-                  className="object-cover object-center rounded-xl h-40 w-full my-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ..."
+                  className="object-cover object-center rounded-xl brightness-95 hover:brightness-100 h-40 w-full my-4 "
                   alt="hero"
                   src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 />
+                <button class="absolute bottom-0 left-5 bg-white text-white  rounded-full hover:bg-white m-2"><img className="h-12 pl-3 p-3" src={play} alt="" /></button>
               </div>
-              <div>
+              <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
                 <img
-                  className="object-cover object-center rounded-xl h-40 w-full my-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ..."
+                  className="object-cover object-center rounded-xl brightness-95 hover:brightness-100 h-40 w-full my-4 "
                   alt="hero"
                   src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
                 />
+                <button class="absolute bottom-0 left-5 bg-white text-white  rounded-full hover:bg-white m-2"><img className="h-12 pl-3 p-3" src={play} alt="" /></button>
               </div>
             </div>
           </div>

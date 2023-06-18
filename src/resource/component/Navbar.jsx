@@ -12,7 +12,7 @@ const Navbar = () => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
       setIsScrolled(
-        prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 1
+        prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 0
       );
       setPrevScrollPos(currentScrollPos);
     };
@@ -96,12 +96,12 @@ const Navbar = () => {
               <Link to="/about" className="block font-medium hover:text-gray-900">
                 About Me
               </Link>
-              <a
-                href="#_"
+              <Link
+                to="/contact"
                 className="px-4 py-2 text-xs font-bold text-white uppercase bg-[#033d35] rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
           <div className="items-center hidden md:flex h-full">
