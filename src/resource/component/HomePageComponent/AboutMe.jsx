@@ -19,10 +19,13 @@ export const AboutMe = () => {
         </div>
         <div className="max-w-3xl flex flex-col justify-center p-4 md:p-12">
           {/* Image for mobile view */}
-          <img
+          <div
             className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-32 w-32 bg-cover bg-center"
-            src={suman}
-          ></img>
+            style={{
+              backgroundImage:
+                "src={suman}",
+            }}
+          ></div>
           {/* Blockquote */}
           <p className="mb-4 leading-relaxed text-xl text-[#f4a462]">
             About Me{" "}
