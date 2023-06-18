@@ -7,7 +7,9 @@ import react from "../../.././assets/icon/react.png"
 import xd from "../../.././assets/icon/xd.png"
 import photoshop from "../../.././assets/icon/photoshop.png"
 
-
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-R2Q7XQ6WBW');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const Tech = () => {
   return (

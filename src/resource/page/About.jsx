@@ -2,6 +2,9 @@ import React from "react";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-R2Q7XQ6WBW');
+ReactGA.pageview(window.location.pathname + window.location.search);
 const ExampleComponent = () => {
   return (
     <div>

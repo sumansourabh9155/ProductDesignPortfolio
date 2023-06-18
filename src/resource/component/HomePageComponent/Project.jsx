@@ -5,6 +5,9 @@ import Beauty from "../../../assets/Project/Beauty.png";
 import Shoe from "../../../assets/Project/Shoe.png";
 import Hoodie from "../../../assets/Project/Hoodie.png";
 import Food from "../../../assets/Project/Food.png";
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-R2Q7XQ6WBW');
+ReactGA.pageview(window.location.pathname + window.location.search);
 const Project = () => {
   return (
     <div>

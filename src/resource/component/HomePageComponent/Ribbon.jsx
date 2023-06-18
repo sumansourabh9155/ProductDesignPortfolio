@@ -1,4 +1,7 @@
 import './Ribbon.css'
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-R2Q7XQ6WBW');
+ReactGA.pageview(window.location.pathname + window.location.search);
 const Ribbon = () => {
   return (
     <div >

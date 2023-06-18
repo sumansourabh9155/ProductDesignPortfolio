@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import Contact from "../page/Contact";
 import { Link } from "react-router-dom";
-
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-R2Q7XQ6WBW');
+ReactGA.pageview(window.location.pathname + window.location.search);
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);

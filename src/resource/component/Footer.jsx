@@ -3,6 +3,9 @@ import behance from "../../assets/Socal Media/icons8-behance-250.png";
 import github from "../../assets/Socal Media/icons8-github-250.png";
 import dribble from "../../assets/Socal Media/icons8-dribble-150.png";
 import Linkedin from "../../assets/Socal Media/icons8-linkedin-250.png";
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-R2Q7XQ6WBW');
+ReactGA.pageview(window.location.pathname + window.location.search);
 const Footer = () => {
   return (
     <div>

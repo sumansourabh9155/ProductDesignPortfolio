@@ -4,6 +4,9 @@ import { getFirestore, collection, addDoc } from "firebase/firestore";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-R2Q7XQ6WBW');
+ReactGA.pageview(window.location.pathname + window.location.search);
 // Initialize Firebase app
 const firebaseConfig = {
   // Your Firebase configuration
