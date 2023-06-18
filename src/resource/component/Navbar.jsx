@@ -67,9 +67,9 @@ const Navbar = () => {
             </div>
           </div>
           <nav className="hidden md:flex md:flex-wrap items-center justify-between text-base md:ml-auto md:mr-auto">
-            <a href="#_" className="mr-5 font-medium hover:text-gray-900">
+            <Link to="/projects" className="mr-5 font-medium hover:text-gray-900">
               Project
-            </a>
+            </Link>
             <a href="#_" className="mr-5 font-medium hover:text-gray-900">
               Resources
             </a>
@@ -84,18 +84,18 @@ const Navbar = () => {
           {/* <!-- Mobile menu, show/hide based on menu state. --> */}
           <div className={`md:hidden  ${isMenuOpen ? "block" : "hidden"}`}>
             <div className="flex flex-col items-center pt-2 pb-4 space-y-1">
-              <a href="#_" className="block font-medium hover:text-gray-900">
+              <Link to="/projects" className="block font-medium hover:text-gray-900">
                 Project
-              </a>
+              </Link>
               <a href="#_" className="block font-medium hover:text-gray-900">
                 Resources
               </a>
               <a href="#_" className="block font-medium hover:text-gray-900">
                 Blog
               </a>
-              <a href="#_" className="block font-medium hover:text-gray-900">
+              <Link to="/about" className="block font-medium hover:text-gray-900">
                 About Me
-              </a>
+              </Link>
               <a
                 href="#_"
                 className="px-4 py-2 text-xs font-bold text-white uppercase bg-[#033d35] rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."
