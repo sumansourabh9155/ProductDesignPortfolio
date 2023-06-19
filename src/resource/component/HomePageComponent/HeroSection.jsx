@@ -1,5 +1,5 @@
 import ReactGA from "react-ga";
-import play from "../../../assets/buttons/play.png"
+import play from "../../../assets/buttons/play.png";
 ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 const HeroSection = () => {
@@ -14,12 +14,13 @@ const HeroSection = () => {
             <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-7xl mb-4 font-bold font suman">
               Product <spam className="text-[#e76e50] suman">Designer</spam>
             </h1>
+            {/* <p className="mb-1 leading-relaxed text-2xl text-[#033d35]" >Seamless Digital Experiences, Where Design Meets Code</p> */}
             <p className="mb-8 leading-relaxed opacity-70 test-sm md:text-md">
-              I am a<em>UI/UX Designer</em> and{" "}
-              <em>Full-Stack Web developer</em>. My goal is to create a user
-              experience that is both aesthetically pleasing and functionally
-              efficient. I have an eye for detail and always strive to implement
-              the latest design trends.
+              I'm a <em>UI/UX Designer</em> and <em>Full-Stack Web Developer </em> dedicated to
+              creating visually appealing and highly functional user
+              experiences. By merging the latest design trends with cutting-edge
+              technologies, I bring your ideas to life. Let's collaborate and
+              shape the future of user experience together.
             </p>
             {/* <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-5xl mb-4 font-bold font-['Cardo']">
               Crafting Captivating Digital Experiences: Unlocking the Perfect
@@ -52,8 +53,9 @@ const HeroSection = () => {
                   alt="hero"
                   src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 />
-                <button class="absolute bottom-0 left-5 bg-white text-white  rounded-full hover:bg-white m-2"><img className="h-12 pl-3 p-3" src={play} alt="" /></button>
-                
+                <button class="absolute bottom-0 left-5 bg-white text-white  rounded-full hover:bg-white m-2">
+                  <img className="h-12 pl-3 p-3" src={play} alt="" />
+                </button>
               </div>
               <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
                 <img
@@ -61,7 +63,9 @@ const HeroSection = () => {
                   alt="hero"
                   src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 />
-                <button class="absolute bottom-0 left-5 bg-white text-white  rounded-full hover:bg-white m-2"><img className="h-12 pl-3 p-3" src={play} alt="" /></button>
+                <button class="absolute bottom-0 left-5 bg-white text-white  rounded-full hover:bg-white m-2">
+                  <img className="h-12 pl-3 p-3" src={play} alt="" />
+                </button>
               </div>
               <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
                 <img
@@ -69,7 +73,9 @@ const HeroSection = () => {
                   alt="hero"
                   src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
                 />
-                <button class="absolute bottom-0 left-5 bg-white text-white  rounded-full hover:bg-white m-2"><img className="h-12 pl-3 p-3" src={play} alt="" /></button>
+                <button class="absolute bottom-0 left-5 bg-white text-white  rounded-full hover:bg-white m-2">
+                  <img className="h-12 pl-3 p-3" src={play} alt="" />
+                </button>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import suman from "../../../assets/images/suman.jpg";
-import ReactGA from 'react-ga';
-ReactGA.initialize('G-R2Q7XQ6WBW');
+import ReactGA from "react-ga";
+ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 export const AboutMe = () => {
   return (
@@ -20,20 +20,19 @@ export const AboutMe = () => {
         <div className="max-w-3xl flex flex-col justify-center p-4 md:p-12">
           {/* Image for mobile view */}
           <div
-            className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-32 w-32 bg-cover bg-center"
+            className="block lg:hidden rounded-full shadow-xl mx-auto mt-16 h-32 w-32 bg-cover bg-center"
             style={{
-              backgroundImage:
-                "src={suman}",
+              backgroundImage: "src={suman}",
             }}
           ></div>
           {/* Blockquote */}
-          <p className="mb-4 leading-relaxed text-xl text-[#f4a462]">
+          <p className="mb-1 leading-relaxed text-xl text-[#f4a462]">
             About Me{" "}
           </p>
           <h1 className="title-font tracking-wide sm:text-2xl md:text-4xl xl:text-6xl mb-4 font-bold">
             Suman <spam className="text-[#e76e50]">Sourabh</spam>
           </h1>
-          <p className="mb-4 leading-relaxed text-xl text-[#2a9d90]">
+          <p className="mb-1 leading-relaxed text-xl text-[#2a9d90]">
             Currently student of Graduation{" "}
           </p>
           <blockquote className="font-serif">
@@ -48,21 +47,53 @@ export const AboutMe = () => {
               implementation.
               <span className="pl-1 font-serif text-2xl text-red-600">"</span>
             </p>
-			<footer className="m-2">
-              Rachael Halloway,{" "}
+            <footer className="py-2 text-lg">
+              Process I follow while,{" "}
               <cite className="pl-3 text-red-600 font-bold italic">
-                Supreme Leader of a Free Mars
+                Designing Product
               </cite>
             </footer>
-            <ul>
-              <li>Research</li> <li>Design Trends</li>{" "}
-              <li>Attention to Detail</li>
-              <li>Collaboration</li>
-              <li>Functionality</li>
-              <li>Continued Improvement</li>
+            <ul >
+              <li className="pt-2">
+                {" "}
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
+                  <span className="text-sm font-bold">✓</span>
+                </span>{" "}
+                Research
+              </li>{" "}
+              <li className="pt-2">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
+                  <span className="text-sm font-bold">✓</span>
+                </span>{" "}
+                Design Trends
+              </li>{" "}
+              <li className="pt-2">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
+                  <span className="text-sm font-bold">✓</span>
+                </span>{" "}
+                Attention to Detail
+              </li>
+              <li className="pt-2">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
+                  <span className="text-sm font-bold">✓</span>
+                </span>{" "}
+                Collaboration
+              </li>
+              <li className="pt-2">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
+                  <span className="text-sm font-bold">✓</span>
+                </span>{" "}
+                Functionality
+              </li>
+              <li className="pt-2">
+                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
+                  <span className="text-sm font-bold">✓</span>
+                </span>{" "}
+                Continued Improvement
+              </li>
             </ul>
             <div className="mb-2 mx-auto lg:mx-0 w-3/5 pt-3 border-b-2 border-orange-500 opacity-25"></div>
-            
+
             <div className="pt-5">
               <a
                 href="#_"
