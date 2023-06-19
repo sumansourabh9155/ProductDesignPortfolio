@@ -70,12 +70,12 @@ const Navbar = () => {
             <Link to="/projects" className="mr-5 font-medium hover:text-gray-900">
               Project
             </Link>
-            <a href="#_" className="mr-5 font-medium hover:text-gray-900">
+            <Link to="/resources" className="mr-5 font-medium hover:text-gray-900">
               Resources
-            </a>
-            <a href="#_" className="mr-5 font-medium hover:text-gray-900">
+            </Link>
+            <Link to="/Blog" className="mr-5 font-medium hover:text-gray-900">
               Blog
-            </a>
+            </Link>
             <Link to="/About" className="font-medium hover:text-gray-900">
               About Me
             </Link>
@@ -87,12 +87,12 @@ const Navbar = () => {
               <Link to="/projects" className="block font-medium hover:text-gray-900">
                 Project
               </Link>
-              <a href="#_" className="block font-medium hover:text-gray-900">
+              <Link to="/resources" className="block font-medium hover:text-gray-900">
                 Resources
-              </a>
-              <a href="#_" className="block font-medium hover:text-gray-900">
+              </Link>
+              <Link to="/Blog" className="block font-medium hover:text-gray-900">
                 Blog
-              </a>
+              </Link>
               <Link to="/about" className="block font-medium hover:text-gray-900">
                 About Me
               </Link>

@@ -7,6 +7,8 @@ import Admin from "./resource/page/Admin";
 import About from "./resource/page/About";
 import Contact from "./resource/page/Contact";
 import Projects from "./resource/page/Projects";
+import Blog from "./resource/page/Blogs";
+import Resources from "./resource/page/Resources";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
   
@@ -25,6 +27,8 @@ root.render(
       <Route path="/Admin" element={<Admin />} />
       <Route path="/About" element={<About />} />
       <Route path="/Projects" element={<Projects />} />
+      <Route path="/Blog" element={<Blog />} />
+      <Route path="/Resources" element={<Resources />} />
 
     </Routes>
   </Router>
