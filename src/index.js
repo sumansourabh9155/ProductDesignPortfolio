@@ -10,28 +10,56 @@ import Projects from "./resource/page/Projects";
 import Blog from "./resource/page/Blogs";
 import Resources from "./resource/page/Resources";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-  
-import ReactGA from 'react-ga';
-ReactGA.initialize('G-R2Q7XQ6WBW');
+import AnimatedCursor from "react-animated-cursor"
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+
+import ReactGA from "react-ga";
+ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Router>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/home" element={<LandingPage />} />
-      <Route path="/contactme" element={<Navigate replace to="/contact"/>} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/Admin" element={<Admin />} />
-      <Route path="/About" element={<About />} />
-      <Route path="/Projects" element={<Projects />} />
-      <Route path="/Blog" element={<Blog />} />
-      <Route path="/Resources" element={<Resources />} />
-
-    </Routes>
-  </Router>
+  <div>
+    <AnimatedCursor
+      innerSize={12}
+      outerSize={12}
+      color='231, 110, 80'
+      outerAlpha={0.2}
+      innerScale={0.7}
+      outerScale={5}
+      clickables={[
+        'a',
+        'input[type="text"]',
+        'input[type="email"]',
+        'input[type="number"]',
+        'input[type="submit"]',
+        'input[type="image"]',
+        'label[for]',
+        'select',
+        'textarea',
+        'button',
+        '.link'
+      ]}
+    />
+    <Router>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/home" element={<LandingPage />} />
+        <Route path="/contactme" element={<Navigate replace to="/contact" />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/Admin" element={<Admin />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/Resources" element={<Resources />} />
+      </Routes>
+    </Router>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
+import Framer from "../../assets/buttons/Frame.png"
 
 import ReactGA from "react-ga";
 ReactGA.initialize("G-R2Q7XQ6WBW");
@@ -9,6 +10,10 @@ const ExampleComponent = () => {
   return (
     <div>
       <Navbar />
+      {/* <div className="relative bg-slate-200">
+        <img src={Framer} className="pt-20 px-40" alt="" />
+        <p  className="absolute text-9xl font-bold top-1/2 left-1/2 text-white -translate-x-1/2 -translate-y-1/2">About Me</p>
+      </div> */}
       <div className="pt-20 px-12">
         <div className="p-6 sm:p-12 dark:bg-gray-900 dark:text-gray-100">
           <div className="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
