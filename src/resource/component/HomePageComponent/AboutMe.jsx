@@ -46,7 +46,7 @@ export const AboutMe = () => {
               always strive to implement the latest design trends.<br></br><br></br> I take the
               time to research the event and the target audience and create a
               design that meets the specific needs of the event and its users.<br></br> <br></br> I
-              also work closely with the event organizers to ensure that the
+              also work closely with the brand to ensure that the
               design I deliver is what they have in mind.
               <span className="pl-1 font-serif text-2xl text-red-600">"</span>
             </p>
