@@ -23,7 +23,7 @@ const Projects = () => {
       
       <div className="px-20 pt-20">
       <div className="mb-40">
-          <img className="p-80" src={rakiar} alt="RaikarsGoodVibes" />
+          <img className="px-80 py-10" src={rakiar} alt="RaikarsGoodVibes" />
           <div className="flex justify-between items-center">
             <h2 className="text-5xl font-bold ">See what others are saying</h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
@@ -64,7 +64,7 @@ const Projects = () => {
         </div>
         
         <div className="px-10">
-          <img src={glamor} className="py-20" alt="" />
+          <img src={glamor} className="px-20" alt="" />
           <div className="flex justify-between items-center">
             <h2 className="text-5xl font-bold ">See what others are saying</h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
@@ -105,7 +105,7 @@ const Projects = () => {
         </div>
         
         <div className="px-20">
-          <img src={hoodie} className="p-20"alt="" />
+          <img src={hoodie} className="px-20 pt-20"alt="" />
           <div className="flex justify-between items-center">
             <h2 className="text-5xl font-bold ">See what others are saying</h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
@@ -150,7 +150,7 @@ const Projects = () => {
 
 
         <div className="px-20">
-          <img src={beauty} className="p-32" alt="" />
+          <img src={beauty} className="px-32 pb-20 pt-40 " alt="" />
           <div className="flex justify-between items-center">
             <h2 className="text-5xl font-bold ">See what others are saying</h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
