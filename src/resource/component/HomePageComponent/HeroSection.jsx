@@ -8,25 +8,23 @@ const HeroSection = () => {
       <section className="texpattern-vertical-lines-xlt-black body-font justify-center scroll-smooth">
         <div className="container mx-auto flex px-5 pt-28 pb-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow flex flex-col text-[#033d35] md:items-start md:text-left mb-16 md:mb-0 items-center text-center bg-none">
-            <p className="mb-4 leading-relaxed text-sm md:text-xl text-[#f4a462]">
-              Hello There I am,{" "}
+            <p className="mb-4 leading-relaxed text-sm md:text-xl text-[#e76e50]">
+              Designing for Impact:
             </p>
-            <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-7xl mb-4 font-bold font suman">
-              Product <spam className="text-[#e76e50] suman">Designer</spam>
+            <h1 className=" leading-loose tracking-wide text-3xl md:text-6xl xl:text-[63px] mb-4 font-bold suman">
+              Empowering{" "}
+              <spam className="text-[#e76e50] suman">Purpose-Driven</spam>{" "}
+              Brands to Thrive
             </h1>
             {/* <p className="mb-1 leading-relaxed text-2xl text-[#033d35]" >Seamless Digital Experiences, Where Design Meets Code</p> */}
-            <p className="mb-8 leading-relaxed opacity-70 test-sm md:text-md">
-              I'm a <em>UI/UX Designer</em> and <em>Full-Stack Web Developer </em> dedicated to
-              creating visually appealing and highly functional user
-              experiences. By merging the latest design trends with cutting-edge
-              technologies, I bring your ideas to life. Let's collaborate and
-              shape the future of user experience together.
+            <p className="mb-8  tracking-wide leading-relaxed opacity-80 test-sm md:text-md">
+            Creating success stories by empowering visionaries Unleashing growth potential with tailored solutions Solutions that propel businesses to new heights"
             </p>
             {/* <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-5xl mb-4 font-bold font-['Cardo']">
               Crafting Captivating Digital Experiences: Unlocking the Perfect
               Blend of Beauty and Functionality
             </h1> */}
-            <div className="flex justify-center gap-6">
+            <div className="flex justify-center gap-6 pt-2">
               <a
                 href="#_"
                 // bg-[url('https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60')
@@ -46,7 +44,7 @@ const HeroSection = () => {
             id="pattern"
             className="w-full sm:w-40 lg:max-w-xl lg:w-full md:w-32 xl:w-5/6 bg-contain bg-no-repeat md:ml-40 xl:mr-16"
           >
-            <div className="w-full justify-center">
+            <div className="w-full justify-center ">
               <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
                 <img
                   className="object-cover object-center rounded-xl brightness-95 hover:brightness-100 h-40 w-full my-4 "
