@@ -59,16 +59,23 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <div className="max-w-screen-md mx-auto p-5 pt-20">
-        <div className="text-center mb-16">
-          <p className="mt-4 text-sm leading-7 text-gray-500 font-regular uppercase">
-            Contact
-          </p>
-          <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
-            Get In <span className="text-indigo-600">Touch</span>
-          </h3>
+      <div className=" dark:text-gray-100">
+          <section className=" text-[#033d35] -z-10 relative ">
+            <div
+              className="lg:h-80 md:h-56 sm:h-48 hero-image bg-right-bottom bg-cover flex"
+              style={{
+                backgroundImage:
+                  "url(https://images.unsplash.com/photo-1493934558415-9d19f0b2b4d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=854&q=80)",
+              }}
+            >
+              <p className=" relative container mx-auto p-4 flex items-center justify-center z-10 text-4xl md:text-7xl font-bold">
+               Get In Touch
+              </p>
+            </div>
+          </section>
         </div>
-
+      <div className="max-w-screen-md mx-auto p-5 pt-20">
+        
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">

@@ -11,11 +11,13 @@ import Blog from "./resource/page/Blogs";
 import Resources from "./resource/page/Resources";
 import reportWebVitals from "./reportWebVitals";
 import AnimatedCursor from "react-animated-cursor"
+import Navbar from "./resource/component/Navbar";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
+  Outlet,
 } from "react-router-dom";
 
 import ReactGA from "react-ga";
