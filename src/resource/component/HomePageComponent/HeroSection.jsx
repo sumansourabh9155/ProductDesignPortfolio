@@ -1,5 +1,6 @@
 import ReactGA from "react-ga";
 import play from "../../../assets/buttons/play.png";
+import { Link } from "react-router-dom";
 ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 const HeroSection = () => {
@@ -18,23 +19,25 @@ const HeroSection = () => {
             </h1>
             {/* <p className="mb-1 leading-relaxed text-2xl text-[#033d35]" >Seamless Digital Experiences, Where Design Meets Code</p> */}
             <p className="mb-8  tracking-wide leading-relaxed opacity-80 test-sm md:text-md">
-            Creating success stories by empowering visionaries Unleashing growth potential with tailored solutions Solutions that propel businesses to new heights"
+              Creating success stories by empowering visionaries Unleashing
+              growth potential with tailored solutions Solutions that propel
+              businesses to new heights"
             </p>
             {/* <h1 className="title-font tracking-wide text-3xl md:text-6xl xl:text-5xl mb-4 font-bold font-['Cardo']">
               Crafting Captivating Digital Experiences: Unlocking the Perfect
               Blend of Beauty and Functionality
             </h1> */}
             <div className="flex justify-center gap-6 pt-2">
-              <a
-                href="#_"
+              <Link
+                to={"/projects"}
                 // bg-[url('https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60')
-                className="px-8 py-2 text-xs md:text-base font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-[#033d35] bg-[#033d35] rounded shadow  active:bg-teal-600 hover:shadow-md ease"
+                className="px-8 py-2 text-xs md:text-base font-semibold text-white uppercase bg-[#033d35] rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."
               >
                 Check My Work
-              </a>
+              </Link>
               <a
                 href="#_"
-                className="px-8 py-2 text-xs md:text-base font-bold text-[#033d35] uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
+                className="px-8 py-2 text-xs md:text-base font-bold text-[#033d35] uppercase rounded shadow outline outline-2    hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:text-white hover:bg-[#033d35] duration-300 ..."
               >
                 Resume
               </a>

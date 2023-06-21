@@ -14,7 +14,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 const Tech = () => {
   return (
     <section className="w-full text-lg px-5 py-10 scroll-smooth ">
-      <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-4 font-bold pb-5">
+      <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-4 font-bold pb-5 suman">
         I Use the Latest Technology Available
       </h1>
       <div className="w-full">

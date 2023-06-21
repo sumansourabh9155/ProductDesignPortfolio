@@ -64,14 +64,16 @@ const WorkProcess = () => {
 
   const content = detail.map((item) => (
     <div key={item.step}>
-      <div className="px-">
+     
+      <div className="">
         <a
           href="#_"
           className="px-8 py-2 text-xs md:text-md font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-black bg-black rounded shadow active:bg-teal-600 hover:shadow-md ease"
         >
           {item.step}
         </a>
-        <div className="pl-12 py-8">
+        
+        <div className="pl-12 py-8 ">
           <h2 className="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
             {item.headline}
           </h2>
@@ -88,7 +90,7 @@ const WorkProcess = () => {
 
   return (
     <div className="p-10">
-      <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center">
+      <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center suman mt-20">
         Work Process I Use
       </h1>
       <div className="flex justify-center">

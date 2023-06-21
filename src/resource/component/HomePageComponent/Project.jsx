@@ -11,7 +11,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 const Project = () => {
   return (
     <div>
-      <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center">
+      <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center suman">
         My Projects
       </h1>
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4 h-100">

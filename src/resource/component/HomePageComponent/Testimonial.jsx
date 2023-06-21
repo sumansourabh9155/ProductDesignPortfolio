@@ -8,11 +8,11 @@ const Testimonial = () => {
       <section className="flex items-center justify-center py-20 bg-white min-w-screen">
         <div className="px-16 bg-white">
           <div className="container flex flex-col items-start mx-auto lg:items-center">
-            <p className="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-[#E57FE5] uppercase lg:justify-center lg:items-center">
+            <p className="relative flex items-start justify-start w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
               Don't just take our word for it
             </p>
 
-            <h2 className="relative flex items-start justify-start w-full max-w-3xl text-5xl font-bold lg:justify-center">
+            <h2 className="relative flex items-start justify-start w-full max-w-3xl text-4xl font-bold lg:justify-center suman">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -25,7 +25,7 @@ const Testimonial = () => {
             </h2>
             
 
-            <div className="items-center justify-center w-full mt-24 mb-12 lg:flex">
+            <div className="items-center justify-center w-full mt-24 mb-12 lg:flex gap-10">
               <div className="flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/3 lg:mb-0 ">
                 <div className="flex items-center justify-center ">
                   <div className="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full " >
@@ -63,25 +63,6 @@ const Testimonial = () => {
                 <blockquote className="mt-8 text-lg text-gray-500">
                   "Thanks for creating this service. My life is so much easier.
                   Thanks for making such a great product."
-                </blockquote>
-              </div>
-              <div className="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
-                <div className="flex items-center justify-center">
-                  <div className="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                    <img
-                      src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1256&amp;q=80"
-                      className="object-cover w-full h-full"
-                      alt="John Smith"
-                    ></img>
-                  </div>
-                  <div className="flex flex-col items-start justify-center">
-                    <h4 className="font-bold text-gray-800">John Smith</h4>
-                    <p className="text-gray-600">Creator of Stuff</p>
-                  </div>
-                </div>
-                <blockquote className="mt-8 text-lg text-gray-500">
-                  "Packed with awesome content and exactly what I was looking
-                  for. I would highly recommend this to anyone."
                 </blockquote>
               </div>
             </div>
