@@ -9,6 +9,9 @@ const Help = () => {
   return (
     <div>
       <section className="w-full bg-white pt-7 pb-7 md:pt-20 md:pb-24">
+      <p className="pb-2 relative flex items-start justify-start w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
+              Love to tell you
+            </p>
         <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center suman">
           How We Can Help You Succeed
         </h1>
