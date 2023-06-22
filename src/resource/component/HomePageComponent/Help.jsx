@@ -2,6 +2,7 @@ import ReactGA from "react-ga";
 import { Link } from "react-router-dom";
 import buss from "../../../assets/images/buss.png";
 import ux from "../../../assets/images/ux.png";
+import tick from "../../../assets/buttons/tick.png";
 ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -34,28 +35,29 @@ const Help = () => {
               We specialize in creating custom solutions that unleash the full
               growth potential of your business.
             </p>
+
             <ul className="p-0 m-0 leading-6 border-0 border-gray-300">
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
-                  <span className="text-sm font-bold">✓</span>
+                <span className="inline-flex align-middle  items-center justify-center">
+                  <img src={tick} className="h-10" alt="" />
                 </span>{" "}
                 Maximize productivity and accelerate growth
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
-                  <span className="text-sm font-bold">✓</span>
+                <span className="inline-flex align-middle  items-center justify-center">
+                  <img src={tick} className="h-10" alt="" />
                 </span>{" "}
                 Stay ahead of the competition with innovative solutions
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
-                  <span className="text-sm font-bold">✓</span>
+                <span className="inline-flex align-middle  items-center justify-center">
+                  <img src={tick} className="h-10" alt="" />
                 </span>{" "}
                 Continuously improve and exceed expectations
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
-                  <span className="text-sm font-bold">✓</span>
+                <span className="inline-flex align-middle items-center justify-center">
+                  <img src={tick} className="h-10" alt="" />
                 </span>{" "}
                 Integrate seamlessly with your existing systems
               </li>
@@ -75,28 +77,28 @@ const Help = () => {
             </p>
             <ul className="p-0 m-0 leading-6 border-0 border-gray-300">
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
-                  <span className="text-sm font-bold">✓</span>
+                <span className="inline-flex align-middle  items-center justify-center">
+                  <img src={tick} className="h-10" alt="" />
                 </span>{" "}
-                Research the event and target audience to meet specific needs
+                Research the event and target audience
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
-                  <span className="text-sm font-bold">✓</span>
+                <span className="inline-flex align-middle  items-center justify-center">
+                  <img src={tick} className="h-10" alt="" />
                 </span>{" "}
-                Implement cutting-edge design trends and techniques
+                Implement cutting-edge design trends
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
-                  <span className="text-sm font-bold">✓</span>
+                <span className="inline-flex align-middle  items-center justify-center">
+                  <img src={tick} className="h-10" alt="" />
                 </span>{" "}
-                Merge design and technology seamlessly for optimal functionality
+                Merge design and technology
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
-                  <span className="text-sm font-bold">✓</span>
+                <span className="inline-flex align-middle items-center justify-center">
+                  <img src={tick} className="h-10" alt="" />
                 </span>{" "}
-                Craft user experiences that leave a lasting impression
+                Craft user experiences
               </li>
             </ul>
           </div>
@@ -113,10 +115,7 @@ const Help = () => {
         </div>
         {/* Additional Feature */}
         <div className="box-border flex justify-center mt-14">
-          <Link
-            to="/contact"
-            className="button-dark " role="button"
-          >
+          <Link to="/contact" className="button-dark " role="button">
             Book a Call
           </Link>
         </div>

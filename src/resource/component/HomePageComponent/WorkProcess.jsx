@@ -1,4 +1,5 @@
 import ReactGA from 'react-ga';
+import tick from '../../../assets/buttons/tick.png';
 ReactGA.initialize('G-R2Q7XQ6WBW');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -50,12 +51,13 @@ const WorkProcess = () => {
     const listItems = props.para.map((point) => (
       <li
         key={point}
-        className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid"
-      >
-        <div className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-[#ACE57F] rounded-full">
-          <div className="text-sm font-bold">✓</div>
-        </div>{" "}
-        {point}
+         className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                <span className="inline-flex align-middle items-center justify-center">
+                  <img src={tick} className="h-10" alt="" />
+                </span>{" "}
+                {point}
+             
+        
       </li>
     ));
 
@@ -68,7 +70,7 @@ const WorkProcess = () => {
       <div className="">
         <a
           href="#_"
-          className="px-8 py-2 text-xs md:text-md font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-black bg-black rounded shadow active:bg-teal-600 hover:shadow-md ease"
+          className="px-8 py-2 text-xs md:text-md font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-[#e76e50] bg-[#e76e50] rounded shadow active:bg-teal-600 hover:shadow-md ease"
         >
           {item.step}
         </a>
