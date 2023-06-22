@@ -17,7 +17,7 @@ const Tech = () => {
       <p className="relative pb-2 t w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
               To make the best product
             </p>
-      <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-4 font-bold pb-5 suman">
+      <h1 className="subheadline title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-4 font-bold pb-5 suman">
         I Use the Latest Technology Available
       </h1>
       <div className="w-full">

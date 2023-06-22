@@ -45,7 +45,7 @@ const Testimonial = () => {
                   </div>
                   <div className="md:w-2/3 lg:w-2/3 xl:ml-32 md:ml-20 md:mt-0  flex flex-col justify-between">
                     <div>
-                      <h1 className=" suman text-2xl md:pt-8 font-semibold text-gray-800">
+                      <h1 className=" subheadline text-2xl md:pt-8 font-semibold text-gray-800">
                         He was definitely the person who if commits would
                         deliver with utmost excellence.
                       </h1>

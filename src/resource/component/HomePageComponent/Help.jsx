@@ -28,7 +28,7 @@ const Help = () => {
 
           {/* <!-- Content --> */}
           <div className="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
-            <h2 className="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+            <h2 className="subheadline m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Unlock Your Business Potential
             </h2>
             <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
@@ -68,7 +68,7 @@ const Help = () => {
         <div className="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-20 md:flex-row max-w-7xl lg:px-16">
           {/* <!-- Content --> */}
           <div className="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
-            <h2 className="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+            <h2 className="subheadline m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Create Exceptional User Experiences
             </h2>
             <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">

@@ -76,7 +76,7 @@ const WorkProcess = () => {
         </a>
         
         <div className="pl-12 py-8 ">
-          <h2 className="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+          <h2 className="subheadline m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
             {item.headline}
           </h2>
           <p className="pt-1 pb-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-14 lg:text-lg">

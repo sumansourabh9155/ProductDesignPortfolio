@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../component/Navbar";
 import ReactGA from "react-ga";
 import hoodie from "../../assets/mockup/hoodieMockup.png";
@@ -53,30 +54,30 @@ const Projects = () => {
             itaque incidunt animi quibusdam ex suscipit. Expedita accusantium
             nam consequatur veniam?
           </p>
-          <div className="flex pt-4 gap-4">
+          <div className="flex pt-6 gap-4">
             <img className="w-12 " src={figma} alt="" />
             <img className="w-12 " src={illustrator} alt="" />
             <img className="w-12 " src={photoshop} alt="" />
           </div>
-          <div className="flex justify-start pt-8 gap-6">
-            <a
-              href="https://raikarsgoodvibes.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="flex px-8 py-2 text-xs md:text-base font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-[#033d35] bg-[#033d35] rounded shadow  active:bg-teal-600 hover:shadow-md ease"
-            >
-              <p className="text-white">Check the Website</p>
-              <img src={newtab} className="w-8" alt="" />
-            </a>
 
-            <a
-              href="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
+          <div className="flex justify-start pt-8 gap-10">
+            <Link
+              to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
+              className="button-dark"
+              target="_blank"
+              role="button"
+            >
+              Case study<img src={newtab} className="ml-2 w-8" alt="" />
+            </Link>
+            <Link
+              to="https://raikarsgoodvibes.com/"
               target="_blank"
               rel="noreferrer"
-              className="px-8 py-2 text-xs md:text-base font-bold text-[#033d35] uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
+              className="buttonlight "
+              role="button"
             >
-              Case Study
-            </a>
+              Website
+            </Link>
           </div>
         </div>
 
@@ -102,24 +103,26 @@ const Projects = () => {
             <img className="w-12 " src={illustrator} alt="" />
             <img className="w-12 " src={photoshop} alt="" />
           </div>
+
           <div className="flex justify-start pt-8 gap-6">
-            <a
-              href="https://www.behance.net/gallery/169935581/Glamor-AI"
+            <Link
+              to="https://www.behance.net/gallery/169935581/Glamor-AI"
+              className="button-dark"
+              target="_blank"
+              role="button"
+            >
+              Case Study
+              <img src={newtab} className="w-8" alt="" />
+            </Link>
+            <Link
+              href="#"
               target="_blank"
               rel="noreferrer"
-              className="flex px-8 py-2 text-xs md:text-base font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-[#033d35] bg-[#033d35] rounded shadow  active:bg-teal-600 hover:shadow-md ease"
-            >
-              <p className="text-white">Case Study</p>
-              <img src={newtab} className="w-8" alt="" />
-            </a>
-
-            <a
-              href="#_"
-              target="_blank"
-              className="px-8 py-2 text-xs md:text-base font-bold text-[#033d35] uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
+              className="buttonlight "
+              role="button"
             >
               Prototype
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -145,22 +148,24 @@ const Projects = () => {
             <img className="w-12 " src={illustrator} alt="" />
             <img className="w-12 " src={photoshop} alt="" />
           </div>
-          <div className="flex justify-start pt-8 gap-6">
-            <a
-              href="#_"
-              // bg-[url('https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60')
-              className="flex px-8 py-2 text-xs md:text-base font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-[#033d35] bg-[#033d35] rounded shadow  active:bg-teal-600 hover:shadow-md ease"
+          <div className="flex justify-start pt-8 gap-10">
+            <Link
+              to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
+              className="button-dark"
+              target="_blank"
+              role="button"
             >
-              <p className="text-white">Check My Design</p>
-              <img src={newtab} className="w-8" alt="" />
-            </a>
-
-            <a
-              href="#_"
-              className="px-8 py-2 text-xs md:text-base font-bold text-[#033d35] uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
+              Case study<img src={newtab} className="ml-2 w-8" alt="" />
+            </Link>
+            <Link
+              to="https://raikarsgoodvibes.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="buttonlight "
+              role="button"
             >
-              Figma File
-            </a>
+              Website
+            </Link>
           </div>
         </div>
 
@@ -186,22 +191,24 @@ const Projects = () => {
             <img className="w-12 " src={illustrator} alt="" />
             <img className="w-12 " src={photoshop} alt="" />
           </div>
-          <div className="flex justify-start pt-8 gap-6">
-            <a
-              href="#_"
-              // bg-[url('https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60')
-              className="flex px-8 py-2 text-xs md:text-base font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-[#033d35] bg-[#033d35] rounded shadow  active:bg-teal-600 hover:shadow-md ease"
+          <div className="flex justify-start pt-8 gap-10">
+            <Link
+              to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
+              className="button-dark"
+              target="_blank"
+              role="button"
             >
-              <p className="text-white">Check My Design</p>
-              <img src={newtab} className="w-8" alt="" />
-            </a>
-
-            <a
-              href="#_"
-              className="px-8 py-2 text-xs md:text-base font-bold text-[#033d35] uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
+              Case study<img src={newtab} className="ml-2 w-8" alt="" />
+            </Link>
+            <Link
+              to="https://raikarsgoodvibes.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="buttonlight "
+              role="button"
             >
-              Figma File
-            </a>
+              Website
+            </Link>
           </div>
         </div>
 
@@ -227,22 +234,24 @@ const Projects = () => {
             <img className="w-12 " src={illustrator} alt="" />
             <img className="w-12 " src={photoshop} alt="" />
           </div>
-          <div className="flex justify-start pt-8 gap-6">
-            <a
-              href="#_"
-              // bg-[url('https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60')
-              className="flex px-8 py-2 text-xs md:text-base font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-[#033d35] bg-[#033d35] rounded shadow  active:bg-teal-600 hover:shadow-md ease"
+          <div className="flex justify-start pt-8 gap-10">
+            <Link
+              to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
+              className="button-dark"
+              target="_blank"
+              role="button"
             >
-              <p className="text-white">Check My Design</p>
-              <img src={newtab} className="w-8" alt="" />
-            </a>
-
-            <a
-              href="#_"
-              className="px-8 py-2 text-xs md:text-base font-bold text-[#033d35] uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
+              Case study<img src={newtab} className="ml-2 w-8" alt="" />
+            </Link>
+            <Link
+              to="https://raikarsgoodvibes.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="buttonlight "
+              role="button"
             >
-              Figma File
-            </a>
+              Website
+            </Link>
           </div>
         </div>
       </div>
