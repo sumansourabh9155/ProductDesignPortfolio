@@ -20,7 +20,7 @@ const Projects = () => {
     <div>
       <Navbar />
 
-      <div className="pt-20 px-12">
+      <div className="pt-20 px-12 mb-32">
         <div className=" dark:text-gray-100">
           <section className=" text-[#033d35] -z-10 relative ">
             <div
@@ -38,9 +38,9 @@ const Projects = () => {
         </div>
 
         <div className="mb-40 pt-20">
-          <img className="px-80 py-10" src={rakiar} alt="RaikarsGoodVibes" />
+          <img className="md:px-[4rem] lg:px-[25rem] md:py-10" src={rakiar} alt="RaikarsGoodVibes" />
           <div className="flex justify-between items-center">
-            <h2 className="text-5xl font-bold ">RaikarsGoodVibes</h2>
+            <h2 className="text-5xl font-bold subheadline">RaikarsGoodVibes</h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
               25 Oct 2022
             </p>
@@ -81,10 +81,10 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="px-10">
-          <img src={glamor} className="px-20" alt="" />
+        <div className="lg:px-10">
+          <img src={glamor} className="md:px-[0rem] lg:px-[4rem]" alt="" />
           <div className="flex justify-between items-center">
-            <h2 className="text-5xl font-bold ">Glamor Ai</h2>
+            <h2 className="text-5xl font-bold subheadline">Glamor Ai</h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
               25 Oct 2022
             </p>
@@ -126,10 +126,10 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="px-20">
-          <img src={hoodie} className="px-20 pt-20" alt="" />
+        <div className="lg:px-20">
+          <img src={hoodie} className="md:px-[0rem] lg:px-[7rem] pt-20" alt="" />
           <div className="flex justify-between items-center">
-            <h2 className="text-5xl font-bold ">See what others are saying</h2>
+            <h2 className="text-5xl font-bold subheadline">See what others are saying</h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
               25 Oct 2022
             </p>
@@ -169,10 +169,10 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="px-20">
-          <img src={beauty} className="px-32 pb-20 pt-40 " alt="" />
+        <div className="lg:px-20">
+          <img src={beauty} className="md:px-[0rem] lg:px-[8rem] pb-20 pt-40 " alt="" />
           <div className="flex justify-between items-center">
-            <h2 className="text-5xl font-bold ">See what others are saying</h2>
+            <h2 className="text-5xl font-bold subheadline">See what others are saying</h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
               25 Oct 2022
             </p>
@@ -212,10 +212,10 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="px-20">
-          <img src={shoe} className="p-32" alt="" />
+        <div className="lg:px-20">
+          <img src={shoe} className="md:px-[0rem] lg:px-[12rem] md:pt-32 md:pb-10" alt="" />
           <div className="flex justify-between items-center">
-            <h2 className="text-5xl font-bold ">See what others are saying</h2>
+            <h2 className="text-5xl font-bold subheadline">See what others are saying</h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
               25 Oct 2022
             </p>

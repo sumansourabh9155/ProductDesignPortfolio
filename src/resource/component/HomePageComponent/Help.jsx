@@ -41,25 +41,25 @@ const Help = () => {
                 <span className="inline-flex align-middle  items-center justify-center">
                   <img src={tick} className="h-10" alt="" />
                 </span>{" "}
-                Maximize productivity and accelerate growth
+                Maximize productivity $ accelerate growth
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
                 <span className="inline-flex align-middle  items-center justify-center">
                   <img src={tick} className="h-10" alt="" />
                 </span>{" "}
-                Stay ahead of the competition with innovative solutions
+                Stay ahead of the competition
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
                 <span className="inline-flex align-middle  items-center justify-center">
                   <img src={tick} className="h-10" alt="" />
                 </span>{" "}
-                Continuously improve and exceed expectations
+                Continuously improve 
               </li>
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
                 <span className="inline-flex align-middle items-center justify-center">
                   <img src={tick} className="h-10" alt="" />
                 </span>{" "}
-                Integrate seamlessly with your existing systems
+                Seamlessly integration
               </li>
             </ul>
           </div>

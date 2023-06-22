@@ -8,6 +8,7 @@ import About from "./resource/page/About";
 import Contact from "./resource/page/Contact";
 import Projects from "./resource/page/Projects";
 import Blog from "./resource/page/Blogs";
+import Avail from "./resource/page/Avail";
 import Resources from "./resource/page/Resources";
 import reportWebVitals from "./reportWebVitals";
 import AnimatedCursor from "react-animated-cursor";
@@ -27,12 +28,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
     <AnimatedCursor
-      innerSize={12}
-      outerSize={12}
+      innerSize={18}
+      outerSize={18}
       color="231, 110, 80"
       outerAlpha={0.2}
       innerScale={0.7}
-      outerScale={5}
+      outerScale={4}
       clickables={[
         "a",
         'input[type="text"]',
@@ -58,6 +59,7 @@ root.render(
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Resources" element={<Resources />} />
+        <Route path="/Avail" element={<Avail />} />
       </Routes>
     </Router>
   </div>

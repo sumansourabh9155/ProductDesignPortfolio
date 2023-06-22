@@ -13,7 +13,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 const Tech = () => {
   return (
-    <section className="w-full text-lg px-5 py-10 scroll-smooth ">
+    <section className="w-full text-lg px-12 py-10 scroll-smooth ">
       <p className="relative pb-2 t w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
               To make the best product
             </p>
