@@ -5,13 +5,13 @@ const Testimonial = () => {
   return (
     <div>
       <section className="flex items-center justify-center py-20 bg-white min-w-screen">
-        <div className="px-16 bg-white">
+        <div className="md:px-16 bg-white">
           <div className="container flex flex-col items-start mx-auto lg:items-center">
             <p className="relative pb-2 flex items-start justify-start w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
               Don't just take our word for it
             </p>
 
-            <h2 className="relative flex items-start justify-start w-full max-w-3xl text-4xl font-bold lg:justify-center suman">
+            <h2 className="relative flex items-center justify-center w-full max-w-3xl text-4xl font-bold lg:justify-center suman">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#e76e50"
@@ -24,9 +24,9 @@ const Testimonial = () => {
             </h2>
 
             <div>
-              <div className="xl:px-20 px-8 py-20 2xl:mx-auto 2xl:container relative z-40">
+              <div className="xl:px-20  md:py-20 2xl:mx-auto 2xl:container relative z-40">
                 <div className="mt-14 md:flex justify-center items-center">
-                  <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
+                  <div className="relative lg:w-1/2 h-80 w-72 xl:h-96 ">
                     <img
                       src="https://i.ibb.co/4g1D9cv/imgslider1.png"
                       alt="profile"
@@ -43,9 +43,9 @@ const Testimonial = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="md:w-2/3 lg:w-2/3 xl:ml-32 md:ml-20 md:mt-0  flex flex-col justify-between">
+                  <div className="w-full md:w-2/3 lg:w-2/3 xl:ml-32 md:ml-20 md:mt-0  flex flex-col justify-between">
                     <div>
-                      <h1 className=" subheadline text-2xl md:pt-8 font-semibold text-gray-800">
+                      <h1 className=" subheadline text-2xl pt-5 md:pt-8 font-semibold text-gray-800">
                         He was definitely the person who if commits would
                         deliver with utmost excellence.
                       </h1>

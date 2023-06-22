@@ -5,15 +5,15 @@ import Beauty from "../../../assets/Project/Beauty.png";
 import Shoe from "../../../assets/Project/Shoe.png";
 import Hoodie from "../../../assets/Project/Hoodie.png";
 import Food from "../../../assets/Project/Food.png";
-import ReactGA from 'react-ga';
-ReactGA.initialize('G-R2Q7XQ6WBW');
+import ReactGA from "react-ga";
+ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 const Project = () => {
   return (
     <div>
       <p className=" pb-2 relative flex items-start justify-start w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
-              Best of
-            </p>
+        Best of
+      </p>
       <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center suman">
         My Projects
       </h1>
@@ -50,15 +50,16 @@ const Project = () => {
             ></img>
           </div>
         </div>
-        <div class="grid gap-4">
-          <div>
+
+        <div class="grid gap-4 ">
+          <div className="hidden md:block">
             <img
               class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Shoe}
               alt=""
             ></img>
           </div>
-          <div>
+          <div className="hidden md:block">
             <img
               class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Hoodie}

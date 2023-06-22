@@ -7,7 +7,7 @@ export const AboutMe = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center pt-24 px-12" >
       <div className="md:w-7/12 lg:w-5/12 hidden lg:block">
-        <img src={suman} className="rounded-tl-lg rounded-br-full" alt="description" />
+        <img src={suman} className=" rounded-tl-lg rounded-br-full" alt="description" />
       </div>
       <div className="max-w-2xl flex flex-col items-center lg:items-start p-4 md:p-12">
         {/* Image for mobile view */}

@@ -34,7 +34,7 @@ const HeroSection = () => {
               </Link>
             </div>
           </div>
-          <div className="w-full sm:w-40 lg:max-w-xl lg:w-full md:w-32 xl:w-5/6 bg-contain bg-no-repeat md:ml-40 xl:mr-16">
+          <div className="w-full sm:w-40 lg:max-w-xl lg:w-full md:w-full xl:w-5/6 bg-contain bg-no-repeat md:ml-40 xl:mr-16">
             <div className="w-full justify-center">
               <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <img
@@ -47,7 +47,7 @@ const HeroSection = () => {
                   <img className="h-12 pl-3 p-3" src={play} alt="" />
                 </button>
               </div>
-              <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+              <div className="hidden md:block relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <img
                   className="object-cover object-center rounded-xl brightness-95 hover:brightness-100 h-40 w-full my-4"
                   alt="hero"
@@ -58,7 +58,7 @@ const HeroSection = () => {
                   <img className="h-12 pl-3 p-3" src={play} alt="" />
                 </button>
               </div>
-              <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+              <div className="hidden md:block relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <img
                   className="object-cover object-center rounded-xl brightness-95 hover:brightness-100 h-40 w-full my-4"
                   alt="hero"
