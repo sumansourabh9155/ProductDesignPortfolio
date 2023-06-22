@@ -6,7 +6,9 @@
   /* background-color: black; */
 }
 .suman{
-  font-family: 'Cardo';
+  /* font-family: 'PT Sans Narrow', sans-serif; */
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
 }
 .gradient{
   box-shadow: 1px 0 5px -5px #333, 0 -5px 12px -12px #333, -1px 0 5px -5px #333;
