@@ -10,14 +10,13 @@ import Projects from "./resource/page/Projects";
 import Blog from "./resource/page/Blogs";
 import Resources from "./resource/page/Resources";
 import reportWebVitals from "./reportWebVitals";
-import AnimatedCursor from "react-animated-cursor"
-import Navbar from "./resource/component/Navbar";
+import AnimatedCursor from "react-animated-cursor";
+
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
-  Outlet,
 } from "react-router-dom";
 
 import ReactGA from "react-ga";
@@ -30,22 +29,22 @@ root.render(
     <AnimatedCursor
       innerSize={12}
       outerSize={12}
-      color='231, 110, 80'
+      color="231, 110, 80"
       outerAlpha={0.2}
       innerScale={0.7}
       outerScale={5}
       clickables={[
-        'a',
+        "a",
         'input[type="text"]',
         'input[type="email"]',
         'input[type="number"]',
         'input[type="submit"]',
         'input[type="image"]',
-        'label[for]',
-        'select',
-        'textarea',
-        'button',
-        '.link'
+        "label[for]",
+        "select",
+        "textarea",
+        "button",
+        ".link",
       ]}
     />
     <Router>

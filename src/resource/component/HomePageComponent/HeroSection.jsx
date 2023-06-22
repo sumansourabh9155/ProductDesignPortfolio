@@ -28,16 +28,10 @@ const HeroSection = () => {
             <div className="flex justify-center gap-6 pt-2">
               <Link
                 to={"/projects"}
-                className="px-8 py-2 text-xs md:text-base font-semibold text-white uppercase bg-[#033d35] rounded shadow outline-none hover:shadow-md focus:outline-none ease-in-out transition hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300"
+                className="button-dark " role="button"
               >
                 Check My Work
               </Link>
-              <a
-                href="#_"
-                className="px-8 py-2 text-xs md:text-base font-bold text-[#033d35] uppercase rounded shadow outline outline-2 hover:shadow-md focus:outline-none ease-in-out transition hover:-translate-y-1 hover:scale-110 hover:text-white hover:bg-[#033d35] duration-300"
-              >
-                Resume
-              </a>
             </div>
           </div>
           <div className="w-full sm:w-40 lg:max-w-xl lg:w-full md:w-32 xl:w-5/6 bg-contain bg-no-repeat md:ml-40 xl:mr-16">

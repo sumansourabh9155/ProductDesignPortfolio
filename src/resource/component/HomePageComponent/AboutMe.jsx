@@ -34,7 +34,7 @@ export const AboutMe = () => {
           <div className="pt-10">
             <Link
               to="/projects"
-              className="px-8 py-2 text-xs md:text-base font-semibold text-white uppercase bg-[#033d35] rounded shadow hover:shadow-md focus:outline-none transition-transform hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300"
+              className="button-dark " role="button"
             >
               Check My Work
             </Link>

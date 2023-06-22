@@ -9,9 +9,9 @@ const Help = () => {
   return (
     <div>
       <section className="w-full bg-white pt-7 pb-7 md:pt-20 md:pb-24">
-      <p className="pb-2 relative flex items-start justify-start w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
-              Love to tell you
-            </p>
+        <p className="pb-2 relative flex items-start justify-start w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
+          Love to tell you
+        </p>
         <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center suman">
           How We Can Help You Succeed
         </h1>
@@ -115,7 +115,7 @@ const Help = () => {
         <div className="box-border flex justify-center mt-14">
           <Link
             to="/contact"
-            className="px-8 py-2 text-xs md:text-base font-semibold text-white uppercase bg-[#033d35] rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."
+            className="button-dark " role="button"
           >
             Book a Call
           </Link>

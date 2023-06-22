@@ -29,7 +29,7 @@ const Projects = () => {
                   "url(https://images.unsplash.com/photo-1493934558415-9d19f0b2b4d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=854&q=80)",
               }}
             >
-              <p className=" relative container mx-auto p-4 flex items-center justify-center z-10 text-4xl md:text-7xl font-bold">
+              <p className="suman relative container mx-auto p-4 flex items-center justify-center z-10 text-4xl md:text-7xl font-bold">
                 My Projects
               </p>
             </div>
@@ -61,7 +61,8 @@ const Projects = () => {
           <div className="flex justify-start pt-8 gap-6">
             <a
               href="https://raikarsgoodvibes.com/"
-              // bg-[url('https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60')
+              target="_blank"
+              rel="noreferrer"
               className="flex px-8 py-2 text-xs md:text-base font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-[#033d35] bg-[#033d35] rounded shadow  active:bg-teal-600 hover:shadow-md ease"
             >
               <p className="text-white">Check the Website</p>
@@ -70,6 +71,8 @@ const Projects = () => {
 
             <a
               href="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
+              target="_blank"
+              rel="noreferrer"
               className="px-8 py-2 text-xs md:text-base font-bold text-[#033d35] uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
             >
               Case Study
@@ -102,8 +105,8 @@ const Projects = () => {
           <div className="flex justify-start pt-8 gap-6">
             <a
               href="https://www.behance.net/gallery/169935581/Glamor-AI"
-                
-              // bg-[url('https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60')
+              target="_blank"
+              rel="noreferrer"
               className="flex px-8 py-2 text-xs md:text-base font-semibold text-white uppercase transition-all duration-150 outline outline-2 outline-[#033d35] bg-[#033d35] rounded shadow  active:bg-teal-600 hover:shadow-md ease"
             >
               <p className="text-white">Case Study</p>
@@ -112,6 +115,7 @@ const Projects = () => {
 
             <a
               href="#_"
+              target="_blank"
               className="px-8 py-2 text-xs md:text-base font-bold text-[#033d35] uppercase transition-all duration-150 rounded shadow outline outline-2 active:bg-teal-600 hover:shadow-md"
             >
               Prototype

@@ -144,7 +144,7 @@ const Navbar = () => {
             <div className="items-center hidden md:flex h-full">
               <Link
                 to="/contact"
-                className="px-4 py-2 text-xs font-bold text-white uppercase bg-[#e76e50] rounded shadow outline-none  hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-[#ef785a] duration-300 ..."
+                className="buttonsmall " role="button"
               >
                 Contact
               </Link>

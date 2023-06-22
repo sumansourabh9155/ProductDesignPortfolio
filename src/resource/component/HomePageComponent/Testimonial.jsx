@@ -1,6 +1,5 @@
-
-import ReactGA from 'react-ga';
-ReactGA.initialize('G-R2Q7XQ6WBW');
+import ReactGA from "react-ga";
+ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 const Testimonial = () => {
   return (
@@ -23,47 +22,62 @@ const Testimonial = () => {
               </svg>
               See what others are saying
             </h2>
-            
 
-            <div className="items-center justify-center w-full mt-24 mb-12 lg:flex gap-10">
-              <div className="flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/3 lg:mb-0 ">
-                <div className="flex items-center justify-center ">
-                  <div className="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full " >
+            <div>
+              <div className="xl:px-20 px-8 py-20 2xl:mx-auto 2xl:container relative z-40">
+                <div className="mt-14 md:flex justify-center items-center">
+                  <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
                     <img
-                      src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2547&amp;q=80"
-                      className="object-cover w-full h-full"
-                      alt="John Doe"
-                    ></img>
+                      src="https://i.ibb.co/4g1D9cv/imgslider1.png"
+                      alt="profile"
+                      className="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded"
+                    />
+                    <div className="w-32 md:flex hidden items-center justify-center absolute top-0 -mr-16 -mt-14 right-0 h-32 bg-[#e76e50] rounded-full">
+                      <img
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonial-svg1.svg"
+                        alt="commas"
+                      />
+                    </div>
                   </div>
-                  <div className="flex flex-col items-start justify-center">
-                    <h4 className="font-bold text-gray-800">John Doe</h4>
-                    <p className="text-gray-600">CEO of Something</p>
+                  <div className="md:w-2/3 lg:w-2/3 xl:ml-32 md:ml-20 md:mt-0  flex flex-col justify-between">
+                    <div>
+                      
+                      <h1 className=" suman text-2xl md:pt-8 font-semibold text-gray-800">
+                        He was definitely the person who if commits would
+                        deliver with utmost excellence.
+                      </h1>
+                      <blockquote className="font-serif text-center md:text-left md:pt-4">
+                        <p className="mb-4">
+                          <span className="pr-1 font-serif text-2xl text-center text-red-600">
+                            "
+                          </span>
+                          Suman worked on our dream project as a UX/UI Design
+                          Lead. His gift to perfect the designs was seen since
+                          very beginning of the project in his every action.
+                          From understanding the product & brand to
+                          understanding founders vision to executing those
+                          minutest details. His sincerity and dedication to
+                          execute plans inspite of numerous huddles is what
+                          makes him true winner.I believe his this attitude and
+                          grit for his work will help him carve his mark in this
+                          Industry.
+                          <span className="pl-1 font-serif text-2xl text-red-600">
+                            "
+                          </span>
+                        </p>
+                      </blockquote>
+                      
+                    </div>
+                    <div className="md:mt-8 mt-4">
+                      <p className="suman text-xl font-semibold leading-4 text-gray-800">
+                        Samira Pujari
+                      </p>
+                      <p className="text-base leading-4 mt-2 mb-4 text-gray-600">
+                        Founder & Owner, Art & Décor Brand "RaikarsGoodVibes"
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <blockquote className="mt-8 text-lg text-gray-500">
-                  "This is a no-brainer if you want to take your business to the
-                  next level. If you are looking for the ultimate toolset, this
-                  is it!"
-                </blockquote>
-              </div>
-              <div className="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
-                <div className="flex items-center justify-center">
-                  <div className="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                    <img
-                      src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2547&amp;q=80"
-                      className="object-cover w-full h-full"
-                      alt="Jane Doe"
-                    ></img>
-                  </div>
-                  <div className="flex flex-col items-start justify-center">
-                    <h4 className="font-bold text-gray-800">Jane Doe</h4>
-                    <p className="text-gray-600">CTO of Business</p>
-                  </div>
-                </div>
-                <blockquote className="mt-8 text-lg text-gray-500">
-                  "Thanks for creating this service. My life is so much easier.
-                  Thanks for making such a great product."
-                </blockquote>
               </div>
             </div>
           </div>

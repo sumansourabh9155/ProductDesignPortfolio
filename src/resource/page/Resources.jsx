@@ -16,7 +16,7 @@ class Resources extends Component {
                   "url(https://images.unsplash.com/photo-1493934558415-9d19f0b2b4d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=854&q=80)",
               }}
             >
-              <p className=" relative container mx-auto p-4 flex items-center justify-center z-10 text-4xl md:text-7xl font-bold">
+              <p className="suman relative container mx-auto p-4 flex items-center justify-center z-10 text-4xl md:text-7xl font-bold">
                 Resources
               </p>
             </div>
