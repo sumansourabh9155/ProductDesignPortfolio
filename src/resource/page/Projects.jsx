@@ -20,11 +20,11 @@ const Projects = () => {
     <div>
       <Navbar />
 
-      <div className="pt-20 px-12 mb-32">
-        <div className=" dark:text-gray-100">
-          <section className=" text-[#033d35] -z-10 relative ">
+      <div className="pt-20  px-2 md:px-12 mb-32">
+        <div className="dark:text-gray-100 ">
+          <section className="text-[#033d35] -z-10  relative">
             <div
-              className="lg:h-80 md:h-56 sm:h-48 hero-image bg-right-bottom bg-cover flex"
+              className="lg:h-80 md:h-56 sm:h-48 hero-image w-full bg-right-bottom bg-cover flex"
               style={{
                 backgroundImage:
                   "url(https://images.unsplash.com/photo-1493934558415-9d19f0b2b4d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=854&q=80)",
@@ -38,14 +38,18 @@ const Projects = () => {
         </div>
 
         <div className="mb-40 pt-20">
-          <img className="md:px-[4rem] lg:px-[25rem] md:py-10" src={rakiar} alt="RaikarsGoodVibes" />
+          <img
+            className="md:px-[4rem] lg:px-[25rem] md:py-10"
+            src={rakiar}
+            alt="RaikarsGoodVibes"
+          />
           <div className="flex justify-between items-center">
-            <h2 className="text-5xl font-bold subheadline">RaikarsGoodVibes</h2>
+            <h2 className="text-2xl md:text-5xl font-bold subheadline">RaikarsGoodVibes</h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-              25 Oct 2022
+              Oct 2022
             </p>
           </div>
-          <p className="pt-5 text-xl text-gray-500">
+          <p className="pt-5 text-sm md:text-xl text-gray-500">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
             aspernatur commodi cum dignissimos magnam exercitationem non vero?
             Autem quaerat repellat ratione blanditiis vel, consequatur
@@ -60,14 +64,15 @@ const Projects = () => {
             <img className="w-12 " src={photoshop} alt="" />
           </div>
 
-          <div className="flex justify-start pt-8 gap-10">
+          <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
             <Link
               to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
               className="button-dark"
               target="_blank"
               role="button"
             >
-              Case study<img src={newtab} className="ml-2 w-8" alt="" />
+              Case study
+              <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
             <Link
               to="https://raikarsgoodvibes.com/"
@@ -84,12 +89,12 @@ const Projects = () => {
         <div className="lg:px-10">
           <img src={glamor} className="md:px-[0rem] lg:px-[4rem]" alt="" />
           <div className="flex justify-between items-center">
-            <h2 className="text-5xl font-bold subheadline">Glamor Ai</h2>
+            <h2 className="text-3xl md:text-5xl font-bold subheadline">Glamor Ai</h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-              25 Oct 2022
+              Oct 2022
             </p>
           </div>
-          <p className="pt-5 text-xl text-gray-500">
+          <p className="pt-5 text-sm md:text-xl text-gray-500">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
             aspernatur commodi cum dignissimos magnam exercitationem non vero?
             Autem quaerat repellat ratione blanditiis vel, consequatur
@@ -104,7 +109,7 @@ const Projects = () => {
             <img className="w-12 " src={photoshop} alt="" />
           </div>
 
-          <div className="flex justify-start pt-8 gap-6">
+          <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
             <Link
               to="https://www.behance.net/gallery/169935581/Glamor-AI"
               className="button-dark"
@@ -127,14 +132,20 @@ const Projects = () => {
         </div>
 
         <div className="lg:px-20">
-          <img src={hoodie} className="md:px-[0rem] lg:px-[7rem] pt-20" alt="" />
+          <img
+            src={hoodie}
+            className="md:px-[0rem] lg:px-[7rem] pt-20"
+            alt=""
+          />
           <div className="flex justify-between items-center">
-            <h2 className="text-5xl font-bold subheadline">See what others are saying</h2>
+            <h2 className="text-3xl md:text-5xl font-bold subheadline">
+              Hoodie Site
+            </h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-              25 Oct 2022
+              Oct 2022
             </p>
           </div>
-          <p className="pt-5 text-xl text-gray-500">
+          <p className="pt-5 text-sm md:text-xl text-gray-500">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
             aspernatur commodi cum dignissimos magnam exercitationem non vero?
             Autem quaerat repellat ratione blanditiis vel, consequatur
@@ -148,14 +159,15 @@ const Projects = () => {
             <img className="w-12 " src={illustrator} alt="" />
             <img className="w-12 " src={photoshop} alt="" />
           </div>
-          <div className="flex justify-start pt-8 gap-10">
+          <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
             <Link
               to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
               className="button-dark"
               target="_blank"
               role="button"
             >
-              Case study<img src={newtab} className="ml-2 w-8" alt="" />
+              Case study
+              <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
             <Link
               to="https://raikarsgoodvibes.com/"
@@ -170,14 +182,20 @@ const Projects = () => {
         </div>
 
         <div className="lg:px-20">
-          <img src={beauty} className="md:px-[0rem] lg:px-[8rem] pb-20 pt-40 " alt="" />
+          <img
+            src={beauty}
+            className="md:px-[0rem] lg:px-[8rem] pb-20 pt-40 "
+            alt=""
+          />
           <div className="flex justify-between items-center">
-            <h2 className="text-5xl font-bold subheadline">See what others are saying</h2>
+            <h2 className="text-3xl md:text-5xl font-bold subheadline">
+              Health Vatics
+            </h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-              25 Oct 2022
+              Oct 2022
             </p>
           </div>
-          <p className="pt-5 text-xl text-gray-500">
+          <p className="pt-5 text-sm md:text-xl text-gray-500">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
             aspernatur commodi cum dignissimos magnam exercitationem non vero?
             Autem quaerat repellat ratione blanditiis vel, consequatur
@@ -191,14 +209,15 @@ const Projects = () => {
             <img className="w-12 " src={illustrator} alt="" />
             <img className="w-12 " src={photoshop} alt="" />
           </div>
-          <div className="flex justify-start pt-8 gap-10">
+          <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
             <Link
               to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
               className="button-dark"
               target="_blank"
               role="button"
             >
-              Case study<img src={newtab} className="ml-2 w-8" alt="" />
+              Case study
+              <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
             <Link
               to="https://raikarsgoodvibes.com/"
@@ -212,15 +231,21 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="lg:px-20">
-          <img src={shoe} className="md:px-[0rem] lg:px-[12rem] md:pt-32 md:pb-10" alt="" />
+        <div className="lg:px-20 ">
+          <img
+            src={shoe}
+            className="md:px-[0rem] lg:px-[12rem] pt-20 md:pt-32 md:pb-10"
+            alt=""
+          />
           <div className="flex justify-between items-center">
-            <h2 className="text-5xl font-bold subheadline">See what others are saying</h2>
+            <h2 className="text-3xl md:text-5xl font-bold subheadline">
+              Shoe Store
+            </h2>
             <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-              25 Oct 2022
+              Oct 2022
             </p>
           </div>
-          <p className="pt-5 text-xl text-gray-500">
+          <p className="pt-5 text-sm md:text-xl text-gray-500">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
             aspernatur commodi cum dignissimos magnam exercitationem non vero?
             Autem quaerat repellat ratione blanditiis vel, consequatur
@@ -234,20 +259,21 @@ const Projects = () => {
             <img className="w-12 " src={illustrator} alt="" />
             <img className="w-12 " src={photoshop} alt="" />
           </div>
-          <div className="flex justify-start pt-8 gap-10">
+          <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
             <Link
               to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
               className="button-dark"
               target="_blank"
               role="button"
             >
-              Case study<img src={newtab} className="ml-2 w-8" alt="" />
+              Case study
+              <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
             <Link
               to="https://raikarsgoodvibes.com/"
               target="_blank"
               rel="noreferrer"
-              className="buttonlight "
+              className="buttonlight"
               role="button"
             >
               Website
