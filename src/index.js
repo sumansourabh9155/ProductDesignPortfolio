@@ -59,7 +59,7 @@ root.render(
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Resources" element={<Resources />} />
-        <Route path="/Avail" element={<Avail />} />
+        <Route path="/Maintenance" element={<Avail />} />
       </Routes>
     </Router>
   </div>

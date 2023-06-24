@@ -1,19 +1,45 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../component/Navbar";
+import Maintenance from "../../assets/buttons/Maintenance.png";
+import Footer from "../component/Footer";
 
 const Avail = () => {
   return (
-    <div><div className="object absolute animate-sway">
-    <div className="object-rope h-full w-5 bg-blue-500"></div>
-    <div className="object-shape bg-blue-500 w-100 h-100 rounded-full text-white text-center relative">
-      Coming <span className="soon text-white">Soon</span>
-    </div>
-  </div>
-  <div className="content flex flex-col items-center mx-auto max-w-500px pt-35vh px-20px">
-    <img className="logo max-w-300px" src="https://s3-ap-southeast-2.amazonaws.com/images.fitseeker.com.au/logo.svg" alt="Logo" />
-    <p className="message mt-40px text-center">Our brand new website will be launching in June 2018. Shoot us an email if you want to get in contact (remove spaces).</p>
-    <p className="mailtoaddress italic">admin @ fitseeker.com.au</p>
-  </div></div>
-  )
-}
+    <div>
+      <Navbar />
 
-export default Avail
+      {/* <div className="pt-20 px-1 md:px-12">
+        <div className=" dark:text-gray-100">
+          <section className=" text-[#033d35] -z-10 relative ">
+            <div
+              className="lg:h-80 md:h-56 sm:h-48 hero-image bg-right-bottom bg-cover flex"
+              style={{
+                backgroundImage:
+                  "url(https://images.unsplash.com/photo-1493934558415-9d19f0b2b4d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=854&q=80)",
+              }}
+            >
+              <p className="suman relative container mx-auto p-4 flex items-center justify-center z-10 text-4xl md:text-7xl font-bold">
+                About Me
+              </p>
+            </div>
+          </section>
+        </div>
+      </div> */}
+
+      <section class=" pt-16 ">
+        <div class=" px-4 mx-auto max-w-screen-md text-center lg:py-16 lg:px-12">
+          <img src={Maintenance} className="px-28" alt="Maintenance" />{" "}
+          <h1 class="mb-4 text-4xl font-bold tracking-tight leading-none suman lg:mb-6 md:text-5xl xl:text-6xl ">
+            Under Maintenance
+          </h1>
+          <p class="font-light  md:text-lg xl:text-xl ">
+            This page will be soon active.
+          </p>
+        </div>
+      </section>
+      <Footer/>
+    </div>
+  );
+};
+
+export default Avail;
