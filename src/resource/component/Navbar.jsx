@@ -38,7 +38,7 @@ const Navbar = () => {
           isScrolled ? "translate-y-0" : "-translate-y-24"
         }`}
       >
-        <header className="lg:px-0 w-[90%] md:w-[95%] text-gray-700 shadow-sm bottom body-font fixed item-center justify-between bg-white">
+        <header className="lg:px-0 w-[95%] md:w-[95%] text-gray-700 shadow-sm bottom body-font fixed item-center justify-between bg-white">
           <div className="container flex flex-col md:p-6 mx-auto md:flex-row justify-between items-center" >
             <div className="flex pt-4 gap-24 md:gap-40">
               <Link
