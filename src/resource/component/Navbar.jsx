@@ -38,9 +38,9 @@ const Navbar = () => {
           isScrolled ? "translate-y-0" : "-translate-y-24"
         }`}
       >
-        <header className="lg:px-0 w-[95%] text-gray-700 shadow-sm bottom body-font fixed item-center justify-between bg-white">
-          <div className="container flex flex-col p-6 mx-auto md:flex-row justify-between">
-            <div className="flex gap-40">
+        <header className="lg:px-0 w-[90%] md:w-[95%] text-gray-700 shadow-sm bottom body-font fixed item-center justify-between bg-white">
+          <div className="container flex flex-col md:p-6 mx-auto md:flex-row justify-between items-center" >
+            <div className="flex pt-2 gap-16 mf:gap-40">
               <Link
                 to={"/"}
                 className="mb-4 font-bold text-2xl text-gray-900 title-font md:mb-0"
@@ -51,7 +51,7 @@ const Navbar = () => {
               </Link>
               <div className="md:hidden">
                 <button
-                  className="flex items-center justify-center p-2 text-gray-900 transition-colors duration-200 rounded focus:outline-none hover:bg-gray-200"
+                  className="flex items-center justify-center md:p-2 text-gray-900 transition-colors duration-200 rounded focus:outline-none hover:bg-gray-200"
                   onClick={toggleMenu}
                 >
                   <svg
