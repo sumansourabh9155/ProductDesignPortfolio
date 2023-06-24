@@ -6,6 +6,7 @@ import Shoe from "../../../assets/Project/Shoe.png";
 import Hoodie from "../../../assets/Project/Hoodie.png";
 import Food from "../../../assets/Project/Food.png";
 import ReactGA from "react-ga";
+import { NavLink } from "react-router-dom";
 ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 const Project = () => {
@@ -19,53 +20,53 @@ const Project = () => {
       </h1>
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4 h-100">
         <div class="grid gap-4">
-          <div>
+          <NavLink to="/projects">
             <img
               class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Beauty}
               alt=""
             ></img>
-          </div>
-          <div>
+          </NavLink>
+          <NavLink to="/projects">
             <img
               class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Food}
               alt=""
             ></img>
-          </div>
+          </NavLink>
         </div>
-        <div class="grid gap-4">
-          <div>
+        <NavLink class="grid gap-4">
+          <NavLink to="/projects" >
             <img
               class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={About}
               alt=""
             ></img>
-          </div>
-          <div>
+          </NavLink>
+          <NavLink to="/projects">
             <img
               class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Glamor}
               alt=""
             ></img>
-          </div>
-        </div>
+          </NavLink>
+        </NavLink>
 
         <div class="grid gap-4 ">
-          <div className="hidden md:block">
+          <NavLink to="/projects" className="hidden md:block">
             <img
               class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Shoe}
               alt=""
             ></img>
-          </div>
-          <div className="hidden md:block">
+          </NavLink>
+          <NavLink to="/projects" className="hidden md:block">
             <img
               class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
               src={Hoodie}
               alt=""
             ></img>
-          </div>
+          </NavLink>
         </div>
       </div>
     </div>
