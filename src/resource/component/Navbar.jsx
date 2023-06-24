@@ -40,7 +40,7 @@ const Navbar = () => {
       >
         <header className="lg:px-0 w-[90%] md:w-[95%] text-gray-700 shadow-sm bottom body-font fixed item-center justify-between bg-white">
           <div className="container flex flex-col md:p-6 mx-auto md:flex-row justify-between items-center" >
-            <div className="flex pt-2 gap-16 mf:gap-40">
+            <div className="flex pt-2 gap-20 md:gap-40">
               <Link
                 to={"/"}
                 className="mb-4 font-bold text-2xl text-gray-900 title-font md:mb-0"
