@@ -11,15 +11,15 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-5 pt-28 pb-10">
-      <section className="texpattern-vertical-lines-xlt-black body-font justify-center scroll-smooth">
+    <div className="container mx-auto px-2 md:px-5 pt-20 md:pt-28 pb-10">
+      <section className=" body-font justify-center scroll-smooth">
         <div className="flex flex-col md:flex-row items-center">
           <div className="lg:flex-grow flex flex-col text-[#033d35] md:items-start md:text-left mb-16 md:mb-0 items-center text-center bg-none">
-            <p className="mb-4 leading-relaxed text-sm md:text-xl text-[#e76e50]">
+            <p className="mb-2 md:mb-4 leading-relaxed text-sm md:text-xl text-[#e76e50]">
               Designing for Impact:
             </p>
-            <h1 className=" text-2xl  md:text-6xl xl:text-7xl mb-4 font-bold suman">
-              Empowering{" "}
+            <h1 className="leading-loose  text-2xl  md:text-6xl xl:text-7xl mb-4 font-bold suman">
+              Empowering {" "}
               <span className="text-[#e76e50] suman">Purpose-Driven</span> Brands to Thrive
             </h1>
             <p className="mb-8 tracking-wide leading-relaxed opacity-80 text-sm md:text-base">
@@ -34,7 +34,7 @@ const HeroSection = () => {
               </Link>
             </div>
           </div>
-          <div className="w-full sm:w-40 lg:max-w-xl lg:w-full md:w-full xl:w-5/6 bg-contain bg-no-repeat md:ml-40 xl:mr-16">
+          <div className="w-full   sm:w-40 lg:max-w-xl lg:w-full md:w-full xl:w-5/6 bg-contain bg-no-repeat md:ml-40 xl:mr-16">
             <div className="w-full justify-center">
               <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <img

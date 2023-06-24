@@ -91,11 +91,11 @@ const WorkProcess = () => {
   ));
 
   return (
-    <div className="p-10  mt-20">
-      <p className="pb-2 relative flex items-start justify-start w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
+    <div className="px-2 md:px-10 mt-20">
+      <p className="pb-2 relative flex items-center justify-center w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
               To make the smooth process
             </p>
-      <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center suman">
+      <h1 className="title-font tracking-wide text-3xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center suman">
         Work Process I Use
       </h1>
       <div className="flex justify-center">

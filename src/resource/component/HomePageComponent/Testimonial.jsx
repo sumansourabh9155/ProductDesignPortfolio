@@ -4,10 +4,10 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 const Testimonial = () => {
   return (
     <div>
-      <section className="flex items-center justify-center py-20 bg-white min-w-screen">
+      <section className="flex items-center justify-center py-16 md:py-20 bg-white min-w-screen">
         <div className="md:px-16 bg-white">
           <div className="container flex flex-col items-start mx-auto lg:items-center">
-            <p className="relative pb-2 flex items-start justify-start w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
+            <p className="relative pb-2 flex items-center justify-center w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
               Don't just take our word for it
             </p>
 

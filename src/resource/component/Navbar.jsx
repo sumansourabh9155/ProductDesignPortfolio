@@ -124,7 +124,7 @@ const Navbar = () => {
 
             {/* Mobile menu, show/hide based on menu state */}
             <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
-              <div className="flex flex-col items-center pt-2 pb-4 space-y-1">
+              <div className="flex flex-col items-center pt-2 pb-4 space-y-1 bg-white">
                 <NavLink
                   to="/projects"
                   className={({ isActive, isPending }) =>

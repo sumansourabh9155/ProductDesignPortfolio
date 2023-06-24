@@ -5,7 +5,7 @@ ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 export const AboutMe = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center pt-24 px-12" >
+    <div className="flex flex-col lg:flex-row items-center pt-0 md:pt-24 px-2 md:px-12" >
       <div className="md:w-7/12 lg:w-5/12 hidden lg:block">
         <img src={suman} className=" rounded-tl-lg rounded-br-full" alt="description" />
       </div>
@@ -31,7 +31,7 @@ export const AboutMe = () => {
             <span className="pl-1 font-serif text-2xl text-red-600">"</span>
           </p>
           <div className="mb-4 w-3/5 border-b-2 border-orange-500 opacity-25 mx-auto lg:mx-0"></div>
-          <div className="pt-10">
+          <div className="flex justify-center  md:justify-start pt-0 sm:item-center md:pt-10">
             <Link
               to="/projects"
               className="button-dark " role="button"

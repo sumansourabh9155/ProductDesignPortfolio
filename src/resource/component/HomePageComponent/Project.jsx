@@ -11,10 +11,10 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 const Project = () => {
   return (
     <div>
-      <p className=" pb-2 relative flex items-start justify-start w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
+      <p className=" pb-2 pt-16  flex items-center justify-center w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
         Best of
       </p>
-      <h1 className="title-font tracking-wide sm:text-xl md:text-2xl xl:text-4xl mb-12 font-bold pb-5 flex justify-center suman">
+      <h1 className="title-font tracking-wide text-3xl md:text-2xl xl:text-4xl pb-7 md:mb-12 font-bold flex justify-center suman">
         My Projects
       </h1>
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4 h-100">
