@@ -18,7 +18,7 @@ const HeroSection = () => {
             <p className="mb-2 md:mb-4 leading-relaxed text-sm md:text-xl text-[#e76e50]">
               Designing for Impact:
             </p>
-            <h1 className="leading-loose  text-2xl  md:text-6xl xl:text-7xl mb-4 font-bold suman">
+            <h1 className="leading-normal text-4xl  md:text-6xl xl:text-7xl mb-4 font-bold suman">
               Empowering {" "}
               <span className="text-[#e76e50] suman">Purpose-Driven</span> Brands to Thrive
             </h1>
