@@ -19,8 +19,8 @@ const HeroSection = () => {
               Designing for Impact:
             </p>
             <h1 className="leading-normal text-4xl  md:text-6xl xl:text-7xl mb-4 font-bold suman">
-              Empowering {" "}
-              <span className="text-[#e76e50] suman">Purpose-Driven</span> Brands to Thrive
+              Empowering {" "}<br></br>
+              <span className="text-[#e76e50] suman">Purpose-Driven<br></br></span> Brands to Thrive
             </h1>
             <p className="mb-8 tracking-wide leading-relaxed opacity-80 text-sm md:text-base">
               Creating success stories by empowering visionaries. Unleashing growth potential with tailored solutions. Solutions that propel businesses to new heights.

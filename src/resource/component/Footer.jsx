@@ -1,8 +1,9 @@
-import instagram from "../../assets/Socal Media/icons8-instagram-250.png";
-import behance from "../../assets/Socal Media/icons8-behance-250.png";
-import github from "../../assets/Socal Media/icons8-github-250.png";
-import dribble from "../../assets/Socal Media/icons8-dribble-150.png";
-import Linkedin from "../../assets/Socal Media/icons8-linkedin-250.png";
+import instagram from "../../assets/Socal Media/icons8-instagram.png";
+import behance from "../../assets/Socal Media/icons8-behance.png";
+import github from "../../assets/Socal Media/icons8-github.png";
+import dribble from "../../assets/Socal Media/icons8-dribble.png";
+import Linkedin from "../../assets/Socal Media/icons8-linkedin.png";
+import { NavLink } from "react-router-dom";
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-R2Q7XQ6WBW');
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -10,79 +11,79 @@ const Footer = () => {
   return (
     <div>
       <section className="bg-white">
-        <hr className="w-full h-0.5 bg-gray-100" />
+        <hr className="w-full h-0.5 bg-[#e76e50] opacity-25" />
         <div className="max-w-screen-xl px-4 pt-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
           <nav className="flex flex-wrap justify-center -mx-5 -my-2">
             <div className="px-5 py-2">
-              <a
-                href="#"
+              <NavLink
+                to="/"
                 className="text-base leading-6 text-gray-500 hover:text-gray-900"
               >
                 Home
-              </a>
+              </NavLink>
             </div>
             <div className="px-5 pt-2">
-              <a
-                href="#"
+              <NavLink
+                to={"/about"}
                 className="text-base leading-6 text-gray-500 hover:text-gray-900"
               >
                 About Me
-              </a>
+              </NavLink>
             </div>
             <div className="px-5 py-2">
-              <a
-                href="#"
+              <NavLink
+                to={"/blog"}
                 className="text-base leading-6 text-gray-500 hover:text-gray-900"
               >
                 Blog
-              </a>
+              </NavLink>
             </div>
             <div className="px-5 py-2">
-              <a
-                href="#"
+              <NavLink
+                to={"/projects"}
                 className="text-base leading-6 text-gray-500 hover:text-gray-900"
               >
                 Projects
-              </a>
+              </NavLink>
             </div>
 
             <div className="px-5 py-2">
-              <a
-                href="#"
+              <NavLink
+                to={"/resources"}
                 className="text-base leading-6 text-gray-500 hover:text-gray-900"
               >
                 Resources
-              </a>
+              </NavLink>
             </div>
             <div className="px-5 py-2">
-              <a
-                href="#"
+              <NavLink
+                to={"/contact"}
                 className="text-base leading-6 text-gray-500 hover:text-gray-900"
               >
                 Contact
-              </a>
+              </NavLink>
             </div>
           </nav>
           <div className="flex justify-center mt-8 space-x-6">
-            <a href="#" className="text-gray-400 hover:text-gray-500">
-              <span className="sr-only">Facebook</span>
-              <img className="w-12" src={behance}></img>
+            <a href="https://www.behance.net/sumansourabh" className="text-gray-400 hover:text-gray-500">
+              <span className="sr-only">Behance</span>
+              <img className="w-12" src={behance} alt="behance link"></img>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-500">
+            <a href="https://www.instagram.com/ux.suman/" className="text-gray-400 hover:text-gray-500">
               <span className="sr-only">Instagram</span>
-              <img className="w-12" src={instagram}></img>
+              <img className="w-12" src={instagram} alt="instagram link"></img>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-500">
-              <span className="sr-only">Twitter</span>
-              <img className="w-12" src={dribble}></img>
+            <a href="https://dribbble.com/sumansourabh9155" className="text-gray-400 hover:text-gray-500">
+              <span className="sr-only">Dribble</span>
+              <img className="w-12" src={dribble} alt="dribble link"></img>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-500">
+            <a href="https://github.com/sumansourabh9155"  className="text-gray-400 hover:text-gray-500">
               <span className="sr-only">GitHub</span>
-              <img className="w-12" src={github}></img>
+              <img className="w-12" src={github} alt="github link"></img>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-500">
-              <span className="sr-only">GitHub</span>
-              <img className="w-12" src={Linkedin}></img>
+            <a href="https://www.linkedin.com/in/sumansourabh9155/" className="text-gray-400 hover:text-gray-500">
+              <span className="sr-only">Linkedin</span>
+              <img className="w-12" src={Linkedin} alt="linkedin link"></img>
             </a>
           </div>
           <p className="mt-8 text-base leading-6 text-center text-gray-400">
