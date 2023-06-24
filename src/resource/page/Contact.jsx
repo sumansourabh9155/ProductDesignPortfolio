@@ -3,10 +3,11 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
-
-import ReactGA from 'react-ga';
-ReactGA.initialize('G-R2Q7XQ6WBW');
+import ReactGA from "react-ga";
+import PopupModal from "../component/Contact/PopupModal";
+ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
+
 // Initialize Firebase app
 const firebaseConfig = {
   // Your Firebase configuration
@@ -18,6 +19,7 @@ const firebaseConfig = {
   appId: "1:199578535552:web:79d6b232a8dced3e6fc865",
   measurementId: "G-9RLEFPMZE5",
 };
+
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
@@ -28,11 +30,11 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [newsletter, setNewsletter] = useState(false);
   const [selectedOption, setSelectedOption] = useState("UI/UX");
+  const [isMessageSent, setIsMessageSent] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Create a new document in the "contacts" collection
     try {
       const docRef = await addDoc(collection(db, "contacts"), {
         firstName,
@@ -44,38 +46,42 @@ const Contact = () => {
       });
       console.log("Document written with ID: ", docRef.id);
 
-      // Clear form fields after submission
       setFirstName("");
       setLastName("");
       setEmail("");
       setMessage("");
       setNewsletter(false);
       setSelectedOption("UI/UX");
+
+      setIsMessageSent(true);
     } catch (error) {
       console.error("Error adding document: ", error);
     }
   };
 
+  const handlePopupClose = () => {
+    setIsMessageSent(false);
+  };
+
   return (
     <div>
       <Navbar />
-      <div className=" dark:text-gray-100 pt-20">
-          <section className=" text-[#033d35] -z-10 relative ">
-            <div
-              className="lg:h-80 md:h-56 sm:h-48 hero-image bg-right-bottom bg-cover flex"
-              style={{
-                backgroundImage:
-                  "url(https://images.unsplash.com/photo-1493934558415-9d19f0b2b4d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=854&q=80)",
-              }}
-            >
-              <p className=" relative container mx-auto p-4 flex items-center justify-center z-10 text-4xl md:text-7xl font-bold suman">
-               Get In Touch
-              </p>
-            </div>
-          </section>
-        </div>
+      <div className="dark:text-gray-100 pt-20">
+        <section className="text-[#033d35] -z-10 relative">
+          <div
+            className="lg:h-80 md:h-56 sm:h-48 hero-image bg-right-bottom bg-cover flex"
+            style={{
+              backgroundImage:
+                "url(https://images.unsplash.com/photo-1493934558415-9d19f0b2b4d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=854&q=80)",
+            }}
+          >
+            <p className="relative container mx-auto p-4 flex items-center justify-center z-10 text-4xl md:text-7xl font-bold suman">
+              Get In Touch
+            </p>
+          </div>
+        </section>
+      </div>
       <div className="max-w-screen-md mx-auto md:p-5 pt-20">
-        
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -164,38 +170,50 @@ const Contact = () => {
                 className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 htmlFor="grid-message"
               >
-                *Your Message
+                *Message
               </label>
               <textarea
-                rows="10"
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="resize-none appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="grid-message"
+                rows="8"
+                placeholder="Write your message here..."
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
             </div>
           </div>
-
-          <div className="flex justify-between items-center w-full pt-3 md:pt-5 pb-16">
-            <div className="md:flex md:items-center">
-              <label className="block text-gray-500 font-bold">
-                <input
-                  className="mr-2 leading-tight"
-                  type="checkbox"
-                  checked={newsletter}
-                  onChange={(e) => setNewsletter(e.target.checked)}
-                />
-                <span className="text-sm">Get newsletter!</span>
-              </label>
+          <div className="flex justify-between items-center">
+            <div className="flex flex-wrap -mx-3 mb-6">
+              <div className="w-full px-3">
+                <label className="inline-flex items-center">
+                  <input
+                    type="checkbox"
+                    className="form-checkbox h-5 w-5 text-gray-600"
+                    checked={newsletter}
+                    onChange={(e) => setNewsletter(e.target.checked)}
+                  />
+                  <span className="ml-2 text-gray-700">
+                    Get newsletter
+                  </span>
+                </label>
+              </div>
             </div>
-            <button
-              className="buttonsmalldark "  type="submit"
-            >
-              Send
-            </button>
+            <div className="flex flex-wrap -mx-3 mb-2">
+              <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                <button className="buttonsmalldark" type="submit">
+                  Submit
+                </button>
+              </div>
+            </div>
           </div>
         </form>
       </div>
+      {isMessageSent && (
+        <PopupModal onClose={handlePopupClose}>
+          <h2 className="text-xl font-bold mb-4">Thank you!</h2>
+          <p>Your message has been sent successfully.</p>
+        </PopupModal>
+      )}
       <Footer />
     </div>
   );
