@@ -33,7 +33,7 @@ const Avail = () => {
             Under Maintenance
           </h1>
           <p class="font-light  md:text-lg xl:text-xl ">
-            This page will be soon active.
+            This page will soon be active.
           </p>
         </div>
       </section>

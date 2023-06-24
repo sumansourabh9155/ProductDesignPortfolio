@@ -74,7 +74,7 @@ const Contact = () => {
             </div>
           </section>
         </div>
-      <div className="max-w-screen-md mx-auto p-5 pt-20">
+      <div className="max-w-screen-md mx-auto md:p-5 pt-20">
         
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="flex flex-wrap -mx-3 mb-6">
@@ -89,7 +89,7 @@ const Contact = () => {
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                 id="grid-first-name"
                 type="text"
-                placeholder="Jane"
+                placeholder="Mark"
                 value={firstName}
                 onChange={(e) => setFirstName(e.target.value)}
               />
@@ -147,11 +147,14 @@ const Contact = () => {
               value={selectedOption}
               onChange={(e) => setSelectedOption(e.target.value)}
             >
+              <option value="UI/UX">Select</option>
               <option value="UI/UX">UI/UX</option>
+              <option value="UI/UX">Hire</option>
               <option value="Website Design">Website Design</option>
               <option value="Website Development">Website Development</option>
               <option value="Graphic Design">Graphic Design</option>
               <option value="Events">Events</option>
+              <option value="Events">Others</option>
             </select>
           </div>
 
@@ -173,7 +176,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="flex justify-between w-full px-3 py-10">
+          <div className="flex justify-between items-center w-full pt-3 md:pt-5 pb-16">
             <div className="md:flex md:items-center">
               <label className="block text-gray-500 font-bold">
                 <input
@@ -182,13 +185,13 @@ const Contact = () => {
                   checked={newsletter}
                   onChange={(e) => setNewsletter(e.target.checked)}
                 />
-                <span className="text-sm">Send me your newsletter!</span>
+                <span className="text-sm">Get newsletter!</span>
               </label>
             </div>
             <button
-              className="button-dark "  type="submit"
+              className="buttonsmalldark "  type="submit"
             >
-              Send Message
+              Send
             </button>
           </div>
         </form>
