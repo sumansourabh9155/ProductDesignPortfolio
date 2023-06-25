@@ -54,7 +54,7 @@ root.render(
         <Route path="/home" element={<LandingPage />} />
         <Route path="/contactme" element={<Navigate replace to="/contact" />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/Admin" element={<Admin />} />
+        <Route path="/sumanAdmin" element={<Admin />} />
         <Route path="/About" element={<About />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Blog" element={<Blog />} />
