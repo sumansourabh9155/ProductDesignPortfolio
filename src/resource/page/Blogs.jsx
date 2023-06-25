@@ -1,12 +1,13 @@
 import React from "react";
 import Navbar from "../component/Navbar";
+import Footer from "../component/Footer";
 import Post from "../component/Blog/Post";
 
 const Blogs = () => {
   return (
     <div>
-        <Navbar />
-        <div className="px-12 pt-20">
+      <Navbar />
+      <div className="px-1 md:px-12 pt-20 pb-10 md:pb-20">
         <div className=" dark:text-gray-100">
           <section className=" text-[#033d35] -z-10 relative ">
             <div
@@ -22,9 +23,11 @@ const Blogs = () => {
             </div>
           </section>
         </div>
-        <Post/>
-        </div>
-        </div>
+        <Post />
+      </div>
+
+      <Footer />
+    </div>
   );
 };
 
