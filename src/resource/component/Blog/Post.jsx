@@ -5,10 +5,10 @@ const Post = () => {
     <div>
       <div className="container">
         <div>
-          <p className="subheadline text-4xl pt-20 flex justify-center font-bold">
+          <p className="subheadline text-4xl pt-5 md:pt-20 flex justify-center font-bold">
             Difference between UI and UX
           </p>
-          <div className="flex pt-10">
+          <div className="flex pt-5 md:pt-10">
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
               <div>
                 <img
@@ -52,9 +52,9 @@ const Post = () => {
         </div>
       </div>
 
-      <div className="container pt-20">
+      <div className="container pt-5 md:pt-20">
         <div>
-          <p className="text-4xl pt-20 flex justify-center font-bold">
+          <p className="subheadline text-4xl pt-5 md:pt-20 flex justify-center font-bold">
             UX and its's Myths
           </p>
           <div className="flex pt-10">
@@ -100,9 +100,9 @@ const Post = () => {
         </div>
       </div>
 
-      <div className="container pt-20">
+      <div className="container pt-5 md:pt-20">
         <div>
-          <p className="text-4xl pt-20 flex justify-center font-bold">
+          <p className="subheadline text-4xl pt-5 md:pt-20 flex justify-center font-bold">
             Elements to create great Design
           </p>
           <div className="flex pt-10">
@@ -155,9 +155,9 @@ const Post = () => {
         </div>
       </div>
 
-      <div className="container pt-20">
+      <div className=" subheadline container pt-5 md:pt-20">
         <div>
-          <p className="text-4xl pt-20 flex justify-center font-bold">
+          <p className="text-4xl pt-5 md:pt-20 flex justify-center font-bold">
             Emotion Conveyed by Colors
           </p>
           <div className="flex pt-10">
@@ -224,9 +224,9 @@ const Post = () => {
         </div>
       </div>
 
-      <div className="container pt-20">
+      <div className="container pt-5 md:pt-20">
         <div>
-          <p className="text-4xl pt-20 flex justify-center font-bold">
+          <p className="subheadline text-4xl pt-5 md:pt-20 flex justify-center font-bold">
             Emotion Conveyed by Typography
           </p>
           <div className="flex pt-10">
@@ -299,9 +299,9 @@ const Post = () => {
         </div>
       </div>
 
-      <div className="container pt-20">
+      <div className="container pt-5 md:pt-20">
         <div>
-          <p className="text-4xl pt-20 flex justify-center font-bold">
+          <p className="subheadline text-4xl pt-5 md:pt-20 flex justify-center font-bold">
             Emotion Conveyed by Shapes
           </p>
           <div className="flex pt-10">
@@ -316,7 +316,36 @@ const Post = () => {
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
+                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172578&authkey=%21ADUSRIlqETgpBYM&width=999999&height=660"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  class="h-auto max-w-full rounded-lg"
                   src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172573&authkey=%21ALsArR6xEeO8W2k&width=999999&height=660"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <img
+                  class="h-auto max-w-full rounded-lg"
+                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172574&authkey=%21ABmnSSESZgmxQMg&width=999999&height=660"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  class="h-auto max-w-full rounded-lg"
+                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172579&authkey=%21AMEApJaHdPCqEBg&width=999999&height=660"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  class="h-auto max-w-full rounded-lg"
+                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172577&authkey=%21AFMwN9FYo2qgfY4&width=999999&height=660"
                   alt=""
                 />
               </div>
@@ -334,38 +363,42 @@ const Post = () => {
                   alt=""
                 />
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container pt-5 md:pt-20">
+        <div>
+          <p className="subheadline text-4xl pt-5 md:pt-20 flex justify-center font-bold">
+            Correct Way to place Button
+          </p>
+          <div className="flex pt-10">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172541&authkey=%21AE4q1WB4lClUukU&width=999999&height=660"
+                alt=""
+              />
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172574&authkey=%21ABmnSSESZgmxQMg&width=999999&height=660"
+                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172542&authkey=%21AJSZ00kcCpjEZS4&width=999999&height=660"
                   alt=""
                 />
               </div>
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172548&authkey=%21AN3dUkByfduh8bk&width=999999&height=660"
+                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172543&authkey=%21AJ9H_AQt0O_TuJc&width=999999&height=660"
                   alt=""
                 />
               </div>
+
               <div>
                 <img
                   class="h-auto max-w-full rounded-lg"
-                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172549&authkey=%21AABof-h7JewbI1U&width=999999&height=660"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172550&authkey=%21AGQbe81yVx49Dyg&width=999999&height=660"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172551&authkey=%21AP_tgPQSP6IB70k&width=999999&height=660"
+                  src="https://onedrive.live.com/embed?resid=F51969D09871E9F7%21172544&authkey=%21ANc8YOuSC6vFsqU&width=999999&height=660"
                   alt=""
                 />
               </div>
@@ -373,6 +406,8 @@ const Post = () => {
           </div>
         </div>
       </div>
+
+      
     </div>
   );
 };
