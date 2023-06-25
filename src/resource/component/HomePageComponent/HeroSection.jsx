@@ -47,18 +47,7 @@ const HeroSection = () => {
                   <img className="h-12 pl-3 p-3" src={play} alt="" />
                 </button>
               </NavLink>
-              {/* <NavLink to="/projects" className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                <img
-                  className="object-cover object-center rounded-xl brightness-95 hover:brightness-100 h-40 w-full my-4"
-                  alt="hero"
-                  src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                  loading="lazy"
-                />
-                <button className="absolute bottom-0 left-5 bg-white text-white rounded-full hover:bg-white m-2">
-                  <img className="h-12 pl-3 p-3" src={play} alt="" />
-                </button>
-              </NavLink> */}
-              <NavLink to="/projects" className="hidden md:block relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+              <NavLink to="/projects" className="hidden md:block relative transition  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <img
                   className="object-cover object-center rounded-xl brightness-95 hover:brightness-100 h-40 w-full my-4"
                   alt="hero"

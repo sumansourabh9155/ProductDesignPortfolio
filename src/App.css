@@ -1,38 +1,61 @@
 * {
   padding-left: 3px;
   padding-right: 3px;
-  font-family: "Karla", sans-serif; 
+  font-family: "Karla", sans-serif;
   color: #033d35;
   /* background-color: black; */
 }
-.suman{
-  font-family: 'Lato', sans-serif;
+.suman {
+  font-family: "Lato", sans-serif;
   font-weight: 800;
 }
-.subheadline{
-  font-family: 'PT Sans', sans-serif;
+.subheadline {
+  font-family: "PT Sans", sans-serif;
 }
-.gradient{
+.gradient {
   box-shadow: 1px 0 5px -5px #333, 0 -5px 12px -12px #333, -1px 0 5px -5px #333;
-			
-  
 }
+.shadowsuman{
+  box-shadow: 0 -5px 5px -5px #e76e50;
+}
+/* .shadowsuman {
+  
+  box-shadow: 0 -5px 5px -5px #e76e50;
+  background: linear-gradient(
+    to top,
+    #ffffff 20%, 
+    #ffcdc0 40% ,
+    #ffcdc0 40% ,
+    #e76e50 2% 
+    );
+} */
+/* .sumanright {
+  box-shadow: -5px 0 5px -5px #333;
+} */
+/* .bottom  */
+/* box-shadow: 0 5px 5px -5px #333; */
+
+/* .left  */
+/* box-shadow: 5px 0 5px -5px #333; */
+
 .bottom {
-  box-shadow: 0px 15px 10px -15px #ffe1da;    
+  box-shadow: 0px 15px 10px -15px #ffe1da;
 }
 .hero-image::after {
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0,
+    #fff 100%
+  );
   bottom: 0;
   left: 0;
   right: 0;
   height: 65vh;
   width: 100%;
-  content: '';
+  content: "";
 }
-
-
 
 /* CSS */
 .button-dark {
@@ -60,12 +83,12 @@
 
 .button-dark::after,
 .button-dark::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -99999;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .button-dark::before {
@@ -104,10 +127,7 @@
   transform: translate(0, 5%);
 }
 
-
-
 /* Light */
-
 
 /* CSS */
 .buttonlight {
@@ -135,12 +155,12 @@
 
 .buttonlight::after,
 .buttonlight::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -99999;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .buttonlight::before {
@@ -179,12 +199,8 @@
   transform: translate(0, 5%);
 }
 
-
-
-
-
 /* CSS */
-.buttonsmall{
+.buttonsmall {
   all: unset;
   width: 100px;
   height: 30px;
@@ -209,12 +225,12 @@
 
 .buttonsmall::after,
 .buttonsmall::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -99999;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .buttonsmall::before {
@@ -253,10 +269,7 @@
   transform: translate(0, 5%);
 }
 
-
-
-
-.buttonsmalldark{
+.buttonsmalldark {
   all: unset;
   width: 100px;
   height: 30px;
@@ -281,12 +294,12 @@
 
 .buttonsmalldark::after,
 .buttonsmalldark::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -99999;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .buttonsmalldark::before {

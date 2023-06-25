@@ -31,7 +31,7 @@ const Testimonial = () => {
                     <img
                       src={sam}
                       alt="profile"
-                      className="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded"
+                      className="w-full h-full flex-shrink-0 object-fit object-cover hover:shadow-[0px_16px_49px_0px_#e76e5025] rounded-xl"
                     />
                     <div className="w-32 md:flex hidden items-center justify-center absolute top-0 -mr-16 -mt-14 right-0 h-32 bg-[#e76e50] rounded-full">
                       <svg
