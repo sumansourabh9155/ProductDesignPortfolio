@@ -82,6 +82,7 @@ const Projects = () => {
               role="button"
             >
               Website
+              <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
           </div>
         </div>
@@ -120,13 +121,14 @@ const Projects = () => {
               <img src={newtab} className="w-8" alt="" />
             </Link>
             <Link
-              href="#"
+              to="https://www.figma.com/file/ds2rCYBjXFbWftxLplklMP/GlamorAI.-(App-Design)?type=design&node-id=187%3A3591&mode=design&t=63GZWHjxyevgMXrS-1"
               target="_blank"
               rel="noreferrer"
               className="buttonlight "
               role="button"
-            >
-              Prototype
+            > 
+              Figma File
+              <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
           </div>
         </div>
@@ -161,22 +163,23 @@ const Projects = () => {
           </div>
           <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
             <Link
-              to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
+              to="https://www.behance.net/gallery/170990813/Zodiac"
               className="button-dark"
               target="_blank"
               role="button"
             >
-              Case study
+              Behance
               <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
             <Link
-              to="https://raikarsgoodvibes.com/"
+              to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
               target="_blank"
               rel="noreferrer"
               className="buttonlight "
               role="button"
             >
-              Website
+              Figma File
+              <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
           </div>
         </div>
@@ -211,22 +214,23 @@ const Projects = () => {
           </div>
           <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
             <Link
-              to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
+              to="https://www.behance.net/gallery/168500405/HealthVatica"
               className="button-dark"
               target="_blank"
               role="button"
             >
-              Case study
+              Behance
               <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
             <Link
-              to="https://raikarsgoodvibes.com/"
+              to="https://www.figma.com/file/sZq7nHDWcZOtqaiWbL3KRM/Beauty-Product-E-commerse-site?type=design&node-id=650%3A279&mode=design&t=ZSnLBu7Xdp05mENY-1"
               target="_blank"
               rel="noreferrer"
               className="buttonlight "
               role="button"
             >
-              Website
+              Figma File
+              <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
           </div>
         </div>
@@ -261,22 +265,23 @@ const Projects = () => {
           </div>
           <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
             <Link
-              to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
+              to="https://www.behance.net/gallery/168500089/Sneakers-Landing-page"
               className="button-dark"
               target="_blank"
               role="button"
             >
-              Case study
+              Behance
               <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
             <Link
-              to="https://raikarsgoodvibes.com/"
+              to="https://www.figma.com/community/file/1188097982700213814"
               target="_blank"
               rel="noreferrer"
               className="buttonlight"
               role="button"
             >
-              Website
+              Figma File
+              <img src={newtab} className="ml-2 w-8" alt="" />
             </Link>
           </div>
         </div>
