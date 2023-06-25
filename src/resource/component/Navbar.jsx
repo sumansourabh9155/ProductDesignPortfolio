@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div>
       <div
-        className={`fixed w-full transition-transform duration-300 ${
+        className={`fixed w-full transition-transform duration-300 z-10 ${
           isScrolled ? "translate-y-0" : "-translate-y-24"
         }`}
       >

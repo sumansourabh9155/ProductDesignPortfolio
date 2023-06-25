@@ -18,8 +18,8 @@ const Project = () => {
       <h1 className="title-font tracking-wide text-3xl md:text-2xl xl:text-4xl pb-7 md:mb-12 font-bold flex justify-center suman">
         My Projects
       </h1>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 h-100">
-        <div class="grid gap-4">
+      <div class="grid grid-cols-2 md:grid-cols-3 md:px-12 gap-4 h-100">
+        <div class="grid gap-3">
           <NavLink to="/projects">
             <img
               class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
@@ -35,7 +35,7 @@ const Project = () => {
             ></img>
           </NavLink>
         </div>
-        <NavLink class="grid gap-4">
+        <NavLink class="grid gap-3">
           <NavLink to="/projects" >
             <img
               class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
@@ -52,7 +52,7 @@ const Project = () => {
           </NavLink>
         </NavLink>
 
-        <div class="grid gap-4 ">
+        <div class="grid gap-3 ">
           <NavLink to="/projects" className="hidden md:block">
             <img
               class="h-auto max-w-full rounded-lg brightness-75 hover:brightness-100"
