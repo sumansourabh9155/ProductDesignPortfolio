@@ -1,4 +1,5 @@
 import ReactGA from "react-ga";
+import sam from "../../../assets/images/sam.jpg";
 ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 const Testimonial = () => {
@@ -28,7 +29,7 @@ const Testimonial = () => {
                 <div className="mt-14 md:flex justify-center items-center">
                   <div className="relative lg:w-1/2 h-80 w-72 xl:h-96 ">
                     <img
-                      src="https://i.ibb.co/4g1D9cv/imgslider1.png"
+                      src={sam}
                       alt="profile"
                       className="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded"
                     />
