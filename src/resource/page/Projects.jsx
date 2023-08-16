@@ -7,6 +7,20 @@ import beauty from "../../assets/mockup/beautymockup.png";
 import glamor from "../../assets/mockup/Glamormockup.png";
 import shoe from "../../assets/mockup/showmockup.png";
 import rakiar from "../../assets/mockup/raikarmockup.png";
+import gym from "../../assets/mockup/gym.webp";
+import jwell from "../../assets/mockup/jewll.webp";
+import fashion from "../../assets/mockup/fashion.webp";
+import dog from "../../assets/mockup/dog.webp";
+import law from "../../assets/mockup/law.webp";
+import drink from "../../assets/mockup/drink.webp";
+import fainance from "../../assets/mockup/fainance.webp";
+import nft from "../../assets/mockup/nft.webp";
+import shopping from "../../assets/mockup/shopping.webp";
+import anime from "../../assets/mockup/anime.webp";
+import dress from "../../assets/mockup/dress.webp";
+import sneekers from "../../assets/mockup/sneekers.webp";
+import pizza from "../../assets/mockup/pizza.webp";
+
 import figma from "../../assets/icon/figma.png";
 import illustrator from "../../assets/icon/illustrator.png";
 import photoshop from "../../assets/icon/photoshop.png";
@@ -37,252 +51,570 @@ const Projects = () => {
           </section>
         </div>
 
-        <div className="mb-40 pt-20">
-          <img
-            className="md:px-[4rem] lg:px-[25rem] md:py-10"
-            src={rakiar}
-            alt="RaikarsGoodVibes"
-          />
-          <div className="flex justify-between items-center">
-            <h2 className="text-2xl md:text-5xl font-bold subheadline">RaikarsGoodVibes</h2>
-            <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-              Oct 2022
+        <div className="grid grid-cols-1 md:grid-cols-2 ">
+          {/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
+
+          <div className="lg:px-16">
+            <img
+              src={fashion}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Style Maven
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
             </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
           </div>
-          <p className="pt-5 text-sm md:text-xl text-gray-500">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-            aspernatur commodi cum dignissimos magnam exercitationem non vero?
-            Autem quaerat repellat ratione blanditiis vel, consequatur
-            voluptatibus iste dolore impedit unde ducimus numquam illum,
-            exercitationem quam excepturi voluptatum ad deleniti asperiores
-            itaque incidunt animi quibusdam ex suscipit. Expedita accusantium
-            nam consequatur veniam?
-          </p>
-          <div className="flex pt-6 gap-4">
-            <img className="w-12 " src={figma} alt="" />
-            <img className="w-12 " src={illustrator} alt="" />
-            <img className="w-12 " src={photoshop} alt="" />
-          </div>
+          {/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
 
-          <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
-            <Link
-              to="https://www.behance.net/gallery/170593097/RaikarsGoodVibes"
-              className="button-dark"
-              target="_blank"
-              role="button"
-            >
-              Case study
-              <img src={newtab} className="ml-2 w-8" alt="" />
-            </Link>
-            <Link
-              to="https://raikarsgoodvibes.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="buttonlight "
-              role="button"
-            >
-              Website
-              <img src={newtab} className="ml-2 w-8" alt="" />
-            </Link>
-          </div>
-        </div>
-
-        <div className="lg:px-10">
-          <img src={glamor} className="md:px-[0rem] lg:px-[4rem]" alt="" />
-          <div className="flex justify-between items-center">
-            <h2 className="text-3xl md:text-5xl font-bold subheadline">Glamor Ai</h2>
-            <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-              Oct 2022
+          <div className="lg:px-16">
+            <img
+              src={jwell}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Jewellery Shop
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              aspernatur commodi cum dignissimos magnam exercitationem non vero?
+              Autem
             </p>
-          </div>
-          <p className="pt-5 text-sm md:text-xl text-gray-500">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-            aspernatur commodi cum dignissimos magnam exercitationem non vero?
-            Autem quaerat repellat ratione blanditiis vel, consequatur
-            voluptatibus iste dolore impedit unde ducimus numquam illum,
-            exercitationem quam excepturi voluptatum ad deleniti asperiores
-            itaque incidunt animi quibusdam ex suscipit. Expedita accusantium
-            nam consequatur veniam?
-          </p>
-          <div className="flex pt-4 gap-4">
-            <img className="w-12 " src={figma} alt="" />
-            <img className="w-12 " src={illustrator} alt="" />
-            <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
           </div>
 
-          <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
-            <Link
-              to="https://www.behance.net/gallery/169935581/Glamor-AI"
-              className="button-dark"
-              target="_blank"
-              role="button"
-            >
-              Case Study
-              <img src={newtab} className="w-8" alt="" />
-            </Link>
-            <Link
-              to="https://www.figma.com/file/ds2rCYBjXFbWftxLplklMP/GlamorAI.-(App-Design)?type=design&node-id=187%3A3591&mode=design&t=63GZWHjxyevgMXrS-1"
-              target="_blank"
-              rel="noreferrer"
-              className="buttonlight "
-              role="button"
-            > 
-              Figma File
-              <img src={newtab} className="ml-2 w-8" alt="" />
-            </Link>
-          </div>
-        </div>
+          {/* --------------------------------------------------drink ------------------------------------------------------------- */}
 
-        <div className="lg:px-20">
-          <img
-            src={hoodie}
-            className="md:px-[0rem] lg:px-[7rem] pt-20"
-            alt=""
-          />
-          <div className="flex justify-between items-center">
-            <h2 className="text-3xl md:text-5xl font-bold subheadline">
-              Hoodie Site
-            </h2>
-            <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-              Oct 2022
+          <div className="lg:px-16">
+            <img
+              src={drink}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Natural Fruit Juice
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              aspernatur commodi cum dignissimos magnam exercitationem non vero?
+              Autem
             </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
           </div>
-          <p className="pt-5 text-sm md:text-xl text-gray-500">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-            aspernatur commodi cum dignissimos magnam exercitationem non vero?
-            Autem quaerat repellat ratione blanditiis vel, consequatur
-            voluptatibus iste dolore impedit unde ducimus numquam illum,
-            exercitationem quam excepturi voluptatum ad deleniti asperiores
-            itaque incidunt animi quibusdam ex suscipit. Expedita accusantium
-            nam consequatur veniam?
-          </p>
-          <div className="flex pt-4 gap-4">
-            <img className="w-12 " src={figma} alt="" />
-            <img className="w-12 " src={illustrator} alt="" />
-            <img className="w-12 " src={photoshop} alt="" />
-          </div>
-          <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
-            <Link
-              to="https://www.behance.net/gallery/170990813/Zodiac"
-              className="button-dark"
-              target="_blank"
-              role="button"
-            >
-              Behance
-              <img src={newtab} className="ml-2 w-8" alt="" />
-            </Link>
-            <Link
-              to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
-              target="_blank"
-              rel="noreferrer"
-              className="buttonlight "
-              role="button"
-            >
-              Figma File
-              <img src={newtab} className="ml-2 w-8" alt="" />
-            </Link>
-          </div>
-        </div>
-
-        <div className="lg:px-20">
-          <img
-            src={beauty}
-            className="md:px-[0rem] lg:px-[8rem] pb-20 pt-40 "
-            alt=""
-          />
-          <div className="flex justify-between items-center">
-            <h2 className="text-3xl md:text-5xl font-bold subheadline">
-              Health Vatics
-            </h2>
-            <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-              Oct 2022
+          <div className="lg:px-16">
+            <img
+              src={sneekers}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Sneakers Shop
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              aspernatur commodi cum dignissimos magnam exercitationem non vero?
+              Autem
             </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
           </div>
-          <p className="pt-5 text-sm md:text-xl text-gray-500">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-            aspernatur commodi cum dignissimos magnam exercitationem non vero?
-            Autem quaerat repellat ratione blanditiis vel, consequatur
-            voluptatibus iste dolore impedit unde ducimus numquam illum,
-            exercitationem quam excepturi voluptatum ad deleniti asperiores
-            itaque incidunt animi quibusdam ex suscipit. Expedita accusantium
-            nam consequatur veniam?
-          </p>
-          <div className="flex pt-4 gap-4">
-            <img className="w-12 " src={figma} alt="" />
-            <img className="w-12 " src={illustrator} alt="" />
-            <img className="w-12 " src={photoshop} alt="" />
-          </div>
-          <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
-            <Link
-              to="https://www.behance.net/gallery/168500405/HealthVatica"
-              className="button-dark"
-              target="_blank"
-              role="button"
-            >
-              Behance
-              <img src={newtab} className="ml-2 w-8" alt="" />
-            </Link>
-            <Link
-              to="https://www.figma.com/file/sZq7nHDWcZOtqaiWbL3KRM/Beauty-Product-E-commerse-site?type=design&node-id=650%3A279&mode=design&t=ZSnLBu7Xdp05mENY-1"
-              target="_blank"
-              rel="noreferrer"
-              className="buttonlight "
-              role="button"
-            >
-              Figma File
-              <img src={newtab} className="ml-2 w-8" alt="" />
-            </Link>
-          </div>
-        </div>
-
-        <div className="lg:px-20 ">
-          <img
-            src={shoe}
-            className="md:px-[0rem] lg:px-[12rem] pt-20 md:pt-32 md:pb-10"
-            alt=""
-          />
-          <div className="flex justify-between items-center">
-            <h2 className="text-3xl md:text-5xl font-bold subheadline">
-              Shoe Store
-            </h2>
-            <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-              Oct 2022
+          <div className="lg:px-16">
+            <img
+              src={pizza}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Pizza Delivery
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              aspernatur commodi cum dignissimos magnam exercitationem non vero?
+              Autem
             </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
           </div>
-          <p className="pt-5 text-sm md:text-xl text-gray-500">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-            aspernatur commodi cum dignissimos magnam exercitationem non vero?
-            Autem quaerat repellat ratione blanditiis vel, consequatur
-            voluptatibus iste dolore impedit unde ducimus numquam illum,
-            exercitationem quam excepturi voluptatum ad deleniti asperiores
-            itaque incidunt animi quibusdam ex suscipit. Expedita accusantium
-            nam consequatur veniam?
-          </p>
-          <div className="flex pt-4 gap-4">
-            <img className="w-12 " src={figma} alt="" />
-            <img className="w-12 " src={illustrator} alt="" />
-            <img className="w-12 " src={photoshop} alt="" />
+
+          <div className="lg:px-16">
+            <img
+              src={fainance}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Finance Tracking
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              aspernatur commodi cum dignissimos magnam exercitationem non vero?
+              Autem
+            </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
           </div>
-          <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
-            <Link
-              to="https://www.behance.net/gallery/168500089/Sneakers-Landing-page"
-              className="button-dark"
-              target="_blank"
-              role="button"
-            >
-              Behance
-              <img src={newtab} className="ml-2 w-8" alt="" />
-            </Link>
-            <Link
-              to="https://www.figma.com/community/file/1188097982700213814"
-              target="_blank"
-              rel="noreferrer"
-              className="buttonlight"
-              role="button"
-            >
-              Figma File
-              <img src={newtab} className="ml-2 w-8" alt="" />
-            </Link>
+          <div className="lg:px-16">
+            <img
+              src={dog}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Dog Clothing
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              aspernatur commodi cum dignissimos magnam exercitationem non vero?
+              Autem
+            </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="lg:px-16">
+            <img
+              src={law}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Law Firm
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              aspernatur commodi cum dignissimos magnam exercitationem non vero?
+              Autem
+            </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="lg:px-16">
+            <img
+              src={shopping}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Shopping Mall
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              aspernatur commodi cum dignissimos magnam exercitationem non vero?
+              Autem
+            </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="lg:px-16">
+            <img
+              src={dress}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Female Hoodie Site
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              aspernatur commodi cum dignissimos magnam exercitationem non vero?
+              Autem
+            </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
+          </div>
+          <div className="lg:px-16">
+            <img
+              src={nft}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+               NFT Marketplace
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              aspernatur commodi cum dignissimos magnam exercitationem non vero?
+              Autem
+            </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
+          </div>
+          <div className="lg:px-16">
+            <img
+              src={anime}
+              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
+              alt=""
+            />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Anime Studio
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              aspernatur commodi cum dignissimos magnam exercitationem non vero?
+              Autem
+            </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
