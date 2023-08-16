@@ -20,6 +20,7 @@ import anime from "../../assets/mockup/anime.webp";
 import dress from "../../assets/mockup/dress.webp";
 import sneekers from "../../assets/mockup/sneekers.webp";
 import pizza from "../../assets/mockup/pizza.webp";
+import car from "../../assets/mockup/car.webp";
 
 import figma from "../../assets/icon/figma.png";
 import illustrator from "../../assets/icon/illustrator.png";
@@ -55,13 +56,15 @@ const Projects = () => {
           {/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
 
           <div className="lg:px-16">
-            <img
-              src={fashion}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
+            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={fashion}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
             <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline ">
                 Style Maven
               </h2>
               <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
@@ -104,14 +107,16 @@ const Projects = () => {
           {/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
 
           <div className="lg:px-16">
-            <img
-              src={jwell}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
+            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={jwell}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
             <div className="flex justify-between items-center">
               <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Jewellery Shop
+              Estelle's Jewels
               </h2>
               <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
                 Oct 2022
@@ -153,14 +158,65 @@ const Projects = () => {
           {/* --------------------------------------------------drink ------------------------------------------------------------- */}
 
           <div className="lg:px-16">
-            <img
-              src={drink}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
+            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={drink}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
             <div className="flex justify-between items-center">
               <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Natural Fruit Juice
+              Cereja
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              A successful natural drink seller, sought our help to create a
+              website that would effectively showcase their products, highlight
+              their commitment to natural ingredients and sustainability, and
+              offer a user-friendly experience for visitors.
+            </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
+          </div>
+          <div className="lg:px-16">
+            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={sneekers}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+              AirLuxe
               </h2>
               <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
                 Oct 2022
@@ -199,57 +255,14 @@ const Projects = () => {
             </div>
           </div>
           <div className="lg:px-16">
-            <img
-              src={sneekers}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Sneakers Shop
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
-              </p>
+            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={pizza}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              aspernatur commodi cum dignissimos magnam exercitationem non vero?
-              Autem
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
-            </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
-              <Link
-                to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
-                target="_blank"
-                role="button"
-              >
-                Behance
-                <img src={newtab} className="ml-2 w-8" alt="" />
-              </Link>
-              <Link
-                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
-                target="_blank"
-                rel="noreferrer"
-                className="buttonlight "
-                role="button"
-              >
-                Figma File
-                <img src={newtab} className="ml-2 w-8" alt="" />
-              </Link>
-            </div>
-          </div>
-          <div className="lg:px-16">
-            <img
-              src={pizza}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
+
             <div className="flex justify-between items-center">
               <h2 className="text-3xl md:text-5xl font-bold subheadline">
                 Pizza Delivery
@@ -292,11 +305,14 @@ const Projects = () => {
           </div>
 
           <div className="lg:px-16">
-            <img
-              src={fainance}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
+            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={fainance}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
+
             <div className="flex justify-between items-center">
               <h2 className="text-3xl md:text-5xl font-bold subheadline">
                 Finance Tracking
@@ -338,11 +354,14 @@ const Projects = () => {
             </div>
           </div>
           <div className="lg:px-16">
-            <img
-              src={dog}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
+            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={dog}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
+
             <div className="flex justify-between items-center">
               <h2 className="text-3xl md:text-5xl font-bold subheadline">
                 Dog Clothing
@@ -385,11 +404,14 @@ const Projects = () => {
           </div>
 
           <div className="lg:px-16">
-            <img
-              src={law}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
+            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={law}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
+
             <div className="flex justify-between items-center">
               <h2 className="text-3xl md:text-5xl font-bold subheadline">
                 Law Firm
@@ -432,11 +454,13 @@ const Projects = () => {
           </div>
 
           <div className="lg:px-16">
-            <img
-              src={shopping}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
+            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={shopping}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
             <div className="flex justify-between items-center">
               <h2 className="text-3xl md:text-5xl font-bold subheadline">
                 Shopping Mall
@@ -479,11 +503,14 @@ const Projects = () => {
           </div>
 
           <div className="lg:px-16">
-            <img
-              src={dress}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
+            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={dress}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
+
             <div className="flex justify-between items-center">
               <h2 className="text-3xl md:text-5xl font-bold subheadline">
                 Female Hoodie Site
@@ -525,14 +552,17 @@ const Projects = () => {
             </div>
           </div>
           <div className="lg:px-16">
-            <img
-              src={nft}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
+            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={nft}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
+
             <div className="flex justify-between items-center">
               <h2 className="text-3xl md:text-5xl font-bold subheadline">
-               NFT Marketplace
+                NFT Marketplace
               </h2>
               <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
                 Oct 2022
@@ -570,12 +600,15 @@ const Projects = () => {
               </Link>
             </div>
           </div>
+
           <div className="lg:px-16">
-            <img
-              src={anime}
-              className="md:px-[0rem] lg:px-[0rem] pt-20 pb-5"
-              alt=""
-            />
+            <div class="relative cursor-pointer  pb-5  overflow-hidden  bg-cover bg-no-repeat">
+              <img
+                src={anime}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
             <div className="flex justify-between items-center">
               <h2 className="text-3xl md:text-5xl font-bold subheadline">
                 Anime Studio
@@ -588,6 +621,107 @@ const Projects = () => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
               aspernatur commodi cum dignissimos magnam exercitationem non vero?
               Autem
+            </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="lg:px-16">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden  bg-cover bg-no-repeat">
+              <img
+                src={car}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Car Rent
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              The project aimed to create an engaging, user-friendly website for
+              a luxury car rental store, emphasizing instant service and
+              showcasing their high-end vehicle collection to attract potential
+              customers.
+            </p>
+            <div className="flex pt-4 gap-4">
+              <img className="w-12 " src={figma} alt="" />
+              <img className="w-12 " src={illustrator} alt="" />
+              <img className="w-12 " src={photoshop} alt="" />
+            </div>
+            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="button-dark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonlight "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
+          </div>
+
+          
+          <div className="lg:px-16">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden  bg-cover bg-no-repeat">
+              <img
+                src={gym}
+                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+            </div>
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-5xl font-bold subheadline">
+                Gym 
+              </h2>
+              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
+                Oct 2022
+              </p>
+            </div>
+            <p className="pt-5 text-sm md:text-lg text-gray-500">
+              The project aimed to create an engaging, user-friendly website for
+              a luxury car rental store, emphasizing instant service and
+              showcasing their high-end vehicle collection to attract potential
+              customers.
             </p>
             <div className="flex pt-4 gap-4">
               <img className="w-12 " src={figma} alt="" />
