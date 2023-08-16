@@ -52,40 +52,44 @@ const Projects = () => {
           </section>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 pt-20">
           {/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
 
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+          <div className="lg:px-12 ">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={fashion}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline ">
-                Style Maven
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p>
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                Style Maven
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
+            </div>
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
               Style Maven is a fashion studio blending timeless elegance with
               boundless creativity. Passionate about artistry and
               sophistication, we captivate the fashion-forward with designs
               beyond the ordinary.
             </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
-            </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -96,7 +100,63 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
+                role="button"
+              >
+                Figma File
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+            </div>
+          </div>
+
+
+          {/* ---------------------------------------------------------------------------------------------------- */}
+          <div className="lg:px-12 ">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
+              <img
+                src={jwell}
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
+                alt="Louvre"
+              />
+              <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p>
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
+              </p>
+            </div>
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+              Estelle's Jewels
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
+            </div>
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
+              <Link
+                to="https://www.behance.net/gallery/170990813/Zodiac"
+                className="buttonsmalldark"
+                target="_blank"
+                role="button"
+              >
+                Behance
+                <img src={newtab} className="ml-2 w-8" alt="" />
+              </Link>
+              <Link
+                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                target="_blank"
+                rel="noreferrer"
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -106,88 +166,46 @@ const Projects = () => {
           </div>
           {/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
 
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
-              <img
-                src={jwell}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
-                alt="Louvre"
-              />
-            </div>
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-              Estelle's Jewels
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
-              </p>
-            </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              aspernatur commodi cum dignissimos magnam exercitationem non vero?
-              Autem
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
-            </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
-              <Link
-                to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
-                target="_blank"
-                role="button"
-              >
-                Behance
-                <img src={newtab} className="ml-2 w-8" alt="" />
-              </Link>
-              <Link
-                to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
-                target="_blank"
-                rel="noreferrer"
-                className="buttonlight "
-                role="button"
-              >
-                Figma File
-                <img src={newtab} className="ml-2 w-8" alt="" />
-              </Link>
-            </div>
-          </div>
+          
+          
 
           {/* --------------------------------------------------drink ------------------------------------------------------------- */}
 
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+          <div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={drink}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-              Cereja
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p>
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              A successful natural drink seller, sought our help to create a
-              website that would effectively showcase their products, highlight
-              their commitment to natural ingredients and sustainability, and
-              offer a user-friendly experience for visitors.
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                Cereja
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -198,7 +216,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -206,36 +224,44 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+
+          {/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
+
+          <div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={sneekers}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-              AirLuxe
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              {/* <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p> */}
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              aspernatur commodi cum dignissimos magnam exercitationem non vero?
-              Autem
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                Airluxe
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -246,7 +272,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -254,37 +280,43 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+          {/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
+
+          <div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={pizza}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Pizza Delivery
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p>
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              aspernatur commodi cum dignissimos magnam exercitationem non vero?
-              Autem
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                Pizza App
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -295,7 +327,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -303,38 +335,43 @@ const Projects = () => {
               </Link>
             </div>
           </div>
+{/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
 
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+<div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={fainance}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Finance Tracking
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p>
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              aspernatur commodi cum dignissimos magnam exercitationem non vero?
-              Autem
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                Finance App
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -345,7 +382,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -353,37 +390,43 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+          {/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
+
+          <div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={dog}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Dog Clothing
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              {/* <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p> */}
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              aspernatur commodi cum dignissimos magnam exercitationem non vero?
-              Autem
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                TailorPup
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -394,7 +437,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -402,38 +445,43 @@ const Projects = () => {
               </Link>
             </div>
           </div>
+{/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
 
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+<div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={law}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Law Firm
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              {/* <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p> */}
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              aspernatur commodi cum dignissimos magnam exercitationem non vero?
-              Autem
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                Acend Legal
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -444,7 +492,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -452,37 +500,43 @@ const Projects = () => {
               </Link>
             </div>
           </div>
+{/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
 
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+<div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={shopping}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Shopping Mall
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              {/* <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p> */}
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              aspernatur commodi cum dignissimos magnam exercitationem non vero?
-              Autem
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                Gallerix
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -493,7 +547,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -501,38 +555,43 @@ const Projects = () => {
               </Link>
             </div>
           </div>
+{/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
 
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+<div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={dress}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Female Hoodie Site
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              {/* <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p> */}
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              aspernatur commodi cum dignissimos magnam exercitationem non vero?
-              Autem
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                Boutique
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -543,7 +602,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -551,37 +610,43 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer   pb-5  overflow-hidden bg-cover bg-no-repeat">
+          {/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
+
+          <div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={nft}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                NFT Marketplace
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              {/* <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p> */}
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              aspernatur commodi cum dignissimos magnam exercitationem non vero?
-              Autem
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                Tiny Face 
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -592,7 +657,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -600,37 +665,43 @@ const Projects = () => {
               </Link>
             </div>
           </div>
+{/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
 
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer  pb-5  overflow-hidden  bg-cover bg-no-repeat">
+<div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={anime}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Anime Studio
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              {/* <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p> */}
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              aspernatur commodi cum dignissimos magnam exercitationem non vero?
-              Autem
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                Imagiworks
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -641,7 +712,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -649,38 +720,43 @@ const Projects = () => {
               </Link>
             </div>
           </div>
+{/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
 
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer  pb-5  overflow-hidden  bg-cover bg-no-repeat">
+<div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={car}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Car Rent
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              {/* <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p> */}
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              The project aimed to create an engaging, user-friendly website for
-              a luxury car rental store, emphasizing instant service and
-              showcasing their high-end vehicle collection to attract potential
-              customers.
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                Carcruise
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -691,7 +767,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
@@ -700,38 +776,43 @@ const Projects = () => {
             </div>
           </div>
 
-          
-          <div className="lg:px-16">
-            <div class="relative cursor-pointer  pb-5  overflow-hidden  bg-cover bg-no-repeat">
+          {/* ----------------------------------------------------------- Raikars Good Vibes-------------------------------------------------- */}
+
+          <div className="lg:px-12 mt-20">
+            <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
               <img
                 src={gym}
-                class="md:px-[0rem] lg:px-[0rem] pt-20 pb-5  transition duration-300 ease-in-out hover:scale-105"
+                class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                 alt="Louvre"
               />
-            </div>
-            <div className="flex justify-between items-center">
-              <h2 className="text-3xl md:text-5xl font-bold subheadline">
-                Gym 
-              </h2>
-              <p className="font-semibold px-4 py-1 outline  rounded-full outline-offset-2 outline-1 ...">
-                Oct 2022
+              {/* <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                Case Study
+              </p> */}
+              <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+              Oct 2022
               </p>
             </div>
-            <p className="pt-5 text-sm md:text-lg text-gray-500">
-              The project aimed to create an engaging, user-friendly website for
-              a luxury car rental store, emphasizing instant service and
-              showcasing their high-end vehicle collection to attract potential
-              customers.
-            </p>
-            <div className="flex pt-4 gap-4">
-              <img className="w-12 " src={figma} alt="" />
-              <img className="w-12 " src={illustrator} alt="" />
-              <img className="w-12 " src={photoshop} alt="" />
+            <div className="flex justify-between items-center">
+              <h2 className="text-3xl md:text-4xl font-bold subheadline ">
+                RugedLift
+              </h2>
+              <div className="flex pt-4 gap-4">
+              <img className="w-8 " src={figma} alt="" />
+              <img className="w-8 " src={illustrator} alt="" />
+              <img className="w-8 " src={photoshop} alt="" />
             </div>
-            <div className="md:flex justify-start pt-8 gap-10 space-y-3 md:space-y-0">
+            </div>
+            <p className="pt-2 text-sm md:text-md text-gray-500">
+              Style Maven is a fashion studio blending timeless elegance with
+              boundless creativity. Passionate about artistry and
+              sophistication, we captivate the fashion-forward with designs
+              beyond the ordinary.
+            </p>
+            
+            <div className="md:flex justify-start pt-4 gap-10 space-y-3 md:space-y-0">
               <Link
                 to="https://www.behance.net/gallery/170990813/Zodiac"
-                className="button-dark"
+                className="buttonsmalldark"
                 target="_blank"
                 role="button"
               >
@@ -742,7 +823,7 @@ const Projects = () => {
                 to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
                 target="_blank"
                 rel="noreferrer"
-                className="buttonlight "
+                className="buttonsmall "
                 role="button"
               >
                 Figma File
