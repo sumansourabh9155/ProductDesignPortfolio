@@ -1,0 +1,49 @@
+
+  .grids {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 1rem; /* Adjust the gap between items as needed */
+  }
+
+  .grids > div {
+    animation: moveUpAndDown 20s linear infinite;
+    overflow: hidden;
+    border-radius: 0.5rem; /* To maintain rounded corners */
+    position: relative;
+  }
+
+  .grids > div:nth-child(odd) {
+    animation: moveUpAndDown 40s linear infinite, moveUp 15s infinite;
+  }
+
+  .grids > div:nth-child(even) {
+    animation: moveUpAndDown 30s linear infinite, moveDown 10s infinite;
+  }
+
+  @keyframes moveUpAndDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30%);
+    }
+  }
+
+  @keyframes moveUp {
+    0%, 100% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(-30%);
+    }
+  }
+
+  @keyframes moveDown {
+    0%, 100% {
+      transform: translateY(-32%);
+    }
+    50% {
+      transform: translateY(0%);
+    }
+  }
+

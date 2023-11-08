@@ -6,6 +6,7 @@ import Footer from "../component/Footer";
 import Help from "../component/HomePageComponent/Help";
 import WorkProcess from "../component/HomePageComponent/WorkProcess";
 import Testimonial from "../component/HomePageComponent/Testimonial";
+import AnimatedProjects from "../component/HomePageComponent/AnimatedProjects";
 import Project from "../component/HomePageComponent/Project";
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-R2Q7XQ6WBW');
@@ -21,6 +22,7 @@ const LandingPage = () => {
       
       <HeroSection />
       <Tech />
+      {/* <AnimatedProjects/> */}
       <AboutMe />
       <Help />
       <Project/>

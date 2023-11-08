@@ -4,8 +4,8 @@ import glamorscreen from "../../../assets/glamorai/glamorscreen.png";
 import Navbar from "../../component/Navbar";
 import Footer from "../../component/Footer";
 import { Link } from "react-router-dom";
-import RaikarGoodVibes from "./RaikarGoodVibes";
-import GlamorAI from "./GlamorAI";
+
+
 export const CaseStudy = () => {
   return (
     <div>
@@ -24,20 +24,20 @@ export const CaseStudy = () => {
             </p>
           </div>
         </section>
-        <Link to={RaikarGoodVibes}>
+       
           <section class="bg-[#29003C] h-screen " style={{ color: "#903643" }}>
             <div className="">
               <div class="grid max-w-screen-xl px-4 py-20 mx-auto lg:gap-8 xl:gap-0 lg:py-24 lg:grid-cols-12">
                 <div class="mr-auto place-self-center lg:col-span-6">
-                  <a
-                    href="#"
+                  <Link
+                    to="/casestudy/RaikarGoodVibes"
                     class="inline-flex justify-between items-center py-2 px-5  mb-7 text-sm  bg-[#4c0b6a] rounded-full hover:bg-gray-200 "
                     role="alert"
                   >
                     <span class="text-sm font-medium text-white p-2 ">
                       UI/UX and Front-end Development
                     </span>
-                  </a>
+                  </Link>
                   <h1 class="max-w-xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
                     Raikars Good Vibes
                   </h1>
@@ -51,8 +51,8 @@ export const CaseStudy = () => {
                     offers a manufacturing service to meet the global demand.
                   </p>
 
-                  <a
-                    href="#"
+                  <Link
+                    to="/casestudy/RaikarGoodVibes"
                     class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white "
                   >
                     Visit Figma File
@@ -70,7 +70,7 @@ export const CaseStudy = () => {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
                 <div class="w-6/12 md:w-full lg:mt-0 lg:col-span-5 lg:flex">
                   <img src={raikarscreen} alt="mockup"></img>
@@ -78,14 +78,14 @@ export const CaseStudy = () => {
               </div>
             </div>
           </section>
-        </Link>
-        <Link to={GlamorAI}>
+      
+       
         <section class="bg-[#903643] lg:h-screen" style={{ color: "#903643" }}>
   <div className="">
     <div class="grid max-w-screen-xl px-4 py-20 mx-auto lg:gap-8 xl:gap-0 lg:py-44 lg:grid-cols-12">
       <div class="mr-auto place-self-center lg:col-span-5 md:col-span-12">
         <a
-          href="#"
+          href="/casestudy/RaikarGoodVibes"
           class="inline-flex justify-between items-center py-1 px-1 mb-7 text-sm bg-[#9B4A55] rounded-full hover:bg-gray-200"
           role="alert"
         >
@@ -102,12 +102,11 @@ export const CaseStudy = () => {
           tone, and occasion. Follow influencers for fashion inspiration, stay
           updated with trends, and express your unique style effortlessly.
         </p>
-
-        <a
-          href="#"
+            <Link
+            to="/casestudy/GlamorAI"
           class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white"
-        >
-          Visit Figma File
+          >
+              Visit Figma File
           <svg
             class="w-5 h-5 ml-2 -mr-1"
             fill="currentColor"
@@ -121,7 +120,10 @@ export const CaseStudy = () => {
               clip-rule="evenodd"
             ></path>
           </svg>
-        </a>
+            </Link>
+       
+          
+     
       </div>
       <div class=" lg:mt-0 lg:col-span-7 lg:flex">
         <img src={glamorscreen} alt="mockup"></img>
@@ -130,7 +132,7 @@ export const CaseStudy = () => {
   </div>
 </section>
 
-        </Link>
+      
       </div>
       <Footer />
     </div>
