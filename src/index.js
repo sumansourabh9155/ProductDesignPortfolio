@@ -9,9 +9,13 @@ import Contact from "./resource/page/Contact";
 import Projects from "./resource/page/Projects";
 import Blog from "./resource/page/Blogs";
 import Avail from "./resource/page/Avail";
+import RaikarGoodVibes from "./resource/page/casestudy/RaikarGoodVibes";
+import GlamorAI from "./resource/page/casestudy/GlamorAI";
+import SinaiDesert from "./resource/page/casestudy/SinaiDesert";
 import Resources from "./resource/page/Resources";
 import reportWebVitals from "./reportWebVitals";
 import AnimatedCursor from "react-animated-cursor";
+import { CaseStudy } from "./resource/page/casestudy/CaseStudy";
 
 import {
   BrowserRouter as Router,
@@ -54,6 +58,14 @@ root.render(
         <Route path="/home" element={<LandingPage />} />
         <Route path="/contactme" element={<Navigate replace to="/contact" />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/casestudy" element={<CaseStudy />} />
+
+        <Route
+          path="/casestudy/RaikarGoodVibes"
+          element={<RaikarGoodVibes />}
+        />
+        <Route path="/casestudy/GlamorAI" element={<GlamorAI />} />
+        <Route path="/casestudy/SinaiDesert" element={<SinaiDesert />} />
         <Route path="/sumanAdmin" element={<Admin />} />
         <Route path="/About" element={<About />} />
         <Route path="/Projects" element={<Projects />} />

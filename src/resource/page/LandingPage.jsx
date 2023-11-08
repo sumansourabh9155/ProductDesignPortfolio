@@ -15,8 +15,10 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 const LandingPage = () => {
   return (
-    <div className="pattern-checks-sm">
+    <div className="flex justify-between px-4 mx-auto max-w-screen-2xl">
+    <div className="pattern-checks-sm pl-3 pr-3 ml-3 mr-3">
       <Navbar />
+      
       <HeroSection />
       <Tech />
       <AboutMe />
@@ -26,6 +28,7 @@ const LandingPage = () => {
       <Testimonial />
       <Footer />
       {/* <Ribbon/> */}
+    </div>
     </div>
   );
 };

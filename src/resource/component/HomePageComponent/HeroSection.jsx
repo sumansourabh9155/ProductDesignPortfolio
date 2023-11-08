@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 import { Link, NavLink } from "react-router-dom";
 import play from "../../../assets/buttons/play.png";
+import Mobile from "../../../assets/images/mobile.png"; 
+import Graphic from "../../../assets/images/homegraphic.png"; 
 
 ReactGA.initialize("G-R2Q7XQ6WBW");
 
@@ -12,6 +14,7 @@ const HeroSection = () => {
 
   return (
     <div className="container mx-auto px-2 md:px-5 pt-20 md:pt-28 pb-10">
+
       <section className=" body-font justify-center scroll-smooth">
         <div className="flex flex-col md:flex-row items-center">
           <div className="lg:flex-grow flex flex-col text-[#033d35] md:items-start md:text-left mb-16 md:mb-0 items-center text-center bg-none">

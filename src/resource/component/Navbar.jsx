@@ -15,9 +15,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
-      setIsScrolled(
-        prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 0
-      );
+      setIsScrolled(prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 0);
       setPrevScrollPos(currentScrollPos);
     };
 
@@ -31,20 +29,25 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const navLinks = [
+    { to: "/casestudy", text: "Case Study" },
+    { to: "/projects", text: "Design" },
+    { to: "/resources", text: "Resources" },
+    { to: "/blog", text: "Blog" },
+    { to: "/Maintenance", text: "About Me" },
+  ];
+
   return (
-    <div>
+    <div className="md:pl-12 flex justify-center mx-auto max-w-screen-2xl">
       <div
         className={`fixed w-full transition-transform duration-300 z-10 ${
           isScrolled ? "translate-y-0" : "-translate-y-24"
         }`}
       >
-        <header className="lg:px-0 w-[95%] md:w-[95%] text-gray-700 shadow-sm bottom body-font fixed item-center justify-between bg-white">
-          <div className="container flex flex-col md:p-6 mx-auto md:flex-row justify-between items-center" >
-            <div className="flex pt-4 gap-24 md:gap-40">
-              <Link
-                to={"/"}
-                className="mb-4 font-bold text-2xl text-gray-900 title-font md:mb-0"
-              >
+        <header className="lg:px-0 w-full md:w-[95%] text-gray-700 shadow-sm bottom body-font fixed bg-white rounded-xl mt-2">
+          <div className="container flex flex-col pt-4 md:p-4 mx-auto md:flex-row justify-between items-center">
+            <div className="flex px-4 gap-24 md:gap-40">
+              <Link to={"/"} className="mb-4 font-bold text-2xl text-gray-900 title-font md:mb-0">
                 <p>
                   Suman<span className="font-normal">Sourabh</span>
                 </p>
@@ -61,118 +64,38 @@ const Navbar = () => {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                   </svg>
                 </button>
               </div>
             </div>
             <nav className="hidden md:flex md:flex-wrap items-center justify-between text-base md:ml-auto md:mr-auto">
-              <NavLink
-                to="/projects"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "mr-5 font-bold text-[#e76e50]"
-                    : "mr-5 block font-medium hover:text-gray-700"
-                }
-              >
-                Project
-              </NavLink>
-              <NavLink
-                to="/resources"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "mr-5 font-bold text-[#e76e50]"
-                    : "mr-5 block font-medium hover:text-gray-900"
-                }
-              >
-                Resources
-              </NavLink>
-              <NavLink
-                to="/blog"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "mr-5 font-bold text-[#e76e50]"
-                    : "mr-5 block font-medium hover:text-gray-700"
-                }
-              >
-                Blog
-              </NavLink>
-              <NavLink
-                to="/Maintenance"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "font-bold text-[#e76e50]"
-                    : " block font-medium hover:text-gray-700"
-                }
-              >
-                About Me
-              </NavLink>
+              {navLinks.map((link) => (
+                <NavLink
+                  key={link.to}
+                  to={link.to}
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "mr-5 font-bold text-[#e76e50]" : "mr-5 block font-medium hover:text-gray-700"
+                  }
+                >
+                  {link.text}
+                </NavLink>
+              ))}
             </nav>
 
-            {/* Mobile menu, show/hide based on menu state */}
             <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
               <div className="flex flex-col items-center pt-2 pb-4 space-y-1 bg-white">
-                <NavLink
-                  to="/projects"
-                  className={({ isActive, isPending }) =>
-                    isPending
-                      ? "pending"
-                      : isActive
-                      ? "font-bold text-[#e76e50]"
-                      : "block font-medium hover:text-gray-700"
-                  }
-                >
-                  Project
-                </NavLink>
-                <NavLink
-                  to="/resources"
-                  className={({ isActive, isPending }) =>
-                    isPending
-                      ? "pending"
-                      : isActive
-                      ? "font-bold text-[#e76e50]"
-                      : "block font-medium hover:text-gray-700"
-                  }
-                >
-                  Resources
-                </NavLink>
-                <NavLink
-                  to="/blog"
-                  className={({ isActive, isPending }) =>
-                    isPending
-                      ? "pending"
-                      : isActive
-                      ? "font-bold text-[#e76e50]"
-                      : "block font-medium hover:text-gray-700"
-                  }
-                >
-                  Blog
-                </NavLink>
-                <NavLink
-                  to="/Maintenance"
-                  className={({ isActive, isPending }) =>
-                    isPending
-                      ? "pending"
-                      : isActive
-                      ? "font-bold text-[#e76e50]"
-                      : "block font-medium hover:text-gray-700"
-                  }
-                >
-                  About Me
-                </NavLink>
+                {navLinks.map((link) => (
+                  <NavLink
+                    key={link.to}
+                    to={link.to}
+                    className={({ isActive, isPending }) =>
+                      isPending ? "pending" : isActive ? "font-bold text-[#e76e50]" : "block font-medium hover:text-gray-700"
+                    }
+                  >
+                    {link.text}
+                  </NavLink>
+                ))}
                 <NavLink
                   to="/contact"
                   className="px-4 py-2 text-xs font-bold text-white uppercase bg-[#e76e50] rounded shadow outline-none hover:shadow-md focus:outline-none ease transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300 ..."

@@ -1,9 +1,9 @@
 * {
-  padding-left: 3px;
-  padding-right: 3px;
+  box-sizing: border-box;
   font-family: "Karla", sans-serif;
   color: #033d35;
   /* background-color: black; */
+
 }
 .suman {
   font-family: "Lato", sans-serif;
@@ -11,6 +11,33 @@
 }
 .subheadline {
   font-family: "PT Sans", sans-serif;
+}
+.glamor{
+  font-family: 'Tenor Sans', sans-serif;
+  color: #903643;
+}
+.glamorwhite{
+  font-family: 'Tenor Sans', sans-serif;
+
+}
+.sinai{
+  font-family: 'Inter', sans-serif;
+  color: #8B482D;
+}
+.sinaiwhite{
+  font-family: 'Inter', sans-serif;
+
+}
+.raikargoodvibes{
+  font-family: 'Baskervville', serif;
+  color: #29003C;
+}
+.raikargoodvibeswhite{
+  font-family: 'Baskervville', serif;
+
+}
+.rakarbg{
+  background-image: url("../src/assets/raikargoodvibes/textbackground.png");
 }
 .gradient {
   box-shadow: 1px 0 5px -5px #333, 0 -5px 12px -12px #333, -1px 0 5px -5px #333;
@@ -337,3 +364,6 @@
   transition: 0s;
   transform: translate(0, 5%);
 }
+
+
+
