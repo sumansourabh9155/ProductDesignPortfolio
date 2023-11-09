@@ -11,7 +11,7 @@ import Blog from "./resource/page/Blogs";
 import Avail from "./resource/page/Avail";
 import RaikarGoodVibes from "./resource/page/casestudy/RaikarGoodVibes";
 import GlamorAI from "./resource/page/casestudy/GlamorAI";
-import SinaiDesert from "./resource/page/casestudy/SinaiDesert";
+import SinaiOnline from "./resource/page/casestudy/SinaiOnline";
 import Resources from "./resource/page/Resources";
 import reportWebVitals from "./reportWebVitals";
 import AnimatedCursor from "react-animated-cursor";
@@ -65,7 +65,7 @@ root.render(
           element={<RaikarGoodVibes />}
         />
         <Route path="/casestudy/GlamorAI" element={<GlamorAI />} />
-        <Route path="/casestudy/SinaiDesert" element={<SinaiDesert />} />
+        <Route path="/casestudy/SinaiOnline" element={<SinaiOnline />} />
         <Route path="/sumanAdmin" element={<Admin />} />
         <Route path="/About" element={<About />} />
         <Route path="/Projects" element={<Projects />} />

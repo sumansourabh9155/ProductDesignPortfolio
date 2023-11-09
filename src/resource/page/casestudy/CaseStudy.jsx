@@ -4,7 +4,7 @@ import glamorscreen from "../../../assets/glamorai/glamorscreen.png";
 import Navbar from "../../component/Navbar";
 import Footer from "../../component/Footer";
 import { Link } from "react-router-dom";
-
+import sinaiscreen from "../../../assets/sinaidesert/sinaiscreen.png";
 
 export const CaseStudy = () => {
   return (
@@ -24,115 +24,163 @@ export const CaseStudy = () => {
             </p>
           </div>
         </section>
-       
-          <section class="bg-[#29003C] h-screen " style={{ color: "#903643" }}>
-            <div className="">
-              <div class="grid max-w-screen-xl px-4 py-20 mx-auto lg:gap-8 xl:gap-0 lg:py-24 lg:grid-cols-12">
-                <div class="mr-auto place-self-center lg:col-span-6">
-                  <Link
-                    to="/casestudy/RaikarGoodVibes"
-                    class="inline-flex justify-between items-center py-2 px-5  mb-7 text-sm  bg-[#4c0b6a] rounded-full hover:bg-gray-200 "
-                    role="alert"
-                  >
-                    <span class="text-sm font-medium text-white p-2 ">
-                      UI/UX and Front-end Development
-                    </span>
-                  </Link>
-                  <h1 class="max-w-xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-                    Raikars Good Vibes
-                  </h1>
-                  <p class="max-w-xl mb-2 font-light text-white raikargoodvibeswhite  lg:text-sm">
-                    https://raikarsgoodvibes.com
-                  </p>
-                  <p class="max-w-xl mb-6 font-light text-white raikargoodvibeswhite lg:mb-8 lg:text-md">
-                    Online platform that offers a wide range of metal creations,
-                    including art, decor, and lifestyle products. The platform
-                    serves both retail and wholesale customers, and it also
-                    offers a manufacturing service to meet the global demand.
-                  </p>
 
-                  <Link
-                    to="/casestudy/RaikarGoodVibes"
-                    class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white "
+        <section class="bg-[#29003C] h-screen " style={{ color: "#903643" }}>
+          <div className="">
+            <div class="grid max-w-screen-xl px-4 py-20 mx-auto lg:gap-8 xl:gap-0 lg:py-24 lg:grid-cols-12">
+              <div class="mr-auto place-self-center lg:col-span-6">
+                <Link
+                  to="/casestudy/RaikarGoodVibes"
+                  class="inline-flex justify-between items-center py-2 px-5  mb-7 text-sm  bg-[#4c0b6a] rounded-full hover:bg-[#29003C] "
+                  role="alert"
+                >
+                  <span class="text-sm font-medium text-white p-2 raikargoodvibeswhite">
+                    UI/UX and Front-end Development
+                  </span>
+                </Link>
+                <h1 class="raikargoodvibeswhite max-w-xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                  Raikars Good Vibes
+                </h1>
+                <a
+                  href="https://raikarsgoodvibes.com"
+                  class="max-w-xl mb-2 font-light text-white raikargoodvibeswhite  lg:text-sm"
+                >
+                  https://raikarsgoodvibes.com
+                </a>
+                <p class="max-w-xl mb-6 font-light text-white raikargoodvibeswhite lg:mb-8 lg:text-md">
+                  Online platform that offers a wide range of metal creations,
+                  including art, decor, and lifestyle products. The platform
+                  serves both retail and wholesale customers, and it also offers
+                  a manufacturing service to meet the global demand.
+                </p>
+
+                <Link
+                  to="/casestudy/RaikarGoodVibes"
+                  class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-[#4c0b6a] focus:ring-4 focus:ring-gray-100 dark:text-white "
+                >
+                  Case Study
+                  <svg
+                    class="w-5 h-5 ml-2 -mr-1 "
+                    fill="currentColor"
+                    Z
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    Visit Figma File
-                    <svg
-                      class="w-5 h-5 ml-2 -mr-1 "
-                      fill="currentColor"
-                      Z
-                      viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        fill="white"
-                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
-                      ></path>
-                    </svg>
-                  </Link>
-                </div>
-                <div class="w-6/12 md:w-full lg:mt-0 lg:col-span-5 lg:flex">
-                  <img src={raikarscreen} alt="mockup"></img>
-                </div>
+                    <path
+                      fill-rule="evenodd"
+                      fill="white"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </Link>
+              </div>
+              <div class="w-6/12 md:w-full lg:mt-0 lg:col-span-5 lg:flex">
+                <img src={raikarscreen} alt="mockup"></img>
               </div>
             </div>
-          </section>
-      
-       
-        <section class="bg-[#903643] lg:h-screen" style={{ color: "#903643" }}>
-  <div className="">
-    <div class="grid max-w-screen-xl px-4 py-20 mx-auto lg:gap-8 xl:gap-0 lg:py-44 lg:grid-cols-12">
-      <div class="mr-auto place-self-center lg:col-span-5 md:col-span-12">
-        <a
-          href="/casestudy/RaikarGoodVibes"
-          class="inline-flex justify-between items-center py-1 px-1 mb-7 text-sm bg-[#9B4A55] rounded-full hover:bg-gray-200"
-          role="alert"
-        >
-          <span class="text-sm font-medium text-white p-2 px-5">
-            Solution for Fashion Industry
-          </span>
-        </a>
-        <h1 class="max-w-xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-          GlamorAI
-        </h1>
-        <p class="max-w-xl mb-6 font-light text-gray-300 glamorwhite lg:mb-8 lg:text-md">
-          Introducing DressSense, the AI-powered fashion app that provides
-          personalized outfit suggestions based on your wardrobe, location, skin
-          tone, and occasion. Follow influencers for fashion inspiration, stay
-          updated with trends, and express your unique style effortlessly.
-        </p>
-            <Link
-            to="/casestudy/GlamorAI"
-          class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white"
-          >
-              Visit Figma File
-          <svg
-            class="w-5 h-5 ml-2 -mr-1"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              fill="white"
-              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-            </Link>
-       
-          
-     
-      </div>
-      <div class=" lg:mt-0 lg:col-span-7 lg:flex">
-        <img src={glamorscreen} alt="mockup"></img>
-      </div>
-    </div>
-  </div>
-</section>
+          </div>
+        </section>
 
-      
+        <section class="bg-[#903643] lg:h-screen" style={{ color: "#903643" }}>
+          <div className="">
+            <div class="grid max-w-screen-xl px-4 py-20 mx-auto lg:gap-8 xl:gap-0 lg:py-44 lg:grid-cols-12">
+              <div class="mr-auto place-self-center lg:col-span-5 md:col-span-12">
+                <a
+                  href="/casestudy/RaikarGoodVibes"
+                  class="inline-flex justify-between items-center py-1 px-1 mb-7 text-sm bg-[#9B4A55] rounded-full hover:bg-[#903643]"
+                  role="alert"
+                >
+                  <span class="text-sm font-medium text-white p-2 px-5 glamorwhite">
+                    Solution for Fashion Industry
+                  </span>
+                </a>
+                <h1 class="glamorwhite max-w-xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                  GlamorAI
+                </h1>
+                <p class="max-w-xl mb-6 font-light text-white glamorwhite lg:mb-8 lg:text-sm">
+                  Introducing DressSense, the AI-powered fashion app that
+                  provides personalized outfit suggestions based on your
+                  wardrobe, location, skin tone, and occasion. Follow
+                  influencers for fashion inspiration, stay updated with trends,
+                  and express your unique style effortlessly.
+                </p>
+                <Link
+                  to="/casestudy/GlamorAI"
+                  class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-[#9B4A55] focus:ring-4 focus:ring-gray-100 dark:text-white"
+                >
+                  Visit Figma File
+                  <svg
+                    class="w-5 h-5 ml-2 -mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      fill="white"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </Link>
+              </div>
+              <div class=" lg:mt-0 lg:col-span-7 lg:flex">
+                <img src={glamorscreen} alt="mockup"></img>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="bg-[#F37344] h-screen " style={{ color: "#903643" }}>
+        <div className="">
+          <div class="grid max-w-screen-xl px-4 py-20 mx-auto lg:gap-8 xl:gap-0 lg:py-44 lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-6">
+              <a
+                href="#"
+                class="inline-flex justify-between items-center py-1 px-1 mb-7 text-sm  bg-[#545D3E] rounded-full hover:bg-[#829553] "
+                role="alert"
+              >
+                <span class="text-sm font-medium text-white p-2 px-5">
+                  Solution for Fashion Industry
+                </span>
+              </a>
+              <h1 class="max-w-xl mb-4 text-4xl sinaiwhite font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                Sinai Online
+              </h1>
+              <p class="max-w-xl mb-6 font-light sinaiwhite text-white sinaiwhite lg:mb-8 lg:text-sm">
+                Introducing DressSense, the AI-powered fashion app that provides
+                personalized outfit suggestions based on your wardrobe,
+                location, skin tone, and occasion. Follow influencers for
+                fashion inspiration, stay updated with trends, and express your
+                unique style effortlessly.
+              </p>
+
+              <a
+                href="#"
+                class="sinaiwhite inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center  bg-[#545D3E] border-gray-300 rounded-lg hover:bg-[#829553] focus:ring-4 focus:ring-gray-100 dark:text-white "
+              >
+                Visit Figma File
+                <svg
+                  class="w-5 h-5 ml-2 -mr-1 "
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    fill="white"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="hidden lg:mt-0 lg:col-span-6   lg:flex">
+              <img src={sinaiscreen} alt="mockup"></img>
+            </div>
+          </div>
+        </div>
+      </section>
       </div>
       <Footer />
     </div>
