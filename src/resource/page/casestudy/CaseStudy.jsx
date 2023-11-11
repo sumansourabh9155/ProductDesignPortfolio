@@ -144,18 +144,17 @@ export const CaseStudy = () => {
                   role="alert"
                 >
                   <span class="text-sm font-medium text-white p-2 px-5">
-                    Solution for Fashion Industry
+                    Platform to book Camp and Drivers
                   </span>
                 </a>
                 <h1 class="max-w-xl mb-4 text-4xl sinaiwhite font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
                   Sinai Online
                 </h1>
                 <p class="max-w-xl mb-6 font-light sinaiwhite text-white sinaiwhite lg:mb-8 lg:text-sm">
-                  Introducing DressSense, the AI-powered fashion app that
-                  provides personalized outfit suggestions based on your
-                  wardrobe, location, skin tone, and occasion. Follow
-                  influencers for fashion inspiration, stay updated with trends,
-                  and express your unique style effortlessly.
+                Platform dedicated to booking camps, hotels, and drivers in the
+                Sinai Desert, with the aim of providing users with a seamless,
+                engaging, and informative experience while promoting the unique
+                attractions and experiences in the Sinai Desert.
                 </p>
 
                 <Link
