@@ -10,6 +10,8 @@ import Projects from "./resource/page/Projects";
 import Blog from "./resource/page/Blogs";
 import Avail from "./resource/page/Avail";
 import RaikarGoodVibes from "./resource/page/casestudy/RaikarGoodVibes";
+import EstellesJewels from "./resource/page/casestudy/EstellesJewels";
+
 import GlamorAI from "./resource/page/casestudy/GlamorAI";
 import SinaiOnline from "./resource/page/casestudy/SinaiOnline";
 import Resources from "./resource/page/Resources";
@@ -64,6 +66,11 @@ root.render(
           path="/casestudy/RaikarGoodVibes"
           element={<RaikarGoodVibes />}
         />
+        <Route
+          path="/casestudy/EstellesJewels"
+          element={<EstellesJewels />}
+        />
+       
         <Route path="/casestudy/GlamorAI" element={<GlamorAI />} />
         <Route path="/casestudy/SinaiOnline" element={<SinaiOnline />} />
         <Route path="/sumanAdmin" element={<Admin />} />

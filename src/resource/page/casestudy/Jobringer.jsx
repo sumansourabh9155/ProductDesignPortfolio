@@ -12,15 +12,15 @@ import air from "../../../assets/sinaidesert/air.png";
 import trip from "../../../assets/sinaidesert/trip.png";
 import kayak from "../../../assets/sinaidesert/kayak.png";
 import expedia from "../../../assets/sinaidesert/expedia.png";
-import interbold from "../../../assets/sinaidesert/interbold.png";
 import text from "../../../assets/sinaidesert/text.png";
 import colors from "../../../assets/sinaidesert/colors.png";
 import ui from "../../../assets/sinaidesert/ui.png";
 
+
 import Navbar from "../../component/Navbar";
 import Footer from "../../component/Footer";
 
-const SinaiOnline = () => {
+const Jobringer = () => {
   return (
     <div>
       <Navbar></Navbar>
@@ -482,4 +482,4 @@ const SinaiOnline = () => {
   );
 };
 
-export default SinaiOnline;
+export default Jobringer;
