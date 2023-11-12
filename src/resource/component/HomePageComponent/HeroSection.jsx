@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 import { Link, NavLink } from "react-router-dom";
 import play from "../../../assets/buttons/play.png";
-import Mobile from "../../../assets/images/mobile.png"; 
-import Graphic from "../../../assets/images/homegraphic.png"; 
+
 
 ReactGA.initialize("G-R2Q7XQ6WBW");
 

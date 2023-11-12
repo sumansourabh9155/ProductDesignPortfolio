@@ -2,12 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../component/Navbar";
 import ReactGA from "react-ga";
-import hoodie from "../../assets/mockup/hoodieMockup.png";
-import beautysite from "../../assets/mockup/beautymockup.png";
-import glamorold from "../../assets/mockup/Glamormockup.png";
-import shoe from "../../assets/mockup/showmockup.png";
-import rakiar from "../../assets/mockup/raikarmockup.png";
-import gym from "../../assets/mockup/gym.webp";
+
 import jwell from "../../assets/mockup/jewll.webp";
 import fashion from "../../assets/mockup/fashion.webp";
 import dog from "../../assets/mockup/dog.webp";
@@ -21,9 +16,8 @@ import dress from "../../assets/mockup/dress.webp";
 import sneekers from "../../assets/mockup/sneekers.webp";
 import pizza from "../../assets/mockup/pizza.webp";
 import car from "../../assets/mockup/car.webp";
-import raikar from "../../assets/mockup/raikar.webp";
 import glamor from "../../assets/mockup/glamor.webp";
-import beauty from "../../assets/mockup/Beauty.webp";
+
 
 import figma from "../../assets/icon/figma.png";
 import illustrator from "../../assets/icon/illustrator.png";
