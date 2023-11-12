@@ -94,7 +94,7 @@ export const CaseStudy = () => {
                   role="alert"
                 >
                   <span class="text-sm font-medium text-white p-2 px-5 glamorwhite">
-                    Solution for Fashion Industry
+                    AI Recomended Fashion App
                   </span>
                 </a>
                 <h1 class="glamorwhite max-w-xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">

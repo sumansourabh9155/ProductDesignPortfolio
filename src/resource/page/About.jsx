@@ -2,6 +2,11 @@ import React from "react";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import Framer from "../../assets/buttons/Frame.png";
+import { Link } from "react-router-dom";
+import suman from "../../assets/images/suman.jpg";
+import techstack from "../../assets/images/techstack.jpeg";
+import bubbleup from "../../assets/images/bubbleup.jpg";
+import spade from "../../assets/images/spade.jpg";
 
 import ReactGA from "react-ga";
 ReactGA.initialize("G-R2Q7XQ6WBW");
@@ -27,14 +32,239 @@ const ExampleComponent = () => {
             </div>
           </section>
         </div>
+        <div className="flex flex-col lg:flex-row items-center pt-0 md:pt-24 px-2 md:px-12">
+          <div className="md:w-7/12 lg:w-5/12 hidden lg:block">
+            <img
+              src={suman}
+              className=" rounded-tl-lg rounded-br-full"
+              alt="description"
+            />
+          </div>
+          <div className="max-w-2xl flex flex-col items-center lg:items-start p-4 md:p-12">
+            {/* Image for mobile view */}
+            <div
+              className="block lg:hidden rounded-full shadow-xl mx-auto mt-16 h-32 w-32 bg-cover bg-center"
+              style={{ backgroundImage: `url(${suman})` }}
+            ></div>
+            {/* Blockquote */}
+            <p className="mb-1 leading-relaxed text-xl text-[#f4a462]">
+              About Me
+            </p>
+            <h1 className="suman tracking-wide text-3xl sm:text-4xl md:text-5xl xl:text-5xl mb-2 font-bold">
+              Suman <span className="text-[#e76e50] suman">Sourabh</span>
+            </h1>
+            <p className="mb-1 leading-relaxed text-xl text-[#2a9d90]">
+              Currently a student of Graduation
+            </p>
+            <blockquote className="font-serif text-center md:text-left">
+              <p className="mb-4">
+                <span className="pr-1 font-serif text-2xl text-center text-red-600">
+                  "
+                </span>
+                My goal is to create a user experience that is both
+                aesthetically pleasing and functionally efficient. I have an eye
+                for detail and always strive to implement the latest design
+                trends.
+                <br />
+                <br />
+                I take the time to research the event and the target audience
+                and create a design that meets the specific needs of the event
+                and its users.
+                <br />
+                <br />I also work closely with the brand to ensure that the
+                design I deliver is what they have in mind.
+                <span className="pl-1 font-serif text-2xl text-red-600">"</span>
+              </p>
+              <div className="mb-4 w-3/5 border-b-2 border-orange-500 opacity-25 mx-auto lg:mx-0"></div>
+              <div className="flex justify-center  md:justify-start pt-0 sm:item-center md:pt-10">
+                <Link to="/projects" className="button-dark " role="button">
+                  Check My Work
+                </Link>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        {/* Events techStack */}
+        <p className=" pb-2 pt-16  flex items-center justify-center w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
+          Public Speaking
+        </p>
+        <h1 className="title-font tracking-wide text-3xl md:text-2xl xl:text-4xl pb-7 md:mb-12 font-bold flex justify-center suman">
+          My Events
+        </h1>
+        <div class="flex items-center justify-center">
+          <div class="relative flex w-full max-w-6xl flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div class="relative m-0 w-4/12 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+              <img
+                src={techstack}
+                alt="image"
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <div class="p-6">
+              <h6 class="mb-4 block  text-base font-semibold uppercase leading-relaxed tracking-normal text-[#e76e50] antialiased">
+                November 22
+              </h6>
+              <h4 class="mb-2 block  text-2xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                UI/UX with Figma
+              </h4>
+              <p class="mb-8 block  text-base font-normal leading-relaxed text-gray-700 antialiased">
+                <ol className="list-disc pl-5">
+                  <li>
+                    Organized and led an event at Lovely Professional
+                    University, fostering interaction and learning.
+                  </li>
+                  <li>
+                    Created a successful landing page design for a cosmetic
+                    shop, which attracted over 250 attendees and was duplicated
+                    more than 200 times within the Figma Communities.
+                  </li>
+                </ol>
+              </p>
+              <a class="inline-block" href="#">
+                <button class="buttonsmall" type="button">
+                  Learn More
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="white"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="white"
+                    aria-hidden="true"
+                    class="h-4 pl-1 w-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    ></path>
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
 
-        <div>
-          {" "}
-          <div className="min-h-screen  py-6 flex flex-col justify-center sm:py-12">
+        {/* Events Bubbleup */}
+        <div class="flex items-center justify-center pt-6">
+          <div class="relative flex w-full max-w-6xl flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div class="relative m-0 w-4/12  shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+              <img
+                src={bubbleup}
+                alt="image"
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <div class="p-6">
+              <h6 class="mb-4 block  text-base font-semibold uppercase leading-relaxed tracking-normal text-[#e76e50] antialiased">
+                December 22
+              </h6>
+              <h4 class="mb-2 block  text-2xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                Intro to UI/UX
+              </h4>
+              <p class="mb-8 block  text-base font-normal leading-relaxed text-gray-700 antialiased">
+                <ol className="list-disc pl-5">
+                  <li>
+                    Delivered a webinar in partnership with the BubbleUp
+                    Community, sharing knowledge and insights
+                  </li>
+                  <li>
+                    Created the landing page design for a shoe brand that was
+                    replicated over 500 times within the Figma Communities,
+                    demonstrating its popularity and impact. Communities
+                  </li>
+                </ol>
+              </p>
+              <a class="inline-block" href="#">
+                <button class="buttonsmall" type="button">
+                  Learn More
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="white"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="white"
+                    aria-hidden="true"
+                    class="h-4 pl-1 w-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    ></path>
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* Events Spade */}
+        <div class="flex items-center justify-center pt-6">
+          <div class="relative flex w-full max-w-6xl flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div class="relative m-0 w-4/12  shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+              <img
+                src={spade}
+                alt="image"
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <div class="p-6">
+              <h6 class="mb-4 block  text-base font-semibold uppercase leading-relaxed tracking-normal text-[#e76e50] antialiased">
+                November 22
+              </h6>
+              <h4 class="mb-2 block  text-2xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                UI/UX with Figma
+              </h4>
+              <p class="mb-8 block  text-base font-normal leading-relaxed text-gray-700 antialiased">
+                <ol className="list-disc pl-5">
+                  <li>
+                    Organized and led an event at Lovely Professional
+                    University, fostering interaction and learning.
+                  </li>
+                  <li>
+                    Created a successful landing page design for a cosmetic
+                    shop, which attracted over 250 attendees and was duplicated
+                    more than 200 times within the Figma Communities.
+                  </li>
+                </ol>
+              </p>
+              <a class="inline-block" href="#">
+                <button class="buttonsmall" type="button">
+                  Learn More
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="white"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="white"
+                    aria-hidden="true"
+                    class="h-4 pl-1 w-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    ></path>
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Timeline */}
+        <p className=" pb-2 pt-16  flex items-center justify-center w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
+          Public Speaking
+        </p>
+        <h1 className="title-font tracking-wide text-3xl md:text-2xl xl:text-4xl pb-7 md:mb-12 font-bold flex justify-center suman">
+          My Events
+        </h1>
+        
+        <div class="flex items-center justify-center">
+          <div className="w-full max-w-6xl py-6 flex flex-col justify-center sm:py-12">
             <div className="py-3 px-2 sm:px-0">
               <div className="relative text-gray-700 antialiased text-sm font-semibold">
                 {/* Vertical bar running through the middle */}
-                <div className="hidden sm:block w-1 bg-blue-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
+                <div className="hidden sm:block w-1 bg-[#e76e50] absolute h-full left-1/2 transform -translate-x-1/2"></div>
 
                 {/* Left section */}
                 <div className="mt-6 sm:mt-0 sm:mb-12">

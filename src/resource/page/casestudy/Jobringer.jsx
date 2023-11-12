@@ -1,5 +1,6 @@
 import React from "react";
 import sinaiscreen from "../../../assets/sinaidesert/sinaiscreen.png";
+import color from "../../../assets/jobringer/color.png";
 import manpersona from "../../../assets/sinaidesert/manpersona.png";
 import familypersona from "../../../assets/sinaidesert/familypersona.png";
 import flowchart from "../../../assets/sinaidesert/flowchart.png";
@@ -16,7 +17,6 @@ import text from "../../../assets/sinaidesert/text.png";
 import colors from "../../../assets/sinaidesert/colors.png";
 import ui from "../../../assets/sinaidesert/ui.png";
 
-
 import Navbar from "../../component/Navbar";
 import Footer from "../../component/Footer";
 
@@ -24,23 +24,23 @@ const Jobringer = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <section class="bg-[#F37344] h-screen " style={{ color: "#903643" }}>
+      <section class="bg-[#0030F9] h-screen " style={{ color: "#903643" }}>
         <div className="">
           <div class="grid max-w-screen-xl px-4 py-20 mx-auto lg:gap-8 xl:gap-0 lg:py-44 lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-5">
               <a
                 href="#"
-                class="inline-flex justify-between items-center py-1 px-1 mb-7 text-sm  bg-[#545D3E] rounded-full hover:bg-[#829553] "
+                class="inline-flex justify-between items-center py-1 px-1 mb-7 text-sm  bg-white rounded-full hover:bg-[#829553] "
                 role="alert"
               >
-                <span class="text-sm font-medium text-white p-2 px-5">
-                  Solution for Fashion Industry
+                <span class="text-sm font-medium text-[#0030F9] p-2 px-5">
+                  Online Platform to Find Jobs
                 </span>
               </a>
-              <h1 class="max-w-xl mb-4 text-4xl sinaiwhite font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-                Sinai Online
+              <h1 class="max-w-xl mb-4 text-4xl jobwhite font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                JobRinger
               </h1>
-              <p class="max-w-xl mb-6 font-light sinaiwhite text-white sinaiwhite lg:mb-8 lg:text-sm">
+              <p class="max-w-xl mb-6 font-light jobwhite text-white jobwhite lg:mb-8 lg:text-sm">
                 Platform dedicated to booking camps, hotels, and drivers in the
                 Sinai Desert, with the aim of providing users with a seamless,
                 engaging, and informative experience while promoting the unique
@@ -49,7 +49,7 @@ const Jobringer = () => {
 
               <a
                 href="#"
-                class="sinaiwhite inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center  bg-[#545D3E] border-gray-300 rounded-lg hover:bg-[#829553] focus:ring-4 focus:ring-gray-100 dark:text-white "
+                class="jobwhite inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center  bg-white border-gray-300 rounded-lg hover:bg-[#829553] focus:ring-4 focus:ring-gray-100 text-[#0030F9]  "
               >
                 Visit Figma File
                 <svg
@@ -60,7 +60,7 @@ const Jobringer = () => {
                 >
                   <path
                     fill-rule="evenodd"
-                    fill="white"
+                    fill="#0030F9 "
                     d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
                     clip-rule="evenodd"
                   ></path>
@@ -108,101 +108,145 @@ const Jobringer = () => {
                   </div>
                 </div> */}
               </address>
-              <h1 class="mb-4 text-3xl font-semibold leading-tight sinai text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
+              <h1 class="mb-4 text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
                 Project Information (Goal)
               </h1>
             </header>
-            <p class="lead sinai text-sm">
-              Users face a fragmented and suboptimal experience when trying to
-              book accommodations and drivers in the Sinai Desert due to a lack
-              of user-friendly and cohesive interfaces. Key issues include
-              complex booking processes, inconsistent information presentation,
-              limited mobile accessibility, and a lack of inclusivity for users
-              with varying levels of tech proficiency and accessibility needs.
+            <p class="lead job text-md">
+              The primary objective of this redesign is to enhance the overall
+              user experience of the job portal website. This involves improving
+              SEO, attracting companies to open job portals, better visualizing
+              the platform's offerings, building trust and authenticity,
+              optimizing the search and filter functionalities, and encouraging
+              users to download the app. Additionally, the redesign aims to
+              provide a comprehensive job description, promote partnered
+              companies, and facilitate newsletter sign-ups for personalized job
+              recommendations.
             </p>
 
-            <h1 class="my-4 sinai text-3xl font-semibold leading-tight sinai text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
+            <h1 class="my-4 job text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
               Problems User face
             </h1>
-            <ol class=" space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400">
-              <li className="sinai">
+            <ol class=" space-y-1 text-gray-500  dark:text-gray-400">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Fragmented booking experience.
+                  Low Visibility and SEO Ranking:
                 </span>{" "}
+                Landing page lacks SEO optimization, leading to poor visibility.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Limited mobile optimization.
+                  Limited Company Engagement:
                 </span>{" "}
+                Insufficient incentives for companies, impacting job portal
+                engagement.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Complex procedures.
+                  Complex Navigation:
                 </span>{" "}
+                Inefficient search and filter functionalities hinder seamless
+                navigation.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Difficulty pairing
+                  Ineffective Visualization:
                 </span>{" "}
+                Platform offerings aren't well-visualized, causing user
+                confusion.
               </li>
-             
-              <li className="sinai">
+
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Inconsistent information.
+                  Lack of Trust and Authenticity:
                 </span>{" "}
+                Landing page fails to convey trustworthiness, potentially
+                deterring users.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                 Target Tourists, families, diving enthusiasts, eco-tourists, and users with varying tech proficiency.
+                  Insufficient Job Descriptions:
                 </span>{" "}
+                Job listings lack detailed, user-friendly descriptions.
+              </li>
+              <li className="job">
+                <span class="font-semibold text-lg text-gray-900 dark:text-black">
+                  Limited Promotion of Partnered Companies:
+                </span>{" "}
+                Inadequate showcasing of partnered companies on the landing
+                page.
+              </li>
+              <li className="job">
+                <span class="font-semibold text-lg text-gray-900 dark:text-black">
+                  Ineffective Newsletter Signup:
+                </span>{" "}
+                Suboptimal process for collecting newsletter sign-ups.
               </li>
             </ol>
 
-            <h1 class="mb-4 pt-8 sinai text-3xl font-semibold leading-tight sinai text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
+            <h1 class="mb-4 pt-8 job text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
               Solution For User
             </h1>
-            <ol class=" space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400">
-              <li className="sinai">
+            <ol class=" space-y-1 text-gray-500   dark:text-gray-400">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Intuitive interface.
+                  SEO Optimization:
                 </span>{" "}
+                Implement SEO best practices for improved visibility.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Efficient booking flows.
+                  Incentivize Companies:
                 </span>{" "}
+                Develop compelling value propositions for company engagement.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Mobile optimization.
+                  Streamlined Navigation:
                 </span>{" "}
+                Redesign search and filter for a user-friendly experience.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Comprehensive information.
+                  Visual Storytelling:
                 </span>{" "}
+                Use visuals to effectively communicate platform services.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Inclusion of qualityand size guides.
+                  Trust-Building Elements:
                 </span>{" "}
+                Implement trust signals like testimonials and security badges.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
                   Accessibility compliance.
                 </span>{" "}
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Additional features for user engagement and competitiveness.
+                  Comprehensive Job Descriptions:
                 </span>{" "}
+                Enhance job listings with detailed descriptions.
+              </li>
+              <li className="job">
+                <span class="font-semibold text-lg text-gray-900 dark:text-black">
+                  Promotion of Partnered Companies:
+                </span>{" "}
+                Showcase partnered companies prominently.
+              </li>
+              <li className="job">
+                <span class="font-semibold text-lg text-gray-900 dark:text-black">
+                  POptimized Newsletter Signup:
+                </span>{" "}
+                Simplify the sign-up process for increased subscriptions.
               </li>
             </ol>
 
-            <h1 class="mb-4 mt-8 text-3xl font-semibold leading-tight sinai text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
+            <h1 class="mb-4 mt-8 text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
               Competitor Analysis
             </h1>
-            <p class="lead sinai">
+            <p class="lead job">
               To understand the user need, I needed to understand how current
               products are addressing needs and identify area or potential
               growth, I started with an audit of competitors current performance
@@ -211,9 +255,9 @@ const Jobringer = () => {
             <table class="table-fixed w-full my-5  ">
               <thead>
                 <tr>
-                  <th class="px-4 py-2 bg-gray-100 sinai">Competetors</th>
-                  <th class="px-4 py-2 bg-gray-100 sinai">Strength</th>
-                  <th class="px-4 py-2 bg-gray-100 sinai">Weakness</th>
+                  <th class="px-4 py-2 bg-gray-100 job">Competetors</th>
+                  <th class="px-4 py-2 bg-gray-100 job">Strength</th>
+                  <th class="px-4 py-2 bg-gray-100 job">Weakness</th>
                 </tr>
               </thead>
               <tbody>
@@ -327,28 +371,24 @@ const Jobringer = () => {
               </tbody>
             </table>
 
-            <h1 class="mb-4 pt-8 sinai text-xl font-bold leading-tight text-gray-900 lg:mb-6 lg:text-2xl dark:text-black">
+            <h1 class="mb-4 pt-8 job text-xl font-bold leading-tight text-gray-900 lg:mb-6 lg:text-2xl dark:text-black">
               Persona
             </h1>
             <figure>
               <img src={manpersona} alt=""></img>
-              <figcaption className="text-center">
-              Persona 1
-              </figcaption>
+              <figcaption className="text-center">Persona 1</figcaption>
             </figure>
             <figure>
               <img src={familypersona} alt=""></img>
-              <figcaption className="text-center">
-                Persona 2
-              </figcaption>
+              <figcaption className="text-center">Persona 2</figcaption>
             </figure>
 
-            <h1 class="mt-8 sinai text-3xl font-semibold leading-tight sinai text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
+            <h1 class="mt-8 job text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
               Font Used (Inter)
             </h1>
             <div className="jitems-center">
               <ul class="  text-gray-500  dark:text-gray-400">
-                <li className="sinai">
+                <li className="job">
                   <span class="font-semibold text-lg text-gray-900 dark:text-black">
                     Cleanliness and modernity
                   </span>{" "}
@@ -356,7 +396,7 @@ const Jobringer = () => {
                   consistent with the brand's focus on adventure and
                   exploration.
                 </li>
-                <li className="sinai">
+                <li className="job">
                   <span class="font-semibold text-lg text-gray-900 dark:text-black">
                     Readability and accessibility
                   </span>{" "}
@@ -364,7 +404,7 @@ const Jobringer = () => {
                   is important for ensuring that the brand's message is easily
                   communicated to potential customers.
                 </li>
-                <li className="sinai">
+                <li className="job">
                   <span class="font-semibold text-lg text-gray-900 dark:text-black">
                     Friendliness and approachability
                   </span>{" "}
@@ -376,60 +416,57 @@ const Jobringer = () => {
             </div>
             <div class=" grid grid-cols-12 gap-14 lg:mt-6">
               <div className="col-span-6">
-                <p className="sinai font-semibold pb-2">Inter Font</p>
+                <p className="job font-semibold pb-2">Inter Font</p>
                 <img src={inter} alt="mockup"></img>
               </div>
               <div className="col-span-6">
-                <p className="sinai font-semibold pb-2">Inter Bold Font</p>
+                <p className="job font-semibold pb-2">Inter Bold Font</p>
                 <img src={inter} alt="mockup"></img>
               </div>
             </div>
-            <p className="sinai font-semibold pb-2 lg:mt-6">Inter Bold Font</p>
+            <p className="job font-semibold pb-2 lg:mt-6">Inter Bold Font</p>
             <img src={text} alt="mockup"></img>
 
-            <h1 class="mb-4 pt-8 text-3xl font-semibold leading-tight sinai text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
-              Colors I used for Sinai Online
+            <h1 class="mb-4 pt-8 text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
+              Colors I used 
             </h1>
-            <figure>
-              <img src={colors} alt=""></img>
+            <p className="job">This harmonious palette communicates trustworthiness, professionalism, innovation, and positivity</p>
+            <figure className="py-5">
+              <img src={color} alt=""></img>
               <figcaption className="text-center">
-                Color ( green , Orange ,Brown)
+              consisting of #0030F9, #F2F7FF, #A259FF, and #0ACF83.
               </figcaption>
             </figure>
             <ul class=" space-y-1 text-gray-500  list-inside dark:text-gray-400">
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Adventure and exploration
+                  #0030F9 (Blue)
                 </span>{" "}
-                Brown and green are earthy tones that are often associated with
-                the natural world, while orange can add a touch of excitement
-                and energy.
+                Conveys trust and professionalism, crucial for a job portal.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Reliability and trust
+                  #F2F7FF (Light Blue/Gray)
                 </span>{" "}
-                Brown can also be seen as a symbol of stability and
-                dependability, while green can suggest growth and harmony.
+                Provides a clean and modern backdrop, enhancing readability.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Warmth and hospitality
+                  #A259FF (Purple)
                 </span>{" "}
-                Orange is a vibrant and welcoming color that can create a sense
-                of warmth and friendliness.
+                Suggests creativity and innovation, attracting forward-thinking
+                companies.
               </li>
-              <li className="sinai">
+              <li className="job">
                 <span class="font-semibold text-lg text-gray-900 dark:text-black">
-                  Nature and the outdoors
+                  #0ACF83 (Green)
                 </span>{" "}
-                The combination of brown, orange, and green can evoke images of
-                the desert landscape, which could be appealing to potential
-                customers who are interested in exploring the Sinai Desert.
+                Represents positivity and growth, aligning with users' career
+                aspirations.
               </li>
             </ul>
 
-            <h1 class="mb-4 pt-8 text-3xl font-semibold leading-tight sinai text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
+            <h1 class="mb-4 pt-8 text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
               User Flow
             </h1>
             <figure>
@@ -439,40 +476,27 @@ const Jobringer = () => {
               </figcaption>
             </figure>
 
-            <h1 class="mb-4 pt-8 text-3xl font-semibold leading-tight sinai text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
+            <h1 class="mb-4 pt-8 text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
               Wireframe
             </h1>
             <figure>
               <img src={wireframe} alt=""></img>
-              <figcaption className="text-center">
-                Wireframe
-              </figcaption>
+              <figcaption className="text-center">Wireframe</figcaption>
             </figure>
 
-            <h1 class="mb-4 pt-8 sinai text-xl font-bold leading-tight text-gray-900 lg:mb-6 lg:text-2xl dark:text-black">
-              Component
-            </h1>
-            <figure>
-              <img src={component} alt=""></img>
-              <figcaption className="text-center">
-                Components
-              </figcaption>
-            </figure>
 
-            <h1 class="mb-4 pt-8 text-3xl font-semibold leading-tight sinai text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
+            <h1 class="mb-4 pt-8 text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
               High fidelity wireframes
             </h1>
             <figure>
               <img src={ui} alt=""></img>
               <figcaption className="text-center">
-              All user Interface
+                All user Interface
               </figcaption>
             </figure>
             <figure>
               <img src={sinaithumbnail} alt=""></img>
-              <figcaption className="text-center">
-                user Interface
-              </figcaption>
+              <figcaption className="text-center">user Interface</figcaption>
             </figure>
           </article>
         </div>

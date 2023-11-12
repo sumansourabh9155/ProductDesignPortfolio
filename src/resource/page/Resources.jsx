@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../component/Navbar";
 import DesignSystem from "../component/Resource page/DesignSystem";
+import IconVector from "../component/Resource page/IconVector";
 import DesignInspiration from "../component/Resource page/DesignInspiration";
 
 
@@ -28,6 +29,7 @@ class Resources extends Component {
         </div>
         <DesignSystem/>
         <DesignInspiration/>
+        <IconVector/>
         
       </div>
     );
