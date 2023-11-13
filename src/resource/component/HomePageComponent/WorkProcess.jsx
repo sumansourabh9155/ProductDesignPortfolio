@@ -91,7 +91,7 @@ const WorkProcess = () => {
   ));
 
   return (
-    <div className="px-2 md:px-10 mt-20">
+    <div className="px-2 md:px-10 mt-4">
       <p className="pb-2 relative flex items-center justify-center w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
               To make the smooth process
             </p>

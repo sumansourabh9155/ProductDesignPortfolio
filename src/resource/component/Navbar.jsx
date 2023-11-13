@@ -31,16 +31,16 @@ const Navbar = () => {
 
   const navLinks = [
     { to: "/casestudy", text: "Case Study" },
-    { to: "/projects", text: "Design" },
+    { to: "/projects", text: "Projects" },
     { to: "/resources", text: "Resources" },
     { to: "/blog", text: "Blog" },
-    { to: "/Maintenance", text: "About Me" },
+    { to: "/About", text: "About Me" },
   ];
 
   return (
     <div className="md:pl-12 flex justify-center mx-auto max-w-screen-2xl">
       <div
-        className={`fixed w-full transition-transform duration-300 z-10 ${
+        className={`fixed w-full transition-transform duration-300 z-40 ${
           isScrolled ? "translate-y-0" : "-translate-y-24"
         }`}
       >

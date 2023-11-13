@@ -13,7 +13,7 @@ const Help = () => {
         <p className="pb-2 relative flex items-center justify-center w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
           Love to tell you
         </p>
-        <h1 className=" flex items-center justify-center title-font tracking-wide text-3xl md:text-2xl xl:text-4xl pb-10 md:mb-12 font-bold  suman">
+        <h1 className=" flex items-center justify-center title-font tracking-wide text-3xl md:text-2xl xl:text-4xl pb-4 md:mb-8 font-bold  suman">
           How We Help You Succeed
         </h1>
         <div className="box-border flex flex-col items-center content-center px-2 md:px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
@@ -65,7 +65,7 @@ const Help = () => {
           </div>
           {/* <!-- End  Content --> */}
         </div>
-        <div className="box-border flex flex-col items-center content-center px-2 md:px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-20 md:flex-row max-w-7xl lg:px-16">
+        <div className="box-border flex flex-col items-center content-center px-2 md:px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:mt-8 xl:mt-6 md:flex-row max-w-7xl lg:px-16">
           {/* <!-- Content --> */}
           <div className="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
             <h2 className="subheadline m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
@@ -114,7 +114,7 @@ const Help = () => {
           </div>
         </div>
         {/* Additional Feature */}
-        <div className="box-border flex justify-center mt-2 md:mt-14">
+        <div className="box-border flex justify-center mt-2 md:mt-8">
           <Link to="/contact" className="button-dark " role="button">
             Book a Call
           </Link>

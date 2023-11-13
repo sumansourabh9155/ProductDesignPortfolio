@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const IconVector = () => {
   return (
     <div>
-      <div className="  ">
+      <div className=" bodymargin ">
         <p className="text-4xl pb-2 md:pb:10 pt-5 md:pt-10 subheadline flex justify-center font-bold">
           Icon or Vector
         </p>

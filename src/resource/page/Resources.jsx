@@ -10,7 +10,7 @@ class Resources extends Component {
     return (
       <div>
         <Navbar />
-        <div className="pt-20 px-12">
+        <div className="bodymargin pt-20 px-12">
           <div className=" dark:text-gray-100">
             <section className=" text-[#033d35] -z-10 relative ">
               <div

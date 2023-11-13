@@ -66,7 +66,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <div className="dark:text-gray-100 pt-20">
+      <div className="bodymargin dark:text-gray-100 pt-20">
         <section className="text-[#033d35] -z-10 relative">
           <div
             className="lg:h-80 md:h-56 sm:h-48 hero-image bg-right-bottom bg-cover flex"

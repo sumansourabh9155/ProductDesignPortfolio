@@ -7,7 +7,7 @@ const Blogs = () => {
   return (
     <div>
       <Navbar />
-      <div className="px-1 md:px-12 pt-20 pb-10 md:pb-20">
+      <div className="bodymargin px-1 md:px-12 pt-20 pb-10 md:pb-20">
         <div className=" dark:text-gray-100">
           <section className=" text-[#033d35] -z-10 relative ">
             <div

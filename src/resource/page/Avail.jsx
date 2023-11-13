@@ -26,7 +26,7 @@ const Avail = () => {
         </div>
       </div> */}
 
-      <section class=" pt-16 ">
+      <section class="bodymargin pt-16 ">
         <div class=" px-4 mx-auto max-w-screen-md text-center lg:py-16 lg:px-12">
           <img src={Maintenance} className="px-28" alt="Maintenance" />{" "}
           <h1 class="mb-4 text-4xl font-bold tracking-tight leading-none suman lg:mb-6 md:text-5xl xl:text-6xl ">

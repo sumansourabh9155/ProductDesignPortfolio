@@ -12,12 +12,19 @@
     position: relative;
   }
 
-  .grids > div:nth-child(odd) {
-    animation: moveUpAndDown 40s linear infinite, moveUp 15s infinite;
+  .grids > div:nth-child(1) {
+    animation: moveUpAndDown 75s linear infinite, moveUp 50s infinite;
   }
 
-  .grids > div:nth-child(even) {
-    animation: moveUpAndDown 30s linear infinite, moveDown 10s infinite;
+  .grids > div:nth-child(2) {
+    animation: moveUpAndDown 45s linear infinite, moveDown 75s infinite;
+  }
+  .grids > div:nth-child(3) {
+    animation: moveUpAndDown 65s linear infinite, moveUp 40s infinite;
+  }
+
+  .grids > div:nth-child(4) {
+    animation: moveUpAndDown 50s linear infinite, moveDown 40s infinite;
   }
 
   @keyframes moveUpAndDown {
@@ -31,19 +38,19 @@
 
   @keyframes moveUp {
     0%, 100% {
-      transform: translateY(0%);
+      transform: translateY(-25%);
     }
     50% {
-      transform: translateY(-30%);
+      transform: translateY(25%);
     }
   }
 
   @keyframes moveDown {
     0%, 100% {
-      transform: translateY(-32%);
+      transform: translateY(25%);
     }
     50% {
-      transform: translateY(0%);
+      transform: translateY(-25%);
     }
   }
 

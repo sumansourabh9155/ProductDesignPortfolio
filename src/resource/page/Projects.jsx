@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 import Navbar from "../component/Navbar";
 import ReactGA from "react-ga";
 
-import jwell from "../../assets/mockup/jewll.webp";
-import fashion from "../../assets/mockup/fashion.webp";
-import dog from "../../assets/mockup/dog.webp";
-import law from "../../assets/mockup/law.webp";
-import drink from "../../assets/mockup/drink.webp";
-import fainance from "../../assets/mockup/fainance.webp";
-import nft from "../../assets/mockup/nft.webp";
-import shopping from "../../assets/mockup/shopping.webp";
-import anime from "../../assets/mockup/anime.webp";
-import dress from "../../assets/mockup/dress.webp";
-import sneekers from "../../assets/mockup/sneekers.webp";
-import pizza from "../../assets/mockup/pizza.webp";
-import car from "../../assets/mockup/car.webp";
-import glamor from "../../assets/mockup/glamor.webp";
+import jwell from "../../assets/mockupcompress/jewll.webp";
+import fashion from "../../assets/mockupcompress/fashion.webp";
+import dog from "../../assets/mockupcompress/dog.webp";
+import law from "../../assets/mockupcompress/law.webp";
+import drink from "../../assets/mockupcompress/drink.webp";
+import fainance from "../../assets/mockupcompress/fainance.webp";
+import nft from "../../assets/mockupcompress/nft.webp";
+import shopping from "../../assets/mockupcompress/shopping.webp";
+import anime from "../../assets/mockupcompress/anime.webp";
+import dress from "../../assets/mockupcompress/dress.webp";
+import sneekers from "../../assets/mockupcompress/sneekers.webp";
+import pizza from "../../assets/mockupcompress/pizza.webp";
+import car from "../../assets/mockupcompress/car.webp";
+import glamor from "../../assets/mockupcompress/glamor.webp";
 
 
 import figma from "../../assets/icon/figma.png";
@@ -32,7 +32,7 @@ const Projects = () => {
     <div>
       <Navbar />
 
-      <div className="pt-20  px-2 md:px-12 mb-32">
+      <div className="bodymargin pt-20  px-2 md:px-12 mb-32">
         <div className="dark:text-gray-100 ">
           <section className="text-[#033d35] -z-10  relative">
             <div

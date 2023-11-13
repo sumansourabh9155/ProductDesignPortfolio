@@ -5,6 +5,17 @@
   /* background-color: black; */
 
 }
+body{
+  box-sizing: border-box;
+  
+}
+
+.bodymargin{
+  margin: 0 3% 0 3%;
+}
+.orange{
+  color: #e76e50;
+}
 .suman {
   font-family: "Lato", sans-serif;
   font-weight: 800;
