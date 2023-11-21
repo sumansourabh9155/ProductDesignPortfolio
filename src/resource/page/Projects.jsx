@@ -81,7 +81,7 @@ const Projects = () => {
                   cutting-edge fashion e-commerce experience
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -101,7 +101,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -139,7 +139,7 @@ const Projects = () => {
                   e-commerce, upholding a legacy of timeless beauty.
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -159,7 +159,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -198,7 +198,7 @@ const Projects = () => {
                   suggests daily wear for upcoming trends.
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -218,7 +218,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -254,7 +254,7 @@ const Projects = () => {
                   and digital assets
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -274,7 +274,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -311,7 +311,7 @@ const Projects = () => {
                   and digital assets
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -331,7 +331,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -368,7 +368,7 @@ const Projects = () => {
                   and digital assets
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -388,7 +388,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -424,7 +424,7 @@ const Projects = () => {
                   and digital assets
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -444,7 +444,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -480,7 +480,7 @@ const Projects = () => {
                   and digital assets
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -500,7 +500,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -536,7 +536,7 @@ const Projects = () => {
                   and digital assets
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -556,7 +556,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -592,7 +592,7 @@ const Projects = () => {
                   and digital assets
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -612,7 +612,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -648,7 +648,7 @@ const Projects = () => {
                   and digital assets
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -668,7 +668,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -704,7 +704,7 @@ const Projects = () => {
                   and digital assets
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -724,7 +724,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -760,7 +760,7 @@ const Projects = () => {
                   and digital assets
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -780,7 +780,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -816,7 +816,7 @@ const Projects = () => {
                   and digital assets
                 </p>
                 <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <div class="flex justify-start space-x-10">
+                  {/* <div class="flex justify-start space-x-10">
                     <Link
                       to="https://www.behance.net/gallery/170990813/Zodiac"
                       className="buttonsmalldark"
@@ -836,7 +836,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
