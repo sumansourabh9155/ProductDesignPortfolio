@@ -13,6 +13,8 @@ import glamor from "../../../assets/mockup/glamor.webp";
 import anime from "../../../assets/mockup/anime.webp";
 import perfume from "../../../assets/mockup/perfume.webp";
 import fainance from "../../../assets/mockup/fainance.webp";
+import Beauty from "../../../assets/mockup/Beauty.webp";
+import raikar from "../../../assets/mockup/raikar.webp";
 import law from "../../../assets/mockup/law.webp";
 
 import { Link } from "react-router-dom";
@@ -68,18 +70,18 @@ const AnimatedProjects = () => {
               <img class="h-auto max-w-full rounded-lg" src={nft} alt="" />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={nft} alt="" />
+              <img class="h-auto max-w-full rounded-lg" src={Beauty} alt="" />
             </div>
           </div>
           <div class="grid gap-4">
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={dog} alt="" />
+              <img class="h-auto max-w-full rounded-lg" src={nft} alt="" />
             </div>
             <div>
               <img class="h-auto max-w-full rounded-lg" src={dress} alt="" />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={nft} alt="" />
+              <img class="h-auto max-w-full rounded-lg" src={dog} alt="" />
             </div>
             <div>
               <img class="h-auto max-w-full rounded-lg" src={anime} alt="" />
@@ -88,7 +90,7 @@ const AnimatedProjects = () => {
               <img class="h-auto max-w-full rounded-lg" src={fainance} alt="" />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={fainance} alt="" />
+              <img class="h-auto max-w-full rounded-lg" src={glamor} alt="" />
             </div>
           </div>
           <div class="grid gap-4">
@@ -108,7 +110,7 @@ const AnimatedProjects = () => {
               <img class="h-auto max-w-full rounded-lg" src={car} alt="" />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={car} alt="" />
+              <img class="h-auto max-w-full rounded-lg" src={perfume} alt="" />
             </div>
           </div>
           <div class="grid gap-4">
@@ -122,13 +124,13 @@ const AnimatedProjects = () => {
               <img class="h-auto max-w-full rounded-lg" src={perfume} alt="" />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={pizza} alt="" />
+              <img class="h-auto max-w-full rounded-lg" src={raikar} alt="" />
             </div>
             <div>
               <img class="h-auto max-w-full rounded-lg" src={drink} alt="" />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={drink} alt="" />
+              <img class="h-auto max-w-full rounded-lg" src={law} alt="" />
             </div>
           </div>
         </div>
