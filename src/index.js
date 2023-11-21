@@ -8,6 +8,7 @@ import About from "./resource/page/About";
 import Contact from "./resource/page/Contact";
 import Projects from "./resource/page/Projects";
 import Blog from "./resource/page/Blogs";
+import Uiux from "./resource/component/Blog/Uiux";
 import Avail from "./resource/page/Avail";
 import RaikarGoodVibes from "./resource/page/casestudy/RaikarGoodVibes";
 import EstellesJewels from "./resource/page/casestudy/EstellesJewels";
@@ -73,6 +74,10 @@ root.render(
         <Route
           path="/casestudy/Jobringer"
           element={<Jobringer />}
+        />
+        <Route
+          path="/blog/uiux"
+          element={<Uiux/>}
         />
        
         <Route path="/casestudy/GlamorAI" element={<GlamorAI />} />

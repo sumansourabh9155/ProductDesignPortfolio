@@ -60,6 +60,7 @@ const Projects = () => {
                     src={fashion}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
@@ -115,6 +116,7 @@ const Projects = () => {
                     src={jwell}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
                   <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
                     Case Study
@@ -172,6 +174,7 @@ const Projects = () => {
                     src={glamor}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
                   <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
                     Case Study
@@ -229,6 +232,7 @@ const Projects = () => {
                     src={nft}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
@@ -285,6 +289,7 @@ const Projects = () => {
                     src={drink}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
@@ -341,6 +346,7 @@ const Projects = () => {
                     src={fainance}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
@@ -396,6 +402,7 @@ const Projects = () => {
                     src={shopping}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
@@ -451,6 +458,7 @@ const Projects = () => {
                     src={dog}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
@@ -506,6 +514,7 @@ const Projects = () => {
                     src={pizza}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
@@ -561,6 +570,7 @@ const Projects = () => {
                     src={law}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
@@ -616,6 +626,7 @@ const Projects = () => {
                     src={sneekers}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
@@ -671,6 +682,7 @@ const Projects = () => {
                     src={dress}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
@@ -726,6 +738,7 @@ const Projects = () => {
                     src={anime}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
@@ -781,6 +794,7 @@ const Projects = () => {
                     src={car}
                     class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
                     alt="Louvre"
+                    loading="lazy"
                   />
 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
