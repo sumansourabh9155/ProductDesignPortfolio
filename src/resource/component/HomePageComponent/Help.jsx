@@ -14,7 +14,7 @@ const Help = () => {
           Love to tell you
         </p>
         <h1 className=" flex items-center justify-center title-font tracking-wide text-3xl md:text-2xl xl:text-4xl pb-4 md:mb-8 font-bold  suman">
-          How We Help You Succeed
+          How I Help You Succeed
         </h1>
         <div className="box-border flex flex-col items-center content-center px-2 md:px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
           {/* <!-- Image --> */}

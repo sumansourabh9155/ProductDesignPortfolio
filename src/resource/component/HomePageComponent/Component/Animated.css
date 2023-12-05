@@ -1,9 +1,5 @@
 
-  .grids {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
-    grid-gap: 1rem; /* Adjust the gap between items as needed */
-  }
+  
 
   .grids > div {
     animation: moveUpAndDown 20s linear infinite;

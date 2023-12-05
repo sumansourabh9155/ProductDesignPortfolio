@@ -4,6 +4,7 @@ import Footer from "../component/Footer";
 import { Link } from "react-router-dom";
 import suman from "../../assets/images/suman.jpg";
 import Events from "../component/AboutPageComponent/Events";
+import Tech from "../component/AboutPageComponent/Tech";
 
 
 import ReactGA from "react-ga";
@@ -83,6 +84,7 @@ const ExampleComponent = () => {
             </blockquote>
           </div>
         </div>
+        <Tech></Tech>
         <Events/>
         
         

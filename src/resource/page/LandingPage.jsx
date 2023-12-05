@@ -1,6 +1,6 @@
 import Navbar from "../component/Navbar";
 import HeroSection from "../component/HomePageComponent/HeroSection";
-import Tech from "../component/HomePageComponent/Tech";
+
 import { AboutMe } from "../component/HomePageComponent/AboutMe";
 import Footer from "../component/Footer";
 import Help from "../component/HomePageComponent/Help";
@@ -22,12 +22,12 @@ const LandingPage = () => {
       <Navbar />
       
       <HeroSection />
-      <Tech />
-      <AboutMe />
       <AnimatedProjects/>
+      <AboutMe />
+      <WorkProcess />
+     
       <Help />
       {/* <Project/> */}
-      <WorkProcess />
       <Blog/>
       <Testimonial />
       <Footer />

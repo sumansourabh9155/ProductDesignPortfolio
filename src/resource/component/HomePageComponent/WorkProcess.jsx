@@ -82,9 +82,9 @@ const WorkProcess = () => {
           <p className="pt-1 pb-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-14 lg:text-lg">
             {item.subtitle}
           </p>
-          <ul className="pt-2 m-0 leading-6 border-0 border-gray-300">
+          {/* <ul className="pt-2 m-0 leading-6 border-0 border-gray-300">
             <FetchListItem para={item.para} />
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

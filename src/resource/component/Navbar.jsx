@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { to: "/casestudy", text: "Case Study" },
+    // { to: "/casestudy", text: "Case Study" },
     { to: "/projects", text: "Projects" },
     { to: "/resources", text: "Resources" },
     { to: "/blog", text: "Blog" },

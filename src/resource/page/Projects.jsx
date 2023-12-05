@@ -15,7 +15,9 @@ import anime from "../../assets/mockupcompress/anime.webp";
 import dress from "../../assets/mockupcompress/dress.webp";
 import sneekers from "../../assets/mockupcompress/sneekers.webp";
 import pizza from "../../assets/mockupcompress/pizza.webp";
+import desert from "../../assets/mockupcompress/desert.webp";
 import car from "../../assets/mockupcompress/car.webp";
+import medicaldashboad from "../../assets/mockupcompress/medicaldashboad.webp";
 import glamor from "../../assets/mockupcompress/glamor.webp";
 
 
@@ -63,9 +65,9 @@ const Projects = () => {
                     loading="lazy"
                   />
 
-                  <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">Style Maven</p>
@@ -108,7 +110,7 @@ const Projects = () => {
           </div>
 
           {/* ----------------------------------------------------------- Jwelery-------------------------------------------------- */}
-          <div className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
+          <Link to={"/casestudy/EstellesJewels"} className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
             <div class="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl transform hover:scale-105 duration-500 ease-in-out">
               <div class="p-4">
                 <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
@@ -118,11 +120,11 @@ const Projects = () => {
                     alt="Louvre"
                     loading="lazy"
                   />
-                  <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
                     Case Study
-                  </p>
+                  </p> */}
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
-                    Oct 2022
+                  Case Study
                   </p>
                 </div>
                 <div className="flex justify-between items-center pb-3">
@@ -163,10 +165,10 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
 
           {/* ----------------------------------------------------------- Glamor AI-------------------------------------------------- */}
-          <div className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
+          <Link to={"/casestudy/GlamorAI"} className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
             <div class="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl transform hover:scale-105 duration-500 ease-in-out">
               <div class="p-4">
                 <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
@@ -176,11 +178,11 @@ const Projects = () => {
                     alt="Louvre"
                     loading="lazy"
                   />
-                  <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
                     Case Study
-                  </p>
+                  </p> */}
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
-                    Oct 2022
+                  Case Study
                   </p>
                 </div>
                 <div className="flex justify-between items-center pb-3">
@@ -222,7 +224,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
           {/* ----------------------------------------------------------- NFT-------------------------------------------------- */}
           <div className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
             <div class="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl transform hover:scale-105 duration-500 ease-in-out">
@@ -235,12 +237,124 @@ const Projects = () => {
                     loading="lazy"
                   />
 
-                  <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">NFT Platform</p>
+                  <div className="flex gap-4">
+                    <img className="w-6 " src={figma} alt="" />
+                    <img className="w-6 " src={illustrator} alt="" />
+                    <img className="w-6 " src={photoshop} alt="" />
+                  </div>
+                </div>
+
+                <p className="pb-4 text-sm md:text-md text-gray-500">
+                  APrestigious NFT firm partnering with industry giants,
+                  providing exclusive NFT solutions to amplify brand presence
+                  and digital assets
+                </p>
+                <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
+                  {/* <div class="flex justify-start space-x-10">
+                    <Link
+                      to="https://www.behance.net/gallery/170990813/Zodiac"
+                      className="buttonsmalldark"
+                      target="_blank"
+                      role="button"
+                    >
+                      Behance
+                      <img src={newtab} className="ml-2 w-4" alt="" />
+                    </Link>
+                    <Link
+                      to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="buttonsmall"
+                      role="button"
+                    >
+                      Figma File
+                      <img src={newtab} className="ml-2 w-4" alt="" />
+                    </Link>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* ----------------------------------------------------------- NFT-------------------------------------------------- */}
+          <div className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
+            <div class="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl transform hover:scale-105 duration-500 ease-in-out">
+              <div class="p-4">
+                <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
+                  <img
+                    src={medicaldashboad}
+                    class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
+                    alt="Louvre"
+                    loading="lazy"
+                  />
+
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                    Oct 2022
+                  </p> */}
+                </div>
+                <div className="flex justify-between items-center pb-3">
+                  <p class="subheadline block  text-2xl">Medical Dashboard</p>
+                  <div className="flex gap-4">
+                    <img className="w-6 " src={figma} alt="" />
+                    <img className="w-6 " src={illustrator} alt="" />
+                    <img className="w-6 " src={photoshop} alt="" />
+                  </div>
+                </div>
+
+                <p className="pb-4 text-sm md:text-md text-gray-500">
+                  APrestigious NFT firm partnering with industry giants,
+                  providing exclusive NFT solutions to amplify brand presence
+                  and digital assets
+                </p>
+                <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
+                  {/* <div class="flex justify-start space-x-10">
+                    <Link
+                      to="https://www.behance.net/gallery/170990813/Zodiac"
+                      className="buttonsmalldark"
+                      target="_blank"
+                      role="button"
+                    >
+                      Behance
+                      <img src={newtab} className="ml-2 w-4" alt="" />
+                    </Link>
+                    <Link
+                      to="https://www.figma.com/file/NJtinxCRlqNjN39CaQ8MMa/Figma-Session?type=design&node-id=0%3A1&mode=design&t=ZSnLBu7Xdp05mENY-1"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="buttonsmall"
+                      role="button"
+                    >
+                      Figma File
+                      <img src={newtab} className="ml-2 w-4" alt="" />
+                    </Link>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* ----------------------------------------------------------- NFT-------------------------------------------------- */}
+          <div className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
+            <div class="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl transform hover:scale-105 duration-500 ease-in-out">
+              <div class="p-4">
+                <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
+                  <img
+                    src={desert}
+                    class="md:px-[0rem] lg:px-[0rem] transition duration-300 ease-in-out hover:scale-105"
+                    alt="Louvre"
+                    loading="lazy"
+                  />
+
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                    Oct 2022
+                  </p> */}
+                </div>
+                <div className="flex justify-between items-center pb-3">
+                  <p class="subheadline block  text-2xl">Senai Desert</p>
                   <div className="flex gap-4">
                     <img className="w-6 " src={figma} alt="" />
                     <img className="w-6 " src={illustrator} alt="" />
@@ -292,9 +406,9 @@ const Projects = () => {
                     loading="lazy"
                   />
 
-                  <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">NFT Platform</p>
@@ -348,10 +462,10 @@ const Projects = () => {
                     alt="Louvre"
                     loading="lazy"
                   />
-
+{/* 
                   <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">NFT Platform</p>
@@ -405,9 +519,9 @@ const Projects = () => {
                     loading="lazy"
                   />
 
-                  <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">NFT Platform</p>
@@ -461,9 +575,9 @@ const Projects = () => {
                     loading="lazy"
                   />
 
-                  <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">NFT Platform</p>
@@ -517,9 +631,9 @@ const Projects = () => {
                     loading="lazy"
                   />
 
-                  <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">NFT Platform</p>
@@ -573,9 +687,9 @@ const Projects = () => {
                     loading="lazy"
                   />
 
-                  <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">NFT Platform</p>
@@ -629,9 +743,9 @@ const Projects = () => {
                     loading="lazy"
                   />
 
-                  <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">NFT Platform</p>
@@ -685,9 +799,9 @@ const Projects = () => {
                     loading="lazy"
                   />
 
-                  <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">NFT Platform</p>
@@ -741,9 +855,9 @@ const Projects = () => {
                     loading="lazy"
                   />
 
-                  <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">NFT Platform</p>
@@ -797,9 +911,9 @@ const Projects = () => {
                     loading="lazy"
                   />
 
-                  <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
+                  {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex justify-between items-center pb-3">
                   <p class="subheadline block  text-2xl">NFT Platform</p>
