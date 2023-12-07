@@ -40,7 +40,7 @@ const AnimatedProjects = () => {
             </h2>
 
             <div className="flex items-center justify-center pt-6 md:pt-12">
-              <Link to={"/casestudy"} className="buttonlight">
+              <Link to={"/projects"} className="buttonlight">
                 Check Projects
               </Link>
             </div>
