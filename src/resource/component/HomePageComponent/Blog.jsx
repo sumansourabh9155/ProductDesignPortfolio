@@ -125,42 +125,7 @@ const Blog = () => {
             </div>
           </Link>
           {/* ux */}
-          <Link
-            to={
-              "https://www.instagram.com/p/CokgNBPv3sb/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
-            }
-            target="_blank"
-            className="group hover:shadow-[0px_16px_49px_0px_#e76e5025]"
-          >
-            <div class="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl transform hover:scale-105 duration-500 ease-in-out">
-              <div class="p-8">
-                <img
-                  className="rounded-lg pb-3"
-                  src={color}
-                  alt="linkedin link"
-                ></img>
-
-                <div class="flex justify-between items-center mb-5 text-gray-500">
-                  <span class="bg-[#e76e50] text-primary-800 text-white rounded-md text-md font-medium inline-flex items-center px-2.5 py-0.5 ">
-                    UI/UX
-                  </span>
-                  <span class="text-md text-[#e76e50]">14 days ago</span>
-                </div>
-                <p class="subheadline block mt-1 text-lg pb-1 ">
-                  UX: The Secret to Design Success
-                </p>
-                <p className="pb-7">
-                  UX stands for User Experience, which refers to the feelings
-                  and perceptions a person has when using a product, service, or
-                  system. The goal of UX design is to create a positive and
-                  efficient experience for the user.
-                </p>
-                <div class=" text-gray-500 opacity-0 translate-y-4 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:translate-y-0">
-                  <button className="buttonsmall">Visit</button>
-                </div>
-              </div>
-            </div>
-          </Link>
+          
         </div>
       </div>
     </div>
