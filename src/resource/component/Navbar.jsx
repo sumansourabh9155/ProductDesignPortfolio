@@ -32,8 +32,8 @@ const Navbar = () => {
   const navLinks = [
     // { to: "/casestudy", text: "Case Study" },
     { to: "/projects", text: "Projects" },
-    { to: "/resources", text: "Resources" },
     { to: "/blog", text: "Blog" },
+    { to: "/resources", text: "Resources" },
     { to: "/About", text: "About Me" },
   ];
 
