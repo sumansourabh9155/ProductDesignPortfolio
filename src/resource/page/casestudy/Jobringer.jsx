@@ -1,5 +1,5 @@
 import React from "react";
-import sinaiscreen from "../../../assets/sinaidesert/sinaiscreen.png";
+import jobscreen from "../../../assets/jobringer/jobringermock.webp";
 import color from "../../../assets/jobringer/color.png";
 import manpersona from "../../../assets/sinaidesert/manpersona.png";
 import familypersona from "../../../assets/sinaidesert/familypersona.png";
@@ -34,7 +34,7 @@ const Jobringer = () => {
                 role="alert"
               >
                 <span class="text-sm font-medium text-[#0030F9] p-2 px-5">
-                  Online Platform to Find Jobs
+                  Re-Design of Jobringer
                 </span>
               </a>
               <h1 class="max-w-xl mb-4 text-4xl jobwhite font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
@@ -67,8 +67,8 @@ const Jobringer = () => {
                 </svg>
               </a>
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-7 lg:flex">
-              <img src={sinaiscreen} alt="mockup"></img>
+            <div class="hidden lg:mt-0 lg:col-span-6 lg:flex">
+              <img src={jobscreen} alt="mockup"></img>
             </div>
           </div>
         </div>
@@ -466,15 +466,7 @@ const Jobringer = () => {
               </li>
             </ul>
 
-            <h1 class="mb-4 pt-8 text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
-              User Flow
-            </h1>
-            <figure>
-              <img src={flowchart} alt=""></img>
-              <figcaption className="text-center">
-                user Flow Flowchart
-              </figcaption>
-            </figure>
+            
 
             <h1 class="mb-4 pt-8 text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
               Wireframe
