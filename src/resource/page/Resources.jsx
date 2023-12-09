@@ -28,8 +28,8 @@ class Resources extends Component {
           </div>
         </div>
         <DesignSystem/>
-        <DesignInspiration/>
         <IconVector/>
+        {/* <DesignInspiration/> */}
         
       </div>
     );
