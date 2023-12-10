@@ -10,7 +10,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 const Footer = () => {
   return (
     <div>
-      <section className="bg-white">
+      <section className="bg-white pt-12">
         <hr className="w-full h-0.5 bg-[#e76e50] opacity-25" />
         <div className="max-w-screen-xl px-4 pt-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
           <nav className="flex flex-wrap justify-center -mx-5 -my-2">

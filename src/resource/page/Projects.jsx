@@ -362,7 +362,7 @@ const Projects = () => {
           {/* ----------------------------------------------------------- Glamor AI-------------------------------------------------- */}
           <Link
             to={
-              "https://drive.google.com/file/d/1eEU2jOlQkw_6Dbuly_ZwyVPmqcpBgQUK/view?usp=sharing"
+              "https://drive.google.com/file/d/14V87SR-vT8vh7hkVQdQ07HUFc0ut9rOe/view?usp=sharing"
             }
             target="_blank"
             className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] "
@@ -543,7 +543,7 @@ const Projects = () => {
           {/* ----------------------------------------------------------- NFT-------------------------------------------------- */}
           <Link
             to={
-              "https://drive.google.com/file/d/1T5MfCAVN-C_ffSLwhm17kQCHAjaPdmxJ/view?usp=sharing"
+              "https://drive.google.com/file/d/1hCyRGGdDfFqMSL3vAUPXHuY1t8KWq5tk/view?usp=sharing"
             }
             target="_blank"
             attribute

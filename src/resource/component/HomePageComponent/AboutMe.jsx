@@ -5,7 +5,7 @@ ReactGA.initialize("G-R2Q7XQ6WBW");
 ReactGA.pageview(window.location.pathname + window.location.search);
 export const AboutMe = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center pt-0 md:pt-24 px-2 md:px-12" >
+    <div className="flex flex-col lg:flex-row items-center pt-0 md:pt-12 px-2 md:px-12" >
       <div className="md:w-7/12 lg:w-5/12 hidden lg:block">
         <img src={suman} className=" rounded-tl-lg rounded-br-full" alt="description" />
       </div>

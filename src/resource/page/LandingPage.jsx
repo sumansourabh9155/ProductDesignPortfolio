@@ -23,13 +23,13 @@ const LandingPage = () => {
       
       <HeroSection />
       <AnimatedProjects/>
-      <AboutMe />
+      <Testimonial />
       <WorkProcess />
+      <AboutMe />
      
       <Help />
       {/* <Project/> */}
       <Blog/>
-      <Testimonial />
       <Footer />
       {/* <Ribbon/> */}
 

@@ -9,7 +9,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 const Help = () => {
   return (
     <div>
-      <section className="w-full bg-white pt-20 pb-7  md:pb-24">
+      <section className="w-full bg-white pt-12 pb-5  md:pb-8">
         <p className="pb-2 relative flex items-center justify-center w-full leading-relaxed text-sm md:text-xl text-[#e76e50]  lg:justify-center lg:items-center">
           Love to tell you
         </p>
