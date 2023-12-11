@@ -177,7 +177,7 @@ const Projects = () => {
             </div>
           </Link>
           {/* ----------------------------------------------------------- NFT-------------------------------------------------- */}
-          <div className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
+          <Link to={"/casestudy/SinaiOnline"} target="_blank" className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
             <div class="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl transform hover:scale-105 duration-500 ease-in-out">
               <div class="p-4">
                 <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
@@ -233,7 +233,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
           {/* ----------------------------------------------------------- NFT-------------------------------------------------- */}
           <Link
             to={"/casestudy/RaikarGoodVibes"}
