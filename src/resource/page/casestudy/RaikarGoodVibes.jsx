@@ -2,6 +2,7 @@ import React from "react";
 import raikarscreen from "../../../assets/raikargoodvibes/raikarscreen.png";
 import persona from "../../../assets/raikargoodvibes/persona.png";
 import textbackground from "../../../assets/raikargoodvibes/textbackground.png";
+import raikardesign from "../../../assets/raikargoodvibes/raikardesign.webp";
 import sam from "../../../assets/raikargoodvibes/sam.png";
 import suman from "../../../assets/raikargoodvibes/suman.png";
 import arihant from "../../../assets/raikargoodvibes/arihant.png";
@@ -514,6 +515,21 @@ export const RaikarGoodVibes = () => {
               <img src={prototype} alt=""></img>
               <figcaption className="text-center">
                 user Flow Flowchart
+              </figcaption>
+            </figure>
+            <div class="flex justify-center">
+              <div class="w-56 mx-auto">
+                <img src={lable} alt="mockup"></img>
+              </div>
+            </div>
+            <h1 class="text-center mb-4 text-3xl font-semibold leading-tight raikargoodvibes text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
+            Full Design
+            </h1>
+            
+            <figure>
+              <img src={raikardesign} alt=""></img>
+              <figcaption className="text-center">
+                Full Interface
               </figcaption>
             </figure>
           </article>
