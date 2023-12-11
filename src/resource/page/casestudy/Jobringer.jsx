@@ -5,7 +5,7 @@ import color from "../../../assets/jobringer/color.png";
 import wireframe from "../../../assets/jobringer/woreframe.webp";
 
 import inter from "../../../assets/sinaidesert/inter.png";
-import sinaithumbnail from "../../../assets/sinaidesert/sinaithumbnail.png";
+import oldjob from "../../../assets/jobringer/oldjob.webp";
 
 import text from "../../../assets/sinaidesert/text.png";
 
@@ -177,6 +177,12 @@ const Jobringer = () => {
                 Suboptimal process for collecting newsletter sign-ups.
               </li>
             </ol>
+            <figure className="pt-8">
+              <img src={oldjob} alt=""></img>
+              <figcaption className="text-center">
+                Old User Interface
+              </figcaption>
+            </figure>
 
             <h1 class="mb-4 pt-8 job text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
               Solution For User
