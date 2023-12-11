@@ -608,7 +608,13 @@ const Projects = () => {
           </Link>
 
           {/* ----------------------------------------------------------- NFT-------------------------------------------------- */}
-          <div className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
+          <Link
+            to={
+              "https://drive.google.com/file/d/1e678hJu_3LccKti_66BhzzRAi5HsMeN_/view?usp=sharing"
+            }
+            target="_black"
+            className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] "
+          >
             <div class="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl transform hover:scale-105 duration-500 ease-in-out">
               <div class="p-4">
                 <div class="relative cursor-pointer  pb-5  overflow-hidden bg-cover bg-no-repeat">
@@ -618,7 +624,9 @@ const Projects = () => {
                     alt="Louvre"
                     loading="lazy"
                   />
-
+                  <p className=" absolute top-0 left-0 rounded-md bg-[#033d35] text-white font-semibold px-4 py-1 ">
+                    Click to view
+                  </p>
                   {/* <p className=" absolute top-0 right-0 rounded-md bg-[#e76e50] text-white font-semibold px-4 py-1 ">
                     Oct 2022
                   </p> */}
@@ -662,7 +670,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
 
           {/* ----------------------------------------------------------- NFT-------------------------------------------------- */}
           <Link
@@ -1026,7 +1034,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          
+
           {/* ----------------------------------------------------------- NFT-------------------------------------------------- */}
           <div className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
             <div class="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl transform hover:scale-105 duration-500 ease-in-out">
@@ -1083,7 +1091,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          
+
           {/* ----------------------------------------------------------- NFT-------------------------------------------------- */}
           <div className="py-4 group hover:shadow-[0px_16px_49px_0px_#e76e5025] ">
             <div class="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl transform hover:scale-105 duration-500 ease-in-out">

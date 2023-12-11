@@ -1,21 +1,15 @@
 import React from "react";
 import jobscreen from "../../../assets/jobringer/jobringermock.webp";
 import color from "../../../assets/jobringer/color.png";
-import manpersona from "../../../assets/sinaidesert/manpersona.png";
-import familypersona from "../../../assets/sinaidesert/familypersona.png";
-import flowchart from "../../../assets/sinaidesert/flowchart.png";
-import wireframe from "../../../assets/sinaidesert/wireframe.png";
-import component from "../../../assets/sinaidesert/component.png";
+
+import wireframe from "../../../assets/jobringer/woreframe.webp";
+
 import inter from "../../../assets/sinaidesert/inter.png";
 import sinaithumbnail from "../../../assets/sinaidesert/sinaithumbnail.png";
-import booking from "../../../assets/sinaidesert/booking.png";
-import air from "../../../assets/sinaidesert/air.png";
-import trip from "../../../assets/sinaidesert/trip.png";
-import kayak from "../../../assets/sinaidesert/kayak.png";
-import expedia from "../../../assets/sinaidesert/expedia.png";
+
 import text from "../../../assets/sinaidesert/text.png";
-import colors from "../../../assets/sinaidesert/colors.png";
-import ui from "../../../assets/sinaidesert/ui.png";
+
+import ui from "../../../assets/jobringer/screen.webp";
 
 import Navbar from "../../component/Navbar";
 import Footer from "../../component/Footer";
@@ -243,145 +237,8 @@ const Jobringer = () => {
               </li>
             </ol>
 
-            <h1 class="mb-4 mt-8 text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
-              Competitor Analysis
-            </h1>
-            <p class="lead job">
-              To understand the user need, I needed to understand how current
-              products are addressing needs and identify area or potential
-              growth, I started with an audit of competitors current performance
-            </p>
-
-            <table class="table-fixed w-full my-5  ">
-              <thead>
-                <tr>
-                  <th class="px-4 py-2 bg-gray-100 job">Competetors</th>
-                  <th class="px-4 py-2 bg-gray-100 job">Strength</th>
-                  <th class="px-4 py-2 bg-gray-100 job">Weakness</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="border-b border-gray-300">
-                  <td className="p-5">
-                    <img src={booking} alt="booking.com" />
-                  </td>
-                  <td class="px-4 py-2 ">
-                    <ol className="list-disc">
-                      <li>Great search.</li>
-                      <li>Strong filters.</li>
-                      <li>User-friendly.</li>
-                      <li>Interactive maps.</li>
-                    </ol>
-                  </td>
-                  <td class="px-4 py-2 ">
-                    <ol className="list-disc">
-                      <li>Bad user interface</li>
-                      <li>No Direct Customer Interaction</li>
-                      <li>Unwilling to Convince</li>
-                    </ol>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-300">
-                  <td className="p-5">
-                    <img src={air} alt="booking.com" />
-                  </td>
-                  <td class="px-4 py-2">
-                    <ol className="list-disc">
-                      <li>Map feature.</li>
-                      <li>Impressive search.</li>
-                      <li>Affordable hotel alternative.</li>
-                      <li>High company valuation.</li>
-                    </ol>
-                  </td>
-                  <td class="px-4 py-2">
-                    <ol className="list-disc">
-                      <li>Filter feature is buggy.</li>
-                      <li>Remove customer reviews.</li>
-                      <li>No Social media activity.</li>
-                      <li>ISome hosts charge high prices.</li>
-                    </ol>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-300">
-                  <td className="p-5">
-                    <img src={trip} alt="booking.com" />
-                  </td>
-                  <td class="px-4 py-2">
-                    <ol className="list-disc">
-                      <li>Strong dealer community, satisfied customers.</li>
-                      <li>Strong filters.</li>
-                      <li>
-                        Diverse brand portfolio, multiple revenue streams.
-                      </li>
-                    </ol>
-                  </td>
-                  <td class="px-4 py-2">
-                    <ol className="list-disc">
-                      <li>Poor search feature.</li>
-                      <li>Unfriendly call center staff.</li>
-                      <li>Unexplained deletion of negative reviews.</li>
-                      <li>Limited filter options.</li>
-                    </ol>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-300">
-                  <td className="p-5">
-                    <img src={kayak} alt="booking.com" />
-                  </td>
-                  <td class="px-4 py-2">
-                    <ol className="list-disc">
-                      <li>
-                        Real-time flight tracking, departures, and arrivals.
-                      </li>
-                      <li>Tour plan suggestions.</li>
-                      <li>Quality customer service.</li>
-                      <li>Global travel map recommendations.</li>
-                    </ol>
-                  </td>
-                  <td class="px-4 py-2">
-                    <ol className="list-disc">
-                      <li>Price discrepancies when booking.</li>
-                      <li>Slow performance, subpar deals displayed.</li>
-                    </ol>
-                  </td>
-                </tr>
-                <tr class="border-b border-gray-300">
-                  <td className="p-5">
-                    <img src={expedia} alt="booking.com" />
-                  </td>
-                  <td class="px-4 py-2">
-                    {" "}
-                    <ol className="list-disc">
-                      <li>User-friendly navigation.</li>
-                      <li>Diverse information.</li>
-                      <li>Effective refund process.</li>
-                      <li>Affordable prices.</li>
-                    </ol>
-                  </td>
-                  <td class="px-4 py-2">
-                    {" "}
-                    <ol className="list-disc">
-                      <li>App crashes, technical errors.</li>
-                      <li>Subpar service.</li>
-                      <li>Website errors affecting bookings.</li>
-                      <li>Limited social media activity and engagement.</li>
-                    </ol>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
-            <h1 class="mb-4 pt-8 job text-xl font-bold leading-tight text-gray-900 lg:mb-6 lg:text-2xl dark:text-black">
-              Persona
-            </h1>
-            <figure>
-              <img src={manpersona} alt=""></img>
-              <figcaption className="text-center">Persona 1</figcaption>
-            </figure>
-            <figure>
-              <img src={familypersona} alt=""></img>
-              <figcaption className="text-center">Persona 2</figcaption>
-            </figure>
+           
+      
 
             <h1 class="mt-8 job text-3xl font-semibold leading-tight job text-gray-900 lg:mb-6 lg:text-4xl dark:text-black">
               Font Used (Inter)
@@ -486,10 +343,7 @@ const Jobringer = () => {
                 All user Interface
               </figcaption>
             </figure>
-            <figure>
-              <img src={sinaithumbnail} alt=""></img>
-              <figcaption className="text-center">user Interface</figcaption>
-            </figure>
+           
           </article>
         </div>
       </main>
