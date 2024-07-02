@@ -229,7 +229,7 @@ const Projects = () => {
                       Figma File
                       <img src={newtab} className="ml-2 w-4" alt="" />
                     </Link>
-                  </div> */}
+                  </div> 
                 </div>
               </div>
             </div>
